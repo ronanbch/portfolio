@@ -1,0 +1,687 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+		font-size:16px ;
+	width:100%;
+	height:100%;
+width:100%;
+  margin:0 auto;
+	font-family:"Inter", sans-serif;
+	background-color:#080F2D;
+	color:#d9d9d9;
+
+	/*text-shadow:0 2px 6px rgba(0, 0, 0, 0.1)*/
+
+}
+
+ul{
+ list-style: none;
+}
+
+a{
+	text-decoration:underline;
+		text-decoration-color:#00CFC8;
+	text-underline-offset:5px;
+  color:#d9d9d9;
+}
+
+
+
+a.button-link{text-decoration:none;}
+
+.button{
+cursor:pointer;
+}
+
+.highlight{
+  color:#efa30b;
+}
+
+.highlight-secondary{
+		color:#00CFC8;
+	}
+
+
+/********************** bouton menu général **********************/
+
+section{
+display:flex;
+padding:2.5rem;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+border-bottom:2px solid #2B2B2B;
+}
+
+.divider{border-top:2px solid #2B2B2B; width:100%}
+
+header{display:block}
+
+.content-header{
+font-size:1.25rem;
+display:flex;
+padding:1.5rem 1.5rem;
+justify-content:space-between;
+
+flex-direction:row;
+flex-grow:1;
+align-items: center;
+
+
+}
+
+header .content-header .name:hover{
+	color:#efa30b;
+}
+
+footer{
+padding:1rem 2.5rem;
+gap:2rem;
+align-items:flex-start;
+color:#A4A4A4;
+font-size:1rem;
+}
+.content-footer{width:100%;
+  display:flex;
+		flex-direction:row;
+		justify-content:space-between;
+		align-items:center;
+}
+
+footer p{
+  color:#A4A4A4;
+
+
+}
+
+
+ .button-linkedIn{
+  border:none;
+  background-color:#0A66C2;
+  color:#d9d9d9;
+}
+
+
+
+header .ln-header{display:none}
+h1, h2{
+color:#d9d9d9;
+text-align:center;
+font-family:"Playfair Display", serif;
+font-style:normal;
+font-weight:600;
+line-height:normal;
+}
+
+
+h1{
+font-size:2.25rem;
+color:#efa30b}
+
+body.index h1{
+  max-width:900px;
+  margin:0 auto;
+	color:#d9d9d9;
+}
+
+h2{
+color:#efa30b;
+font-size:1.8rem;
+}
+
+h3{
+font-weight:600;
+font-size:1.2rem;
+text-align:center;
+color:#00CFC8
+}
+
+section.projects h3{text-align:left}
+
+
+
+main.full-content, header, footer{max-width: 1280px;padding-right:5vw; padding-left:5vw; margin:0 auto;}
+
+section.hero{
+
+font-family:"Inter", sans-serif;
+font-size:1.5rem;
+font-style:normal;
+font-weight:400;
+color:#00CFC8;
+line-height:1.6!important;
+margin:0 auto;
+}
+
+section.hero h1{
+	margin:0 auto;}
+
+section{
+	gap:2.5rem;
+}
+
+section.conversion{border:none;}
+
+
+
+
+.button{
+	display:flex;
+font-size:1rem;
+background:none;
+border-radius:0.25rem;
+min-height: 2.75rem;
+width:fit-content;
+height:fit-content;
+padding:0 1rem;
+justify-content: center;
+align-items:center;
+text-align: center;
+}
+
+.desc-project{
+	display:flex;
+	flex-direction : column;
+	gap:1rem;
+}
+
+
+.button-primary{
+  border:1px solid #efa30b;
+  color:#efa30b;
+	transition:0.5s;
+}
+
+.button-primary:hover{
+background:#efa30b;
+	color:#080F2D;
+}
+
+
+
+
+.button-secondary{
+  border:1px solid #00CFC8;
+  color:#00CFC8;
+	transition:0.5s;
+}
+
+.button-secondary:hover{
+background:#00CFC8;
+  color:#080F2D;
+}
+
+
+
+.button-secondary a{color:#00CFC8;}
+
+.button-tertiary{
+  border:1px solid #d9d9d9;
+  color:#d9d9d9;
+	transition:0.5s;
+}
+
+.button-tertiary:hover{
+  background:#d9d9d9;
+  color:#080F2D;
+}
+
+.button-tertiary a{color:#A4A4A4;}
+
+.button-linkedIn{
+  border:1px solid #0A66C2;
+  background-color:#0A66C2;
+  color:#d9d9d9;
+}
+
+.button-linkedIn:hover{
+	text-decoration:underline;
+}
+
+
+section.about-me p, section.about-me li{
+	margin-bottom:1rem;
+}
+
+.about-me .content{flex-direction: row;}
+
+.tag{
+	font-size : 0.75rem;
+	display:flex;
+	padding:0.25rem 0.5rem;
+border-radius:0.15rem;
+width:fit-content;
+}
+
+.entreprise{
+	border:1px solid #00CFC8;
+	color:#00CFC8;
+}
+
+.date{
+	border:1px solid #d9d9d9;
+color:#d9d9d9;}
+
+
+.group-projects{
+	display:flex;
+	flex-direction : row;
+	align-items: flex-start;
+	align-self: stretch;
+	gap:2rem;
+}
+
+.project{
+display:flex;
+flex-direction:column;
+flex: 1;
+gap:1.5rem;
+}
+
+.project img{
+	width:100%;
+}
+
+.infos-projet{
+	display:flex;
+	gap:0.5rem;
+	flex-direction:column;
+}
+
+.group-tag{
+	display:flex;
+	gap:0.5rem;
+}
+
+
+.group-button{
+
+  gap:1rem;
+
+	display: flex;
+	  flex-direction: row;
+	  align-items: center;
+		justify-content:flex-end;
+}
+
+
+p.intro{
+	font-size:1rem;
+	line-height: 1.75rem;
+	color:#00CFC8;
+	flex-direction:column;
+	border:2px solid #00CFC8;
+	padding:1rem 1.5rem;
+	border-radius:0.5rem;
+}
+
+
+.content{display:flex; gap:5rem; justify-content:center; flex-direction:column;}
+
+ .about-me .content{display:flex; width:75%; flex-direction: row;gap: 2rem; justify-content:center;}
+.content .about-me p, .content .about-me ul{gap: 1rem;}
+.content .about-me ul{
+	margin-bottom:1.5rem;
+}
+
+.content .my-photo img{
+	max-width:20rem;
+}
+
+section.clients{
+	gap:1.5rem;
+	display:flex;
+
+}
+
+.list-logos{display:flex;
+flex-direction:row;
+gap:2rem;}
+
+.list-logos img {
+	width:7.5rem;
+	height:7.5rem;
+}
+
+section.conversion{
+	gap:2.5rem;
+	width:75%;
+	margin:auto;
+	text-align:center;
+}
+
+section.conversion a{
+		color:#00CFC8;
+		text-decoration: underline;
+text-decoration-color: #00CFC8;
+text-underline-offset: 5px;
+	}
+
+section.conversion a:hover{
+		color:#069594;
+		text-decoration-color: #069594;
+}
+/*
+
+.list-logos img:hover {
+  filter: grayscale(0%);
+}
+
+*/
+
+section.expertises h3{
+	text-align:left;
+	padding-bottom:0.5rem;
+}
+
+.list-expertise{
+	display: flex;
+	flex-direction: row;
+		flex:1;
+		gap:2rem;
+}
+
+.expertise{
+	flex:1;
+}
+
+.expertise ul li{
+	margin-bottom:1rem;
+}
+
+.content-of-project{
+	max-width:800px;
+	margin:0 auto;
+	font-size:1.15rem;
+	line-height:2.05rem;
+}
+
+.content-of-project p, .content-of-project ul{
+	text-align:left;
+	width:100%;
+}
+
+.content-of-project h3{
+	font-size:1.5rem;
+}
+
+.content-of-project .hero .tag{
+		font-size:1.50rem;
+}
+
+.content-of-project img{
+	width:100%;
+}
+
+figcaption{
+	font-size:0.8rem;
+}
+
+section.hero-project img{
+	max-width:800px;
+}
+
+section.hero-project{border:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 28rem){
+  html{
+    font-size:10px;
+  }
+
+
+	header .content-header .name{
+		font-size:1.75rem;
+		}
+
+
+
+
+	footer{
+		padding:2rem 1rem;
+	}
+	.content-footer{
+
+		display:flex;
+		gap:2rem;
+		flex-direction:column;
+		width:100%;
+		flex:1;
+	}
+
+	section{
+		padding:2rem 1rem;
+	}
+
+	.button{
+		font-size:1.5rem;
+		width:100%;
+		height:4rem;
+		padding:0;
+		justify-content:center;
+		align-items: center;
+	}
+
+
+
+
+	.button { text-align: center; }
+
+	.intro{
+		display: flex;
+		width:100%;
+	}
+
+	header .button-linkedIn{display:none;}
+	header .ln-header{display:block}
+
+
+
+	.content .my-photo{width:100%;}
+	.content .my-photo img{
+		width:100%;
+		max-width: none;
+	}
+
+	.about-me .content{display:flex; width:100%; flex-direction: column;gap: 2rem; justify-content:center;}
+	h3{
+	font-size:1.5rem;
+	}
+
+	.list-logos{display:flex;
+flex-wrap: wrap;
+	gap:2rem;}
+
+	.list-logos img{flex:1;}
+
+	.group-projects{
+		display:flex;
+		flex-direction : column;
+		flex:1;
+		align-items: flex-start;
+		align-self: stretch;
+		gap:4rem;
+	}
+
+	.infos-projet{
+		gap:1rem
+	}
+
+	.tag{
+		font-size:1.25rem;
+		display:flex;
+		padding:0.25rem 0.5rem;
+	border-radius:0.15rem;
+	width:fit-content;
+	}
+
+	footer .content-footer a{display:flex; width:100%}
+
+	.button-tertiary{
+width:100%
+	}
+
+	section.conversion{
+		gap:2rem;
+		width:100%;
+		margin:auto;
+		text-align:center;
+	}
+
+	.list-expertise{
+
+		flex-direction: column;
+
+	}
+
+}
+
+
+/********************** Accessibilité — ajouts **********************/
+
+/* Indicateur de focus visible au clavier.
+   Cyan sur fond marine = 9.64:1 (WCAG 2.4.11 exige 3:1).
+   L'outline-offset place l'anneau HORS de l'élément, sur le fond
+   de page — indispensable sur le bouton LinkedIn bleu, où le cyan
+   posé directement ne ferait que 2.91:1. */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+	outline: 3px solid #00CFC8;
+	outline-offset: 3px;
+	border-radius: 2px;
+}
+
+/* Contenu réservé aux lecteurs d'écran : invisible à l'œil,
+   mais lu à voix haute. Ne pas utiliser display:none, qui
+   masquerait aussi pour les lecteurs d'écran. */
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+/* Lien d'évitement : hors écran, il descend au premier Tab. */
+.skip-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	transform: translateY(-150%);
+	background-color: #00CFC8;
+	color: #080F2D;
+	padding: 0.75rem 1.25rem;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.skip-link:focus {
+	transform: translateY(0);
+}
+
+
+/* La cible du lien d'évitement ne doit pas afficher d'anneau
+   quand on lui donne le focus par programme. */
+main:focus {
+	outline: none;
+}
+
+/* Liste des clients passée en <ul> : les <li> reprennent le
+   comportement flex que portaient les <img>. Rendu identique
+   vérifié à 375px et 1280px. */
+.list-logos li {
+	flex: 1;
+	display: flex;
+}
+
+.list-logos li img {
+	flex: 1;
+}
+
+/* Ancien <h3 class="hero"> devenu <p> : mêmes styles qu'un h3. */
+.hero-statut {
+	font-weight: 600;
+	font-size: 1.2rem;
+	text-align: center;
+	color: #00CFC8;
+}
+
+/* Texte blanc sur le bouton LinkedIn : 5.69:1 au lieu de 4.03:1. */
+.button-linkedIn {
+	color: #ffffff;
+}
+
+/* Parite mobile : h3 passe a 1.5rem sous 28rem (ligne 526).
+   .hero-statut, qui remplace l'ancien h3, doit suivre. */
+@media screen and (max-width: 28rem) {
+	.hero-statut { font-size: 1.5rem; }
+}
+
+/********************** Débordement horizontal (WCAG 1.4.10) **********************/
+
+/* L'image de tête des pages projet etait plafonnee a 800px, mais rien ne
+   lui disait de tenir dans son conteneur : elle debordait de 213px sur
+   mobile. width:100% la fait suivre la largeur disponible ; max-width
+   conserve le rendu desktop a 800px, a l'identique. */
+section.hero-project img {
+	width: 100%;
+	max-width: 800px;
+}
+
+/* section.conversion cumule width:100% et 10px de padding en content-box,
+   soit 4px de trop. On ne corrige qu'en mobile : passer tout le site en
+   border-box ramenerait cette section de 944 a 864px sur desktop. */
+@media screen and (max-width: 28rem) {
+	section.conversion { box-sizing: border-box; }
+}
+
+/********************** Dimensions intrinseques **********************/
+
+/* Les balises <img> portent desormais width/height : le navigateur
+   reserve la place avant meme d'avoir telecharge l'image, ce qui
+   supprime le decalage de mise en page au chargement.
+   height:auto est indispensable — sans lui, l'attribut height
+   deviendrait une hauteur fixe pendant que le CSS fait varier la
+   largeur, et les images seraient ecrasees.
+   Les regles plus specifiques (.list-logos img) restent prioritaires. */
+img {
+	height: auto;
+}
+
+/* Les <figure> n'avaient pas de largeur propre : elles s'ajustaient a
+   l'image une fois chargee. Avec le chargement differe, elles se
+   rabattaient sur la largeur de leur <figcaption> (123px au lieu de 800).
+   width:100% les rend independantes de l'etat de chargement. */
+.content-of-project figure {
+	width: 100%;
+}
