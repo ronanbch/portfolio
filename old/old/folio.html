@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Ronan Benec'h - Portfolio</title>
+	<meta name="author" content="Ronan Benec'h" />
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<!--<link rel="stylesheet" type="text/css" href="movement-folio.css">-->
+<!--<script type="text/javascript" src="less.min.js"></script> -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900|Damion" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rozha+One|Vidaloka" rel="stylesheet">
+
+	<!-- script ouverture menu -->
+
+	<script>
+		$(document).ready(function(){
+			$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+			$(this).toggleClass('open'),
+			$('#content-menu').toggleClass('show');
+		});
+	});
+	</script>
+
+	<!-- fin script ouverture menu -->
+
+<!-- test using fade effect -->
+<script type="text/javascript" src="https://alvarotrigo.com/fullPage/vendors/jquery.easings.min.js"></script>
+
+	<script type="text/javascript" src="https://alvarotrigo.com/fullPage/fullpage.fadingEffect.limited.min.js"></script>
+	<script type="text/javascript" src="https://alvarotrigo.com/fullPage/jquery.fullpage.extensions.min.js"></script>
+
+	<script type="text/javascript">
+
+
+		$(document).ready(function() {
+			$('#myContainer').fullpage({
+				sectionsColor: ['#61bd6d', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff', '#ccc'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
+				menu: '#menu',
+				slidesNavigation: true,
+				fadingEffect: true,
+				fadingEffectKey: 'YWx2YXJvdHJpZ28uY29tXzAzN1ptRmthVzVuUldabVpXTjBiNXo='
+			});
+
+			$('#turnOn').click(function(){
+				$.fn.fullpage.fadingEffect.turnOn();
+			});
+
+			$('#turnOff').click(function(){
+				$.fn.fullpage.fadingEffect.turnOff();
+			});
+
+		});
+
+	</script>
+<!-- fin du test -->
+
+	<!-- script fullpage -->
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples/examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				'verticalCentered': false,
+				'css3': true,
+			/*	'sectionsColor': ['fff', '#fff', '#fff', '#fff'], */
+				'navigation': true,
+				'navigationPosition': 'right',
+				'navigationTooltips': ['Project1', 'Powerful', 'Amazing', 'Simple'],
+
+				'afterLoad': function(anchorLink, index){
+					if(index == 2){
+						$('#iphone3, #iphone2, #iphone4').addClass('active');
+						$('.button-go-project-right').addClass('active');
+					}
+				},
+
+				'onLeave': function(index, nextIndex, direction){
+					if (index == 3 && direction == 'down'){
+						$('.section').eq(index -1).removeClass('moveDown').addClass('moveUp');
+					}
+					else if(index == 3 && direction == 'up'){
+						$('.section').eq(index -1).removeClass('moveUp').addClass('moveDown');
+					}
+
+					$('#staticImg').toggleClass('active', (index == 2 && direction == 'down' ) || (index == 4 && direction == 'up'));
+					$('#staticImg').toggleClass('moveDown', nextIndex == 4);
+					$('#staticImg').toggleClass('moveUp', index == 4 && direction == 'up');
+				}
+			});
+		});
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-100493245-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<!-- Fin du script fullpage -->
+
+	<link rel="stylesheet" type="text/css" href="js/jquery.fullPage.css" />
+</head>
+
+<body>
+
+	<!-- menu du site -->
+
+
+	<div id="buttonNav">
+		<div id="nav-icon3">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</div>
+	</div>
+	<div id="content-menu">
+		<ul id="main-menu">
+			<li><a href="index">Accueil</a></li>
+			<li><a href="folio">Projets</a></li>
+			<li><a href="about">Contact</a></li>
+			<li><a href="folio">-<a></li>
+					<li><a href="klap">KlapLive</a></li>
+					<li><a href="nissan-vms">Nissan VMS (WIP)</a></li>
+					<li><a href="nissan-finance">Nissan Finance (WIP)</a></li>
+					<li><a href="nissan-mobile">Nissan mobile Guidelines (WIP)</a></li>
+				<li><a href="redaction">Re(d)action</a></li>
+				<li><a href="wehelp">WeHelp</a></li>
+				<li><a href="selfdeploy">Self Deploy</a></li>
+				<li><a href="hpe">HPE Ingredients</a></li>
+
+				<li><a href="https://dribbble.com/ronanbch" target="_blank">Autres projets</a></li>
+		</ul>
+	</div>
+
+
+<!-- scroll option -->
+<div class="icon-scroll"></div>
+
+<!-- fin scroll option -->
+
+
+	<!-- ici commence le contenu unique du site -->
+<div id="conteneur-folio">
+	<div id="inside-conteneur-folio"></div>
+</div>
+
+	<!-- code portoflio -->
+
+		<div id="fullpage">
+
+
+
+
+			<div class="section  bgfolio10 " id="section2">
+
+					<div class="folio-content">
+
+						<div class="folio-content-left-center">
+							<div class="folio-project-title highlightedb"><a href="klap">I. KlapLive</a></div>
+							<div class="folio-project-role">UI / UX design</div>
+							<div class="folio-project-desc">De janvier 2018 à maintenant</div>
+							<div class="folio-project-picture" >
+									<a href="klap" class="button-go-project-right">
+										<img src="img/arrow-right.png">
+									</a>
+							</div>
+						</div>
+
+				</div>
+		</div>
+
+
+					<div class="section  bgfolioX " id="section11">
+
+							<div class="folio-content">
+
+								<div class="folio-content-left-center">
+									<div class="folio-project-title highlightedb"><a href="nissan-vms">II. Nissan VMS (WIP)</a></div>
+									<div class="folio-project-role">UI / UX - Owner</div>
+									<div class="folio-project-desc">Mai 2019 - Décembre 2019</div>
+									<div class="folio-project-picture" >
+											<a href="nissan-vms" class="button-go-project-right">
+												<img src="img/arrow-right.png">
+											</a>
+									</div>
+								</div>
+
+						</div>
+				</div>
+
+				<div class="section  bgfolioX " id="section12">
+
+						<div class="folio-content">
+
+							<div class="folio-content-left-center">
+								<div class="folio-project-title highlightedb"><a href="nissan-finance">III. Nissan finance (WIP)</a></div>
+								<div class="folio-project-role">UX designer produit</div>
+								<div class="folio-project-desc">Novembre - Décembre 2019 </div>
+								<div class="folio-project-picture" >
+										<a href="nissan-finance" class="button-go-project-right">
+											<img src="img/arrow-right.png">
+										</a>
+								</div>
+							</div>
+
+					</div>
+			</div>
+
+			<div class="section  bgfolioX " id="section13">
+
+					<div class="folio-content">
+
+						<div class="folio-content-left-center">
+							<div class="folio-project-title highlightedb"><a href="nissan-mobile">IV. Nissan mobile Guidelines (WIP)</a></div>
+							<div class="folio-project-role">UX designer produit</div>
+							<div class="folio-project-desc">Octobre 2019 - Janvier 2020</div>
+							<div class="folio-project-picture" >
+							<a href="nissan-mobile" class="button-go-project-right">
+										<img src="img/arrow-right.png">
+									</a>
+							</div>
+						</div>
+
+				</div>
+		</div>
+
+
+
+		<div class="section  bgfolio1 " id="section2">
+
+				<div class="folio-content">
+
+					<div class="folio-content-left-center">
+						<div class="folio-project-title highlightedb"><a href="redaction">V. re(d)action</a></div>
+						<div class="folio-project-role">UI / UX design</div>
+						<div class="folio-project-desc">Janvier 2015</div>
+						<div class="folio-project-picture" >
+								<a href="redaction" class="button-go-project-right">
+									<img src="img/arrow-right.png">
+								</a>
+						</div>
+					</div>
+
+			</div>
+	</div><div class="section  bgfolio2 " id="section3">
+
+			<div class="folio-content">
+
+				<div class="folio-content-left-center">
+					<div class="folio-project-title highlightedb"><a href="wehelp">VI. WeHelp</a></div>
+					<div class="folio-project-role">UI / UX design</div>
+					<div class="folio-project-desc">Mai 2015</div>
+					<div class="folio-project-picture" >
+							<a href="wehelp" class="button-go-project-right">
+								<img src="img/arrow-right.png">
+							</a>
+					</div>
+				</div>
+
+		</div>
+</div><div class="section  bgfolio3 " id="section4">
+
+		<div class="folio-content">
+
+			<div class="folio-content-left-center">
+				<div class="folio-project-title highlightedb"><a href="selfdeploy">VII. Self Deploy</a></div>
+				<div class="folio-project-role">Logotype & Webdesign</div>
+				<div class="folio-project-desc">Juillet 2015</div>
+				<div class="folio-project-picture" >
+						<a href="selfdeploy" class="button-go-project-right">
+							<img src="img/arrow-right.png">
+						</a>
+				</div>
+			</div>
+
+	</div>
+</div>
+
+<!--<div class="section  bgfolio4 " id="section5">
+
+		<div class="folio-content">
+
+			<div class="folio-content-left-center">
+				<div class="folio-project-title highlightedb"><a href="saveurs">IV. Saveurs de Maud</a></div>
+				<div class="folio-project-role">Logotype & Créa Graphique</div>
+				<div class="folio-project-desc">Décembre 2015</div>
+				<div class="folio-project-picture" >
+						<a href="saveurs" class="button-go-project-right">
+							<img src="img/arrow-right.png">
+						</a>
+				</div>
+			</div>
+
+	</div>
+</div>-->
+<div class="section  bgfolio5 " id="section6">
+
+		<div class="folio-content">
+
+			<div class="folio-content-left-center">
+				<div class="folio-project-title highlightedb"><a href="hpe">VIII. HPE Ingredients</a></div>
+				<div class="folio-project-role">Webdesign & Intégration Web</div>
+				<div class="folio-project-desc">Avril 2016</div>
+				<div class="folio-project-picture" >
+						<a href="hpe" class="button-go-project-right">
+							<img src="img/arrow-right.png">
+						</a>
+				</div>
+			</div>
+
+	</div>
+</div>
+<!--<div class="section  bgfolio6 " id="section8">
+
+		<div class="folio-content">
+
+			<div class="folio-content-left-center">
+				<div class="folio-project-title highlightedb"><a href="kordam">VI. Kordam</a></div>
+				<div class="folio-project-role">UI / UX designer</div>
+				<div class="folio-project-desc">2015 - 2017</div>
+				<div class="folio-project-picture" >
+						<a href="kordam" class="button-go-project-right">
+							<img src="img/arrow-right.png">
+						</a>
+				</div>
+			</div>
+
+	</div>
+</div>-->
+
+
+
+		</div>
+
+	<!-- fin du code portfolio -->
+
+
+
+
+
+
+	<!-- fermeture du contenu -->
+
+
+
+
+</body>
+
+</html>

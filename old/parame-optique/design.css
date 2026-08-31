@@ -1,0 +1,99 @@
+*{margin:0;
+padding:0;
+text-align:center;
+font-family: 'Roboto', sans-serif;}
+
+a{color:#fff;
+text-decoration:none;}
+
+.main-CTAS{margin:0 auto; width:250px;}
+.CTA{text-transform: uppercase;/*transition:0.5s;*/padding:15px 0;font-size : 14px; border:2px solid white;
+  margin-top:20Px;  font-weight:500;width:250px;border-radius:5px;}
+.primary-CTA{margin-top:50Px; background:white; margin-right:24px;color:#1d1d1d}
+.tiercary-CTA{background:#9a1837; border:1px solid #9a1837;}
+
+.CTA:hover{transform: scale(1.1); }
+
+
+body{
+  width:100%;
+  height:100%;
+  background:#1D1D1D;
+  color:#fff
+}
+.clear{clear:both}
+.content{width:100%; height:80%;
+  position:relative;
+    background: url(img/background.jpg) no-repeat center center;
+
+    margin:0;
+  padding:0;
+  background-size:cover;
+
+
+}
+h1{font-size:50px; font-weight:700; letter-spacing:6.1px;}
+
+.main-info{padding:12% 0; width:100%}
+.subtitle{margin-top:50px;font-size:18px;line-height: 30px;}
+footer{
+width:100%;
+padding-top:30px;}
+
+.info-footer{margin-bottom:40px}
+.info-footer a:hover{color:#9a1837}
+
+
+/* test pop up*/
+
+
+.btnPopup{
+background-color: orangered;
+padding: 1em 2em;
+cursor: pointer;
+display:none;
+}
+
+.btnPopup:hover{
+background-color: rgb(192, 192, 192);}
+
+.overlay {
+position: fixed;
+left: 0px;
+top:0px;
+background-color: rgba(0,0 ,0 , 0.2);
+width: 100%;
+height: 100%;
+z-index:1;
+display:none;
+
+}
+
+.popup{
+margin: 10% auto;
+width : 30%;
+background-color: #1D1D1D;
+padding: 25px;
+box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+padding-bottom:50px;
+line-height: 20px;
+border:2px solid #fff ;
+}
+
+.popup h2{margin:25px 0;text-transform: uppercase;}
+
+.btnClose {
+float: right;
+font-size:24pt;
+cursor: pointer;
+color: #fff;
+}
+
+@media screen and (max-width: 640px){
+  .popup{width : 85%; paddingtop:50px}
+  .CTA{float:none;
+  width:80%;
+margin-left:10%}
+.secondary-CTA{margin-top:20px;}
+}

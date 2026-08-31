@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Paramé Optique</title>
+	<meta name="author" content="Ronan Benec'h" />
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+	<meta property="og:title" content="Home" />
+	    <meta property="og:type" content="website" />
+	    <meta property="og:site_name" content="Paramé optique - Opticien St-Malo Paramé" />
+
+			<link rel="stylesheet" type="text/css" href="design.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+
+<body onload="setTimeout(openMoadl, 3000);">
+
+
+
+
+<div class="content">
+
+	<div class="main-info">
+
+	    	<h1>PARAMÉ OPTIQUE</h1>
+						<div class="subtitle">Depuis plus de 30 ans,<br>
+	« Bien voir c’est notre histoire »</div>
+
+	<div class="main-CTAS">
+		<a href="https://parameoptique-saintmalo.monopticien.com/"><div class="CTA primary-CTA">Site commercial</div></a>
+		<a href="https://parame-optique.zerosix.com/rendez-vous/"><div class="CTA tiercary-CTA">Prendre rendez-vous</div></a>
+		<a href="https://www.facebook.com/parameoptique/"><div class="CTA secondary-CTA">Page facebook</div></a>
+<div class="clear"></div>
+	</div>
+
+
+</div>
+</div>
+
+<footer>
+<div class="info-footer">
+	<strong>PARAMÉ OPTIQUE</strong><br><br>
+	Ouvert du mardi au samedi<br>
+	De 9h à 12h et de 14h à 19h<br>
+	-<br>
+	9 rue Ange Fontan<br>
+	35400 SAINT MALO<br>
+-<br>
+	02 99 56 06 38<br>
+- <br>
+<a href="mailto:malopticien@live.fr">malopticien@live.fr</a>
+</div>
+
+<button id="btnPopup" class="btnPopup">Afficher Popup</button>
+<div id="overlay" class="overlay">
+<div id="popup" class="popup">
+<h2>
+INFOS COVID-19
+<span id="btnClose" class="btnClose">&times;</span>
+</h2>
+<div>
+Nous avons fait le nécessaire pour vous recevoir dans les meilleurs conditions de sécurité. Si vous venez avec une prescription, il est préférable de prendre rendez-vous et nous vous accueillerons ainsi, avec un minimum d’attente.
+</div>
+</div>
+</div>
+</footer>
+<script type="text/javascript">
+var btnPopup = document.getElementById('btnPopup');
+var overlay = document.getElementById('overlay');
+btnPopup.addEventListener('click',openMoadl);
+function openMoadl() {
+overlay.style.display='block';
+}
+var btnClose = document.getElementById('btnClose');
+btnClose.addEventListener('click',closeModal);
+function closeModal() {
+overlay.style.display='none';
+}
+
+</script>
+
+</body>
+</html>

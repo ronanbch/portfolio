@@ -1,0 +1,1797 @@
+Nov 10 12:29:48 10.71.57.0 tmp98665127-9681 Connection from 10.71.57.0 port 11988 on 82.165.87.37 port 22
+Nov 10 12:29:48 10.71.57.0 tmp98665127-9681 Accepted password for tmp98665127-9681 from 10.71.57.0 port 11988 ssh2
+Nov 10 12:29:48 10.71.57.0 tmp98665127-9681 Starting session: subsystem 'sftp' for tmp98665127-9681 from 10.71.57.0 port 11988 id 0
+Nov 10 12:29:48 10.71.57.0 tmp98665127-9681 session opened for local user tmp98665127-9681 from [10.71.57.0]
+Nov 10 12:30:59 10.71.56.0 u98665127 Connection from 10.71.56.0 port 20182 on 82.165.87.37 port 22
+Nov 10 12:31:05 10.71.56.0 u98665127 Failed password for u98665127 from 10.71.56.0 port 20182 ssh2
+Nov 10 12:31:30 10.71.56.0 u98665127 Connection from 10.71.56.0 port 20318 on 82.165.87.37 port 22
+Nov 10 12:31:30 10.71.56.0 u98665127 Accepted password for u98665127 from 10.71.56.0 port 20318 ssh2
+Nov 10 12:31:30 10.71.56.0 u98665127 Starting session: subsystem 'sftp' for u98665127 from 10.71.56.0 port 20318 id 0
+Nov 10 12:31:30 10.71.56.0 u98665127 session opened for local user u98665127 from [10.71.56.0]
+Nov 10 12:31:54 10.71.56.0 u98665127 Connection from 10.71.56.0 port 20384 on 82.165.87.37 port 22
+Nov 10 12:31:54 10.71.56.0 u98665127 Accepted password for u98665127 from 10.71.56.0 port 20384 ssh2
+Nov 10 12:31:54 10.71.56.0 u98665127 Connection from 10.71.56.0 port 20386 on 82.165.87.37 port 22
+Nov 10 12:31:54 10.71.56.0 u98665127 Accepted password for u98665127 from 10.71.56.0 port 20386 ssh2
+Nov 10 12:31:54 10.71.56.0 u98665127 Starting session: subsystem 'sftp' for u98665127 from 10.71.56.0 port 20384 id 0
+Nov 10 12:31:54 10.71.56.0 u98665127 Starting session: subsystem 'sftp' for u98665127 from 10.71.56.0 port 20386 id 0
+Nov 10 12:31:54 10.71.56.0 u98665127 session opened for local user u98665127 from [10.71.56.0]
+Nov 10 12:31:54 10.71.56.0 u98665127 session opened for local user u98665127 from [10.71.56.0]
+Nov 10 12:31:54 10.71.56.0 u98665127 open "/.DS_Store" flags READ mode 0666
+Nov 10 12:31:54 10.71.56.0 u98665127 open "/.htaccess" flags READ mode 0666
+Nov 10 12:31:55 10.71.56.0 u98665127 close "/.htaccess" bytes read 91 written 0
+Nov 10 12:31:55 10.71.56.0 u98665127 [10.71.56.0|get|1|91|0|0|0|2f2e6874616363657373|]
+Nov 10 12:31:55 10.71.56.0 u98665127 close "/.DS_Store" bytes read 14340 written 0
+Nov 10 12:31:55 10.71.56.0 u98665127 [10.71.56.0|get|1|14340|0|0|0|2f2e44535f53746f7265|]
+Nov 10 12:31:55 10.71.56.0 u98665127 open "/_page-project.html" flags READ mode 0666
+Nov 10 12:31:55 10.71.56.0 u98665127 open "/about.html" flags READ mode 0666
+Nov 10 12:31:55 10.71.56.0 u98665127 close "/_page-project.html" bytes read 4479 written 0
+Nov 10 12:31:55 10.71.56.0 u98665127 [10.71.56.0|get|0|4479|0|0|0|2f5f706167652d70726f6a6563742e68746d6c|]
+Nov 10 12:31:55 10.71.56.0 u98665127 close "/about.html" bytes read 3690 written 0
+Nov 10 12:31:55 10.71.56.0 u98665127 [10.71.56.0|get|0|3690|0|0|0|2f61626f75742e68746d6c|]
+Nov 10 12:31:55 10.71.56.0 u98665127 open "/arociel-web.pptx" flags READ mode 0666
+Nov 10 12:31:55 10.71.56.0 u98665127 open "/benech-ronan-cv-.pdf" flags READ mode 0666
+Nov 10 12:31:55 10.71.56.0 u98665127 close "/benech-ronan-cv-.pdf" bytes read 304872 written 0
+Nov 10 12:31:55 10.71.56.0 u98665127 [10.71.56.0|get|0|304872|0|0|0|2f62656e6563682d726f6e616e2d63762d2e706466|]
+Nov 10 12:31:55 10.71.56.0 u98665127 open "/benech-ronan-cv.pdf" flags READ mode 0666
+Nov 10 12:31:55 10.71.56.0 u98665127 close "/arociel-web.pptx" bytes read 22829293 written 0
+Nov 10 12:31:55 10.71.56.0 u98665127 [10.71.56.0|get|0|22829293|0|0|0|2f61726f6369656c2d7765622e70707478|]
+Nov 10 12:31:55 10.71.56.0 u98665127 close "/benech-ronan-cv.pdf" bytes read 506268 written 0
+Nov 10 12:31:55 10.71.56.0 u98665127 [10.71.56.0|get|0|506268|0|0|0|2f62656e6563682d726f6e616e2d63762e706466|]
+Nov 10 12:31:55 10.71.56.0 u98665127 open "/bouc.png" flags READ mode 0666
+Nov 10 12:31:55 10.71.56.0 u98665127 open "/covervid.js" flags READ mode 0666
+Nov 10 12:31:55 10.71.56.0 u98665127 close "/covervid.js" bytes read 1760 written 0
+Nov 10 12:31:55 10.71.56.0 u98665127 [10.71.56.0|get|0|1760|0|0|0|2f636f7665727669642e6a73|]
+Nov 10 12:31:55 10.71.56.0 u98665127 open "/design.css" flags READ mode 0666
+Nov 10 12:31:55 10.71.56.0 u98665127 close "/design.css" bytes read 18678 written 0
+Nov 10 12:31:55 10.71.56.0 u98665127 [10.71.56.0|get|0|18678|0|0|0|2f64657369676e2e637373|]
+Nov 10 12:31:56 10.71.56.0 u98665127 close "/bouc.png" bytes read 210619 written 0
+Nov 10 12:31:56 10.71.56.0 u98665127 [10.71.56.0|get|1|210619|0|0|0|2f626f75632e706e67|]
+Nov 10 12:31:56 10.71.56.0 u98665127 open "/Ebook-app-mobile-virale.pdf" flags READ mode 0666
+Nov 10 12:31:56 10.71.56.0 u98665127 open "/folio.html" flags READ mode 0666
+Nov 10 12:31:56 10.71.56.0 u98665127 close "/folio.html" bytes read 8896 written 0
+Nov 10 12:31:56 10.71.56.0 u98665127 [10.71.56.0|get|0|8896|0|0|0|2f666f6c696f2e68746d6c|]
+Nov 10 12:31:56 10.71.56.0 u98665127 open "/home2.mp4" flags READ mode 0666
+Nov 10 12:31:56 10.71.56.0 u98665127 close "/home2.mp4" bytes read 2397973 written 0
+Nov 10 12:31:56 10.71.56.0 u98665127 [10.71.56.0|get|0|2397973|0|0|0|2f686f6d65322e6d7034|]
+Nov 10 12:31:56 10.71.56.0 u98665127 open "/hpe.html" flags READ mode 0666
+Nov 10 12:31:56 10.71.56.0 u98665127 close "/Ebook-app-mobile-virale.pdf" bytes read 22464135 written 0
+Nov 10 12:31:56 10.71.56.0 u98665127 [10.71.56.0|get|0|22464135|0|0|0|2f45626f6f6b2d6170702d6d6f62696c652d766972616c652e706466|]
+Nov 10 12:31:56 10.71.56.0 u98665127 close "/hpe.html" bytes read 4807 written 0
+Nov 10 12:31:56 10.71.56.0 u98665127 [10.71.56.0|get|0|4807|0|0|0|2f6870652e68746d6c|]
+Nov 10 12:31:56 10.71.56.0 u98665127 open "/index.html" flags READ mode 0666
+Nov 10 12:31:56 10.71.56.0 u98665127 open "/isotope.pkgd.min.js" flags READ mode 0666
+Nov 10 12:31:56 10.71.56.0 u98665127 close "/index.html" bytes read 4932 written 0
+Nov 10 12:31:56 10.71.56.0 u98665127 [10.71.56.0|get|0|4932|0|0|0|2f696e6465782e68746d6c|]
+Nov 10 12:31:56 10.71.56.0 u98665127 close "/isotope.pkgd.min.js" bytes read 35446 written 0
+Nov 10 12:31:56 10.71.56.0 u98665127 [10.71.56.0|get|0|35446|0|0|0|2f69736f746f70652e706b67642e6d696e2e6a73|]
+Nov 10 12:31:56 10.71.56.0 u98665127 open "/klap.html" flags READ mode 0666
+Nov 10 12:31:56 10.71.56.0 u98665127 open "/klap.jpg" flags READ mode 0666
+Nov 10 12:31:56 10.71.56.0 u98665127 close "/klap.html" bytes read 5594 written 0
+Nov 10 12:31:56 10.71.56.0 u98665127 [10.71.56.0|get|0|5594|0|0|0|2f6b6c61702e68746d6c|]
+Nov 10 12:31:56 10.71.56.0 u98665127 close "/klap.jpg" bytes read 366250 written 0
+Nov 10 12:31:56 10.71.56.0 u98665127 [10.71.56.0|get|0|366250|0|0|0|2f6b6c61702e6a7067|]
+Nov 10 12:31:56 10.71.56.0 u98665127 open "/La_methode_agile_BAM.pdf" flags READ mode 0666
+Nov 10 12:31:56 10.71.56.0 u98665127 open "/logo-orthographiq.jpg" flags READ mode 0666
+Nov 10 12:31:56 10.71.56.0 u98665127 close "/logo-orthographiq.jpg" bytes read 61966 written 0
+Nov 10 12:31:56 10.71.56.0 u98665127 [10.71.56.0|get|0|61966|0|0|0|2f6c6f676f2d6f7274686f677261706869712e6a7067|]
+Nov 10 12:31:56 10.71.56.0 u98665127 open "/mail.html" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/mail.html" bytes read 7848 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|1|7848|0|0|0|2f6d61696c2e68746d6c|]
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/mmenu.js" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/La_methode_agile_BAM.pdf" bytes read 26086986 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|1|26086986|0|0|0|2f4c615f6d6574686f64655f6167696c655f42414d2e706466|]
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/mmenu.js" bytes read 35260 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|35260|0|0|0|2f6d6d656e752e6a73|]
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/movement-folio.css" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/moving-letters.css" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/movement-folio.css" bytes read 4973 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|4973|0|0|0|2f6d6f76656d656e742d666f6c696f2e637373|]
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/moving-letters.css" bytes read 29115 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|29115|0|0|0|2f6d6f76696e672d6c6574746572732e637373|]
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/moving-letters.js" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/moving-letters.js" bytes read 7019 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|7019|0|0|0|2f6d6f76696e672d6c6574746572732e6a73|]
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/nissan-finance.html" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/nissan-finance.html" bytes read 5968 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|5968|0|0|0|2f6e697373616e2d66696e616e63652e68746d6c|]
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/nissan-mobile.html" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/nissan-mobile.html" bytes read 5952 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|5952|0|0|0|2f6e697373616e2d6d6f62696c652e68746d6c|]
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/nissan-vms.html" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/notif-twitch.mp3" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/nissan-vms.html" bytes read 6154 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|6154|0|0|0|2f6e697373616e2d766d732e68746d6c|]
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/orthographiq.html" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/notif-twitch.mp3" bytes read 336176 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|336176|0|0|0|2f6e6f7469662d7477697463682e6d7033|]
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/orthographiq.html" bytes read 6452 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|6452|0|0|0|2f6f7274686f677261706869712e68746d6c|]
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/redaction.html" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/ronan-barbe.jpg" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/redaction.html" bytes read 6245 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|6245|0|0|0|2f726564616374696f6e2e68746d6c|]
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/ronan-bouc.jpg" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/ronan-barbe.jpg" bytes read 1326429 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|1326429|0|0|0|2f726f6e616e2d62617262652e6a7067|]
+Nov 10 12:31:57 10.71.56.0 u98665127 close "/ronan-bouc.jpg" bytes read 1375796 written 0
+Nov 10 12:31:57 10.71.56.0 u98665127 [10.71.56.0|get|0|1375796|0|0|0|2f726f6e616e2d626f75632e6a7067|]
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/screen-new-facebook.zip" flags READ mode 0666
+Nov 10 12:31:57 10.71.56.0 u98665127 open "/ScrollReveal.js" flags READ mode 0666
+Nov 10 12:31:58 10.71.56.0 u98665127 close "/ScrollReveal.js" bytes read 27084 written 0
+Nov 10 12:31:58 10.71.56.0 u98665127 [10.71.56.0|get|0|27084|0|0|0|2f5363726f6c6c52657665616c2e6a73|]
+Nov 10 12:31:58 10.71.56.0 u98665127 open "/selfdeploy.html" flags READ mode 0666
+Nov 10 12:31:58 10.71.56.0 u98665127 close "/selfdeploy.html" bytes read 5207 written 0
+Nov 10 12:31:58 10.71.56.0 u98665127 [10.71.56.0|get|0|5207|0|0|0|2f73656c666465706c6f792e68746d6c|]
+Nov 10 12:31:58 10.71.56.0 u98665127 open "/test.mp4" flags READ mode 0666
+Nov 10 12:31:58 10.71.56.0 u98665127 close "/screen-new-facebook.zip" bytes read 13028435 written 0
+Nov 10 12:31:58 10.71.56.0 u98665127 [10.71.56.0|get|1|13028435|0|0|0|2f73637265656e2d6e65772d66616365626f6f6b2e7a6970|]
+Nov 10 12:31:58 10.71.56.0 u98665127 open "/test.webm" flags READ mode 0666
+Nov 10 12:31:58 10.71.56.0 u98665127 close "/test.mp4" bytes read 5851970 written 0
+Nov 10 12:31:58 10.71.56.0 u98665127 [10.71.56.0|get|0|5851970|0|0|0|2f746573742e6d7034|]
+Nov 10 12:31:58 10.71.56.0 u98665127 close "/test.webm" bytes read 1547240 written 0
+Nov 10 12:31:58 10.71.56.0 u98665127 [10.71.56.0|get|0|1547240|0|0|0|2f746573742e7765626d|]
+Nov 10 12:31:58 10.71.56.0 u98665127 open "/UX-book.pdf" flags READ mode 0666
+Nov 10 12:31:58 10.71.56.0 u98665127 open "/wehelp.html" flags READ mode 0666
+Nov 10 12:31:58 10.71.56.0 u98665127 close "/wehelp.html" bytes read 6329 written 0
+Nov 10 12:31:58 10.71.56.0 u98665127 [10.71.56.0|get|0|6329|0|0|0|2f776568656c702e68746d6c|]
+Nov 10 12:31:58 10.71.56.0 u98665127 session closed for local user u98665127 from [10.71.56.0]
+Nov 10 12:31:58 10.71.56.0 u98665127 Connection closed by 10.71.56.0 port 20386
+Nov 10 12:31:58 10.71.56.0 u98665127 close "/UX-book.pdf" bytes read 6262784 written 0
+Nov 10 12:31:58 10.71.56.0 u98665127 [10.71.56.0|get|0|6262784|0|0|0|2f55582d626f6f6b2e706466|]
+Nov 10 12:31:58 10.71.56.0 u98665127 session closed for local user u98665127 from [10.71.56.0]
+Nov 10 12:31:58 10.71.56.0 u98665127 Connection closed by 10.71.56.0 port 20384
+Nov 10 12:31:58 10.71.56.0 u98665127 Connection from 10.71.56.0 port 20392 on 82.165.87.37 port 22
+Nov 10 12:31:58 10.71.56.0 u98665127 Accepted password for u98665127 from 10.71.56.0 port 20392 ssh2
+Nov 10 12:31:58 10.71.56.0 u98665127 Connection from 10.71.56.0 port 20396 on 82.165.87.37 port 22
+Nov 10 12:31:58 10.71.56.0 u98665127 Accepted password for u98665127 from 10.71.56.0 port 20396 ssh2
+Nov 10 12:31:59 10.71.56.0 u98665127 Starting session: subsystem 'sftp' for u98665127 from 10.71.56.0 port 20392 id 0
+Nov 10 12:31:59 10.71.56.0 u98665127 Starting session: subsystem 'sftp' for u98665127 from 10.71.56.0 port 20396 id 0
+Nov 10 12:31:59 10.71.56.0 u98665127 session opened for local user u98665127 from [10.71.56.0]
+Nov 10 12:31:59 10.71.56.0 u98665127 session opened for local user u98665127 from [10.71.56.0]
+Nov 10 12:31:59 10.71.56.0 u98665127 open "/_en/mail.html" flags READ mode 0666
+Nov 10 12:31:59 10.71.56.0 u98665127 open "/_en/nissan-mobile.html" flags READ mode 0666
+Nov 10 12:31:59 10.71.56.0 u98665127 close "/_en/mail.html" bytes read 7848 written 0
+Nov 10 12:31:59 10.71.56.0 u98665127 [10.71.56.0|get|0|7848|0|0|0|2f5f656e2f6d61696c2e68746d6c|]
+Nov 10 12:31:59 10.71.56.0 u98665127 close "/_en/nissan-mobile.html" bytes read 5541 written 0
+Nov 10 12:31:59 10.71.56.0 u98665127 [10.71.56.0|get|0|5541|0|0|0|2f5f656e2f6e697373616e2d6d6f62696c652e68746d6c|]
+Nov 10 12:31:59 10.71.56.0 u98665127 open "/_en/redaction.html" flags READ mode 0666
+Nov 10 12:31:59 10.71.56.0 u98665127 open "/_en/moving-letters.js" flags READ mode 0666
+Nov 10 12:31:59 10.71.56.0 u98665127 close "/_en/redaction.html" bytes read 6245 written 0
+Nov 10 12:31:59 10.71.56.0 u98665127 [10.71.56.0|get|0|6245|0|0|0|2f5f656e2f726564616374696f6e2e68746d6c|]
+Nov 10 12:31:59 10.71.56.0 u98665127 close "/_en/moving-letters.js" bytes read 7019 written 0
+Nov 10 12:31:59 10.71.56.0 u98665127 [10.71.56.0|get|0|7019|0|0|0|2f5f656e2f6d6f76696e672d6c6574746572732e6a73|]
+Nov 10 12:31:59 10.71.56.0 u98665127 open "/_en/orthographiq.html" flags READ mode 0666
+Nov 10 12:31:59 10.71.56.0 u98665127 open "/_en/arociel-web.pptx" flags READ mode 0666
+Nov 10 12:31:59 10.71.56.0 u98665127 close "/_en/orthographiq.html" bytes read 6384 written 0
+Nov 10 12:31:59 10.71.56.0 u98665127 [10.71.56.0|get|0|6384|0|0|0|2f5f656e2f6f7274686f677261706869712e68746d6c|]
+Nov 10 12:31:59 10.71.56.0 u98665127 open "/_en/UX-book.pdf" flags READ mode 0666
+Nov 10 12:32:00 10.71.56.0 u98665127 close "/_en/arociel-web.pptx" bytes read 22829293 written 0
+Nov 10 12:32:00 10.71.56.0 u98665127 [10.71.56.0|get|1|22829293|0|0|0|2f5f656e2f61726f6369656c2d7765622e70707478|]
+Nov 10 12:32:00 10.71.56.0 u98665127 close "/_en/UX-book.pdf" bytes read 6262784 written 0
+Nov 10 12:32:00 10.71.56.0 u98665127 [10.71.56.0|get|1|6262784|0|0|0|2f5f656e2f55582d626f6f6b2e706466|]
+Nov 10 12:32:00 10.71.56.0 u98665127 open "/_en/klap.jpg" flags READ mode 0666
+Nov 10 12:32:00 10.71.56.0 u98665127 open "/_en/folio.html" flags READ mode 0666
+Nov 10 12:32:00 10.71.56.0 u98665127 close "/_en/folio.html" bytes read 8895 written 0
+Nov 10 12:32:00 10.71.56.0 u98665127 [10.71.56.0|get|0|8895|0|0|0|2f5f656e2f666f6c696f2e68746d6c|]
+Nov 10 12:32:00 10.71.56.0 u98665127 close "/_en/klap.jpg" bytes read 366250 written 0
+Nov 10 12:32:00 10.71.56.0 u98665127 [10.71.56.0|get|0|366250|0|0|0|2f5f656e2f6b6c61702e6a7067|]
+Nov 10 12:32:00 10.71.56.0 u98665127 open "/_en/movement-folio.css" flags READ mode 0666
+Nov 10 12:32:00 10.71.56.0 u98665127 open "/_en/La_methode_agile_BAM.pdf" flags READ mode 0666
+Nov 10 12:32:00 10.71.56.0 u98665127 close "/_en/movement-folio.css" bytes read 4973 written 0
+Nov 10 12:32:00 10.71.56.0 u98665127 [10.71.56.0|get|0|4973|0|0|0|2f5f656e2f6d6f76656d656e742d666f6c696f2e637373|]
+Nov 10 12:32:00 10.71.56.0 u98665127 open "/_en/nissan-vms.html" flags READ mode 0666
+Nov 10 12:32:00 10.71.56.0 u98665127 close "/_en/nissan-vms.html" bytes read 5743 written 0
+Nov 10 12:32:00 10.71.56.0 u98665127 [10.71.56.0|get|0|5743|0|0|0|2f5f656e2f6e697373616e2d766d732e68746d6c|]
+Nov 10 12:32:00 10.71.56.0 u98665127 open "/_en/ScrollReveal.js" flags READ mode 0666
+Nov 10 12:32:00 10.71.56.0 u98665127 close "/_en/ScrollReveal.js" bytes read 27084 written 0
+Nov 10 12:32:00 10.71.56.0 u98665127 [10.71.56.0|get|0|27084|0|0|0|2f5f656e2f5363726f6c6c52657665616c2e6a73|]
+Nov 10 12:32:00 10.71.56.0 u98665127 close "/_en/La_methode_agile_BAM.pdf" bytes read 26086986 written 0
+Nov 10 12:32:00 10.71.56.0 u98665127 [10.71.56.0|get|0|26086986|0|0|0|2f5f656e2f4c615f6d6574686f64655f6167696c655f42414d2e706466|]
+Nov 10 12:32:00 10.71.56.0 u98665127 open "/_en/design.css" flags READ mode 0666
+Nov 10 12:32:00 10.71.56.0 u98665127 open "/_en/benech-ronan-cv.pdf" flags READ mode 0666
+Nov 10 12:32:00 10.71.56.0 u98665127 close "/_en/design.css" bytes read 18678 written 0
+Nov 10 12:32:00 10.71.56.0 u98665127 [10.71.56.0|get|0|18678|0|0|0|2f5f656e2f64657369676e2e637373|]
+Nov 10 12:32:00 10.71.56.0 u98665127 open "/_en/wehelp.html" flags READ mode 0666
+Nov 10 12:32:01 10.71.56.0 u98665127 close "/_en/wehelp.html" bytes read 6329 written 0
+Nov 10 12:32:01 10.71.56.0 u98665127 [10.71.56.0|get|1|6329|0|0|0|2f5f656e2f776568656c702e68746d6c|]
+Nov 10 12:32:01 10.71.56.0 u98665127 open "/_en/about.html" flags READ mode 0666
+Nov 10 12:32:01 10.71.56.0 u98665127 close "/_en/about.html" bytes read 3279 written 0
+Nov 10 12:32:01 10.71.56.0 u98665127 [10.71.56.0|get|0|3279|0|0|0|2f5f656e2f61626f75742e68746d6c|]
+Nov 10 12:32:01 10.71.56.0 u98665127 close "/_en/benech-ronan-cv.pdf" bytes read 160309 written 0
+Nov 10 12:32:01 10.71.56.0 u98665127 [10.71.56.0|get|1|160309|0|0|0|2f5f656e2f62656e6563682d726f6e616e2d63762e706466|]
+Nov 10 12:32:01 10.71.56.0 u98665127 open "/_en/hpe.html" flags READ mode 0666
+Nov 10 12:32:01 10.71.56.0 u98665127 close "/_en/hpe.html" bytes read 4807 written 0
+Nov 10 12:32:01 10.71.56.0 u98665127 [10.71.56.0|get|0|4807|0|0|0|2f5f656e2f6870652e68746d6c|]
+Nov 10 12:32:01 10.71.56.0 u98665127 open "/_en/klap.html" flags READ mode 0666
+Nov 10 12:32:01 10.71.56.0 u98665127 open "/_en/Ebook-app-mobile-virale.pdf" flags READ mode 0666
+Nov 10 12:32:01 10.71.56.0 u98665127 close "/_en/klap.html" bytes read 5240 written 0
+Nov 10 12:32:01 10.71.56.0 u98665127 [10.71.56.0|get|0|5240|0|0|0|2f5f656e2f6b6c61702e68746d6c|]
+Nov 10 12:32:01 10.71.56.0 u98665127 open "/_en/covervid.js" flags READ mode 0666
+Nov 10 12:32:01 10.71.56.0 u98665127 close "/_en/covervid.js" bytes read 1760 written 0
+Nov 10 12:32:01 10.71.56.0 u98665127 [10.71.56.0|get|0|1760|0|0|0|2f5f656e2f636f7665727669642e6a73|]
+Nov 10 12:32:01 10.71.56.0 u98665127 open "/_en/.DS_Store" flags READ mode 0666
+Nov 10 12:32:01 10.71.56.0 u98665127 close "/_en/.DS_Store" bytes read 10244 written 0
+Nov 10 12:32:01 10.71.56.0 u98665127 [10.71.56.0|get|0|10244|0|0|0|2f5f656e2f2e44535f53746f7265|]
+Nov 10 12:32:01 10.71.56.0 u98665127 close "/_en/Ebook-app-mobile-virale.pdf" bytes read 22464135 written 0
+Nov 10 12:32:01 10.71.56.0 u98665127 [10.71.56.0|get|0|22464135|0|0|0|2f5f656e2f45626f6f6b2d6170702d6d6f62696c652d766972616c652e706466|]
+Nov 10 12:32:01 10.71.56.0 u98665127 open "/_en/index.html" flags READ mode 0666
+Nov 10 12:32:01 10.71.56.0 u98665127 open "/_en/mmenu.js" flags READ mode 0666
+Nov 10 12:32:01 10.71.56.0 u98665127 close "/_en/index.html" bytes read 4932 written 0
+Nov 10 12:32:01 10.71.56.0 u98665127 [10.71.56.0|get|0|4932|0|0|0|2f5f656e2f696e6465782e68746d6c|]
+Nov 10 12:32:01 10.71.56.0 u98665127 close "/_en/mmenu.js" bytes read 35260 written 0
+Nov 10 12:32:01 10.71.56.0 u98665127 [10.71.56.0|get|0|35260|0|0|0|2f5f656e2f6d6d656e752e6a73|]
+Nov 10 12:32:01 10.71.56.0 u98665127 open "/_en/home2.mp4" flags READ mode 0666
+Nov 10 12:32:02 10.71.56.0 u98665127 open "/_en/_page-project.html" flags READ mode 0666
+Nov 10 12:32:02 10.71.56.0 u98665127 close "/_en/_page-project.html" bytes read 4479 written 0
+Nov 10 12:32:02 10.71.56.0 u98665127 [10.71.56.0|get|0|4479|0|0|0|2f5f656e2f5f706167652d70726f6a6563742e68746d6c|]
+Nov 10 12:32:02 10.71.56.0 u98665127 open "/_en/selfdeploy.html" flags READ mode 0666
+Nov 10 12:32:02 10.71.56.0 u98665127 close "/_en/selfdeploy.html" bytes read 4796 written 0
+Nov 10 12:32:02 10.71.56.0 u98665127 [10.71.56.0|get|0|4796|0|0|0|2f5f656e2f73656c666465706c6f792e68746d6c|]
+Nov 10 12:32:02 10.71.56.0 u98665127 open "/_en/nissan-finance.html" flags READ mode 0666
+Nov 10 12:32:02 10.71.56.0 u98665127 close "/_en/nissan-finance.html" bytes read 5557 written 0
+Nov 10 12:32:02 10.71.56.0 u98665127 [10.71.56.0|get|0|5557|0|0|0|2f5f656e2f6e697373616e2d66696e616e63652e68746d6c|]
+Nov 10 12:32:02 10.71.56.0 u98665127 open "/_en/moving-letters.css" flags READ mode 0666
+Nov 10 12:32:02 10.71.56.0 u98665127 close "/_en/moving-letters.css" bytes read 29115 written 0
+Nov 10 12:32:02 10.71.56.0 u98665127 [10.71.56.0|get|0|29115|0|0|0|2f5f656e2f6d6f76696e672d6c6574746572732e637373|]
+Nov 10 12:32:02 10.71.56.0 u98665127 open "/_en/isotope.pkgd.min.js" flags READ mode 0666
+Nov 10 12:32:02 10.71.56.0 u98665127 close "/_en/isotope.pkgd.min.js" bytes read 35446 written 0
+Nov 10 12:32:02 10.71.56.0 u98665127 [10.71.56.0|get|0|35446|0|0|0|2f5f656e2f69736f746f70652e706b67642e6d696e2e6a73|]
+Nov 10 12:32:02 10.71.56.0 u98665127 open "/_en/css/isotope-docs.css" flags READ mode 0666
+Nov 10 12:32:02 10.71.56.0 u98665127 close "/_en/home2.mp4" bytes read 2397973 written 0
+Nov 10 12:32:02 10.71.56.0 u98665127 [10.71.56.0|get|1|2397973|0|0|0|2f5f656e2f686f6d65322e6d7034|]
+Nov 10 12:32:02 10.71.56.0 u98665127 close "/_en/css/isotope-docs.css" bytes read 45612 written 0
+Nov 10 12:32:02 10.71.56.0 u98665127 [10.71.56.0|get|0|45612|0|0|0|2f5f656e2f6373732f69736f746f70652d646f63732e637373|]
+Nov 10 12:32:02 10.71.56.0 u98665127 open "/_en/js/jquery.fullPage.js" flags READ mode 0666
+Nov 10 12:32:02 10.71.56.0 u98665127 open "/_en/js/jquery.fullPage.css" flags READ mode 0666
+Nov 10 12:32:02 10.71.56.0 u98665127 close "/_en/js/jquery.fullPage.css" bytes read 4994 written 0
+Nov 10 12:32:02 10.71.56.0 u98665127 [10.71.56.0|get|0|4994|0|0|0|2f5f656e2f6a732f6a71756572792e66756c6c506167652e637373|]
+Nov 10 12:32:02 10.71.56.0 u98665127 close "/_en/js/jquery.fullPage.js" bytes read 117497 written 0
+Nov 10 12:32:02 10.71.56.0 u98665127 [10.71.56.0|get|0|117497|0|0|0|2f5f656e2f6a732f6a71756572792e66756c6c506167652e6a73|]
+Nov 10 12:32:02 10.71.56.0 u98665127 open "/_en/js/gulpfile.js" flags READ mode 0666
+Nov 10 12:32:02 10.71.56.0 u98665127 open "/_en/js/.gitattributes" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/gulpfile.js" bytes read 1411 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|1|1411|0|0|0|2f5f656e2f6a732f67756c7066696c652e6a73|]
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/.gitattributes" bytes read 28 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|1|28|0|0|0|2f5f656e2f6a732f2e67697461747472696275746573|]
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/package.json" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/.gitignore" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/package.json" bytes read 1114 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|1114|0|0|0|2f5f656e2f6a732f7061636b6167652e6a736f6e|]
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/.gitignore" bytes read 48 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|48|0|0|0|2f5f656e2f6a732f2e67697469676e6f7265|]
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/jquery.min.js" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/README.md" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/jquery.min.js" bytes read 86927 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|86927|0|0|0|2f5f656e2f6a732f6a71756572792e6d696e2e6a73|]
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/README.md" bytes read 53191 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|53191|0|0|0|2f5f656e2f6a732f524541444d452e6d64|]
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/bower.json" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/jquery.fullPage.min.js" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/bower.json" bytes read 585 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|585|0|0|0|2f5f656e2f6a732f626f7765722e6a736f6e|]
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/jquery.fullPage.min.js" bytes read 30274 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|30274|0|0|0|2f5f656e2f6a732f6a71756572792e66756c6c506167652e6d696e2e6a73|]
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/LICENSE" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/README_SPANISH.md" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/LICENSE" bytes read 1080 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|1080|0|0|0|2f5f656e2f6a732f4c4943454e5345|]
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/README_SPANISH.md" bytes read 60261 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|60261|0|0|0|2f5f656e2f6a732f524541444d455f5350414e4953482e6d64|]
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/isotope-docs.min.js" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/vendors/scrolloverflow.min.js" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/isotope-docs.min.js" bytes read 83848 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|83848|0|0|0|2f5f656e2f6a732f69736f746f70652d646f63732e6d696e2e6a73|]
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/vendors/scrolloverflow.min.js" bytes read 33124 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|33124|0|0|0|2f5f656e2f6a732f76656e646f72732f7363726f6c6c6f766572666c6f772e6d696e2e6a73|]
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/vendors/jquery.easings.min.js" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/vendors/scrolloverflow.js" flags READ mode 0666
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/vendors/jquery.easings.min.js" bytes read 12927 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|12927|0|0|0|2f5f656e2f6a732f76656e646f72732f6a71756572792e656173696e67732e6d696e2e6a73|]
+Nov 10 12:32:03 10.71.56.0 u98665127 close "/_en/js/vendors/scrolloverflow.js" bytes read 66995 written 0
+Nov 10 12:32:03 10.71.56.0 u98665127 [10.71.56.0|get|0|66995|0|0|0|2f5f656e2f6a732f76656e646f72732f7363726f6c6c6f766572666c6f772e6a73|]
+Nov 10 12:32:03 10.71.56.0 u98665127 open "/_en/js/dist/jquery.fullpage.js" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/dist/jquery.fullpage.css" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/dist/jquery.fullpage.js" bytes read 117497 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|1|117497|0|0|0|2f5f656e2f6a732f646973742f6a71756572792e66756c6c706167652e6a73|]
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/dist/jquery.fullpage.css" bytes read 4990 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|4990|0|0|0|2f5f656e2f6a732f646973742f6a71756572792e66756c6c706167652e637373|]
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/dist/jquery.fullpage.min.css" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/dist/jquery.fullpage.min.js" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/dist/jquery.fullpage.min.css" bytes read 3770 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|3770|0|0|0|2f5f656e2f6a732f646973742f6a71756572792e66756c6c706167652e6d696e2e637373|]
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/dist/jquery.fullpage.min.js" bytes read 30274 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|30274|0|0|0|2f5f656e2f6a732f646973742f6a71756572792e66756c6c706167652e6d696e2e6a73|]
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/dist/jquery.fullpage.min.css.map" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/dist/jquery.fullpage.min.js.map" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/dist/jquery.fullpage.min.css.map" bytes read 7711 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|7711|0|0|0|2f5f656e2f6a732f646973742f6a71756572792e66756c6c706167652e6d696e2e6373732e6d6170|]
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/dist/jquery.fullpage.extensions.min.js" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/dist/jquery.fullpage.min.js.map" bytes read 169886 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|169886|0|0|0|2f5f656e2f6a732f646973742f6a71756572792e66756c6c706167652e6d696e2e6a732e6d6170|]
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/dist/jquery.fullpage.extensions.min.js" bytes read 35497 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|35497|0|0|0|2f5f656e2f6a732f646973742f6a71756572792e66756c6c706167652e657874656e73696f6e732e6d696e2e6a73|]
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/tests/functions.js" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/tests/functions.js" bytes read 11857 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|11857|0|0|0|2f5f656e2f6a732f74657374732f66756e6374696f6e732e6a73|]
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/tests/functions2.html" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/tests/functions.html" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/tests/functions2.html" bytes read 1090 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|1090|0|0|0|2f5f656e2f6a732f74657374732f66756e6374696f6e73322e68746d6c|]
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/tests/functions2.js" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/tests/functions.html" bytes read 1090 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|1090|0|0|0|2f5f656e2f6a732f74657374732f66756e6374696f6e732e68746d6c|]
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/tests/functions2.js" bytes read 5610 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|5610|0|0|0|2f5f656e2f6a732f74657374732f66756e6374696f6e73322e6a73|]
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/examples/activeSlide.html" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/examples/examples.js" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/examples/activeSlide.html" bytes read 4840 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|4840|0|0|0|2f5f656e2f6a732f6578616d706c65732f616374697665536c6964652e68746d6c|]
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/examples/autoHeight.html" flags READ mode 0666
+Nov 10 12:32:04 10.71.56.0 u98665127 close "/_en/js/examples/examples.js" bytes read 154 written 0
+Nov 10 12:32:04 10.71.56.0 u98665127 [10.71.56.0|get|0|154|0|0|0|2f5f656e2f6a732f6578616d706c65732f6578616d706c65732e6a73|]
+Nov 10 12:32:04 10.71.56.0 u98665127 open "/_en/js/examples/scrollBar.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/autoHeight.html" bytes read 4601 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|1|4601|0|0|0|2f5f656e2f6a732f6578616d706c65732f6175746f4865696768742e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/scrollBar.html" bytes read 4655 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|1|4655|0|0|0|2f5f656e2f6a732f6578616d706c65732f7363726f6c6c4261722e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/simple.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/apple.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/simple.html" bytes read 1624 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|1624|0|0|0|2f5f656e2f6a732f6578616d706c65732f73696d706c652e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/apple.html" bytes read 11357 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|11357|0|0|0|2f5f656e2f6a732f6578616d706c65732f6170706c652e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/backgroundsFixed.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/dragAndMove.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/backgroundsFixed.html" bytes read 5617 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|5617|0|0|0|2f5f656e2f6a732f6578616d706c65732f6261636b67726f756e647346697865642e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/dragAndMove.html" bytes read 631 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|631|0|0|0|2f5f656e2f6a732f6578616d706c65732f64726167416e644d6f76652e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/autoplayVideoAndAudio.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/normalScroll.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/autoplayVideoAndAudio.html" bytes read 5062 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|5062|0|0|0|2f5f656e2f6a732f6578616d706c65732f6175746f706c6179566964656f416e64417564696f2e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/normalScroll.html" bytes read 5451 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|5451|0|0|0|2f5f656e2f6a732f6578616d706c65732f6e6f726d616c5363726f6c6c2e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/fixedHeaders.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/backgrounds.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/fixedHeaders.html" bytes read 5195 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|5195|0|0|0|2f5f656e2f6a732f6578616d706c65732f6669786564486561646572732e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/backgrounds.html" bytes read 5320 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|5320|0|0|0|2f5f656e2f6a732f6578616d706c65732f6261636b67726f756e64732e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/parallax.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 sent status No such file
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/scrollOverflowReset.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/parallax.html" bytes read 620 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|620|0|0|0|2f5f656e2f6a732f6578616d706c65732f706172616c6c61782e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/scrollOverflowReset.html" bytes read 647 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|647|0|0|0|2f5f656e2f6a732f6578616d706c65732f7363726f6c6c4f766572666c6f7752657365742e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/easing.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/interlockedSlides.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/easing.html" bytes read 4683 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|4683|0|0|0|2f5f656e2f6a732f6578616d706c65732f656173696e672e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/interlockedSlides.html" bytes read 642 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|642|0|0|0|2f5f656e2f6a732f6578616d706c65732f696e7465726c6f636b6564536c696465732e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/resetSliders.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/demoPage.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/resetSliders.html" bytes read 632 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|632|0|0|0|2f5f656e2f6a732f6578616d706c65732f7265736574536c69646572732e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 open "/_en/js/examples/css3.html" flags READ mode 0666
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/demoPage.html" bytes read 6216 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|6216|0|0|0|2f5f656e2f6a732f6578616d706c65732f64656d6f506167652e68746d6c|]
+Nov 10 12:32:05 10.71.56.0 u98665127 close "/_en/js/examples/css3.html" bytes read 4160 written 0
+Nov 10 12:32:05 10.71.56.0 u98665127 [10.71.56.0|get|0|4160|0|0|0|2f5f656e2f6a732f6578616d706c65732f637373332e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/noAnchor.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/navigationV.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/noAnchor.html" bytes read 4010 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|4010|0|0|0|2f5f656e2f6a732f6578616d706c65732f6e6f416e63686f722e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/navigationV.html" bytes read 4953 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|4953|0|0|0|2f5f656e2f6a732f6578616d706c65732f6e617669676174696f6e562e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/methods.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/lazyLoad.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/methods.html" bytes read 9816 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|9816|0|0|0|2f5f656e2f6a732f6578616d706c65732f6d6574686f64732e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/lazyLoad.html" bytes read 6157 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|6157|0|0|0|2f5f656e2f6a732f6578616d706c65732f6c617a794c6f61642e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/responsiveHeight.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/responsiveAutoHeight.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/responsiveHeight.html" bytes read 4702 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|4702|0|0|0|2f5f656e2f6a732f6578616d706c65732f726573706f6e736976654865696768742e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/responsiveAutoHeight.html" bytes read 5830 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|5830|0|0|0|2f5f656e2f6a732f6578616d706c65732f726573706f6e736976654175746f4865696768742e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/gradientBackgrounds.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/scrollHorizontally.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/gradientBackgrounds.html" bytes read 5405 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|5405|0|0|0|2f5f656e2f6a732f6578616d706c65732f6772616469656e744261636b67726f756e64732e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/scrollHorizontally.html" bytes read 644 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|644|0|0|0|2f5f656e2f6a732f6578616d706c65732f7363726f6c6c486f72697a6f6e74616c6c792e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/responsiveSlides.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/examples.css" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/responsiveSlides.html" bytes read 640 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|640|0|0|0|2f5f656e2f6a732f6578616d706c65732f726573706f6e73697665536c696465732e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/examples.css" bytes read 4739 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|4739|0|0|0|2f5f656e2f6a732f6578616d706c65732f6578616d706c65732e637373|]
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/looping.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/backgroundVideo.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/looping.html" bytes read 4389 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|4389|0|0|0|2f5f656e2f6a732f6578616d706c65732f6c6f6f70696e672e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/backgroundVideo.html" bytes read 5781 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|5781|0|0|0|2f5f656e2f6a732f6578616d706c65732f6261636b67726f756e64566964656f2e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/scrollOverflow.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 open "/_en/js/examples/continuousHorizontal.html" flags READ mode 0666
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/scrollOverflow.html" bytes read 9581 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|9581|0|0|0|2f5f656e2f6a732f6578616d706c65732f7363726f6c6c4f766572666c6f772e68746d6c|]
+Nov 10 12:32:06 10.71.56.0 u98665127 close "/_en/js/examples/continuousHorizontal.html" bytes read 640 written 0
+Nov 10 12:32:06 10.71.56.0 u98665127 [10.71.56.0|get|0|640|0|0|0|2f5f656e2f6a732f6578616d706c65732f636f6e74696e756f7573486f72697a6f6e74616c2e68746d6c|]
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/offsetSections.html" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/fadingEffect.html" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/fadingEffect.html" bytes read 632 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|632|0|0|0|2f5f656e2f6a732f6578616d706c65732f666164696e674566666563742e68746d6c|]
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/offsetSections.html" bytes read 636 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|636|0|0|0|2f5f656e2f6a732f6578616d706c65732f6f666673657453656374696f6e732e68746d6c|]
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/continuousVertical.html" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/navigationH.html" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/continuousVertical.html" bytes read 4465 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|4465|0|0|0|2f5f656e2f6a732f6578616d706c65732f636f6e74696e756f7573566572746963616c2e68746d6c|]
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/navigationH.html" bytes read 5223 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|5223|0|0|0|2f5f656e2f6a732f6578616d706c65732f6e617669676174696f6e482e68746d6c|]
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/scrollingSpeed.html" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/callbacks.html" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/scrollingSpeed.html" bytes read 4664 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|4664|0|0|0|2f5f656e2f6a732f6578616d706c65732f7363726f6c6c696e6753706565642e68746d6c|]
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/callbacks.html" bytes read 6432 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|6432|0|0|0|2f5f656e2f6a732f6578616d706c65732f63616c6c6261636b732e68746d6c|]
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/normalScrollElements.html" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/callbacks2.html" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/callbacks2.html" bytes read 5275 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|5275|0|0|0|2f5f656e2f6a732f6578616d706c65732f63616c6c6261636b73322e68746d6c|]
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/normalScrollElements.html" bytes read 4768 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|4768|0|0|0|2f5f656e2f6a732f6578616d706c65732f6e6f726d616c5363726f6c6c456c656d656e74732e68746d6c|]
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/responsiveWidth.html" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/oneSection.html" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/responsiveWidth.html" bytes read 4833 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|4833|0|0|0|2f5f656e2f6a732f6578616d706c65732f726573706f6e7369766557696474682e68746d6c|]
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/oneSection.html" bytes read 14443 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|14443|0|0|0|2f5f656e2f6a732f6578616d706c65732f6f6e6553656374696f6e2e68746d6c|]
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/imgs/example.png" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/imgs/iphone2.png" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/imgs/example.png" bytes read 15627 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|15627|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6578616d706c652e706e67|]
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/imgs/1.png" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/imgs/iphone2.png" bytes read 217910 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|217910|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6970686f6e65322e706e67|]
+Nov 10 12:32:07 10.71.56.0 u98665127 open "/_en/js/examples/imgs/iphone3.png" flags READ mode 0666
+Nov 10 12:32:07 10.71.56.0 u98665127 close "/_en/js/examples/imgs/1.png" bytes read 5237 written 0
+Nov 10 12:32:07 10.71.56.0 u98665127 [10.71.56.0|get|0|5237|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f312e706e67|]
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/iphone1.jpg" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/iphone3.png" bytes read 70775 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|1|70775|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6970686f6e65332e706e67|]
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/3.png" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/iphone1.jpg" bytes read 210074 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|210074|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6970686f6e65312e6a7067|]
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/3.png" bytes read 6507 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|6507|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f332e706e67|]
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/flowers.mp4" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/2.png" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/2.png" bytes read 6137 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|6137|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f322e706e67|]
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/flowers.mp4" bytes read 1317562 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|1317562|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f666c6f776572732e6d7034|]
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/iphone4.png" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/iphone-green.png" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/iphone4.png" bytes read 17059 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|17059|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6970686f6e65342e706e67|]
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/iphone-green.png" bytes read 181874 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|181874|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6970686f6e652d677265656e2e706e67|]
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/es-language.png" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/horse.mp3" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/es-language.png" bytes read 609 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|609|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f65732d6c616e67756167652e706e67|]
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/horse.mp3" bytes read 28915 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|28915|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f686f7273652e6d7033|]
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/iphone-blue.png" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/bg3.jpg" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/iphone-blue.png" bytes read 185858 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|185858|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6970686f6e652d626c75652e706e67|]
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/bg3.jpg" bytes read 378628 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|378628|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6267332e6a7067|]
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/bg2.jpg" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/compatible.gif" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/compatible.gif" bytes read 3681 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|3681|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f636f6d70617469626c652e676966|]
+Nov 10 12:32:08 10.71.56.0 u98665127 close "/_en/js/examples/imgs/bg2.jpg" bytes read 361526 written 0
+Nov 10 12:32:08 10.71.56.0 u98665127 [10.71.56.0|get|0|361526|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6267322e6a7067|]
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/fullPage.png" flags READ mode 0666
+Nov 10 12:32:08 10.71.56.0 u98665127 open "/_en/js/examples/imgs/bg1.jpg" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/fullPage.png" bytes read 4648 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|1|4648|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f66756c6c506167652e706e67|]
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/bg4.jpg" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/bg1.jpg" bytes read 628788 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|1|628788|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6267312e6a7067|]
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/bg5.jpg" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/bg4.jpg" bytes read 581728 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|581728|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6267342e6a7067|]
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/bg5.jpg" bytes read 255954 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|255954|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6267352e6a7067|]
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/iphone-two.png" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/used-by-fullpage.png" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/iphone-two.png" bytes read 389484 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|389484|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6970686f6e652d74776f2e706e67|]
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/used-by-fullpage.png" bytes read 4889 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|4889|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f757365642d62792d66756c6c706167652e706e67|]
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/example2.png" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/intro.png" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/example2.png" bytes read 14320 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|14320|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6578616d706c65322e706e67|]
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/intro.png" bytes read 43773 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|43773|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f696e74726f2e706e67|]
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/horse.ogg" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/es-language-inactive.png" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/horse.ogg" bytes read 13889 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|13889|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f686f7273652e6f6767|]
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/es-language-inactive.png" bytes read 3972 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|3972|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f65732d6c616e67756167652d696e6163746976652e706e67|]
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/flowers.webm" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/copyright.txt" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/copyright.txt" bytes read 545 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|545|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f636f707972696768742e747874|]
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/en-language.png" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/flowers.webm" bytes read 3090506 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|3090506|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f666c6f776572732e7765626d|]
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/iphone-red.png" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/en-language.png" bytes read 3903 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|3903|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f656e2d6c616e67756167652e706e67|]
+Nov 10 12:32:09 10.71.56.0 u98665127 open "/_en/js/examples/imgs/en-language-inactive.png" flags READ mode 0666
+Nov 10 12:32:09 10.71.56.0 u98665127 close "/_en/js/examples/imgs/iphone-red.png" bytes read 192643 written 0
+Nov 10 12:32:09 10.71.56.0 u98665127 [10.71.56.0|get|0|192643|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6970686f6e652d7265642e706e67|]
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/js/examples/imgs/tablets.png" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/js/examples/imgs/en-language-inactive.png" bytes read 536 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|1|536|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f656e2d6c616e67756167652d696e6163746976652e706e67|]
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/js/examples/imgs/tablets.png" bytes read 45874 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|0|45874|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f7461626c6574732e706e67|]
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/js/examples/imgs/iphone-yellow.png" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/js/examples/imgs/slider.png" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/js/examples/imgs/iphone-yellow.png" bytes read 92586 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|0|92586|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f6970686f6e652d79656c6c6f772e706e67|]
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/js/examples/imgs/slider.png" bytes read 3706 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|0|3706|0|0|0|2f5f656e2f6a732f6578616d706c65732f696d67732f736c696465722e706e67|]
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/js/.github/ISSUE_TEMPLATE.md" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/js/.github/PULL_REQUEST_TEMPLATE.md" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/js/.github/ISSUE_TEMPLATE.md" bytes read 379 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|0|379|0|0|0|2f5f656e2f6a732f2e6769746875622f49535355455f54454d504c4154452e6d64|]
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/js/.github/PULL_REQUEST_TEMPLATE.md" bytes read 131 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|0|131|0|0|0|2f5f656e2f6a732f2e6769746875622f50554c4c5f524551554553545f54454d504c4154452e6d64|]
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/js/pure javascript (Alpha)/javascript.fullPage.js" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/js/pure javascript (Alpha)/demo.html" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/js/pure javascript (Alpha)/javascript.fullPage.js" bytes read 70182 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|0|70182|0|0|0|2f5f656e2f6a732f70757265206a6176617363726970742028416c706861292f6a6176617363726970742e66756c6c506167652e6a73|]
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/js/pure javascript (Alpha)/demo.html" bytes read 3342 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|0|3342|0|0|0|2f5f656e2f6a732f70757265206a6176617363726970742028416c706861292f64656d6f2e68746d6c|]
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/js/pure javascript (Alpha)/README.md" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/js/pure javascript (Alpha)/javascript.fullPage.min.js" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/js/pure javascript (Alpha)/javascript.fullPage.min.js" bytes read 17744 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|0|17744|0|0|0|2f5f656e2f6a732f70757265206a6176617363726970742028416c706861292f6a6176617363726970742e66756c6c506167652e6d696e2e6a73|]
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/js/pure javascript (Alpha)/README.md" bytes read 3532 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|0|3532|0|0|0|2f5f656e2f6a732f70757265206a6176617363726970742028416c706861292f524541444d452e6d64|]
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/js/pure javascript (Alpha)/javascript.fullPage.css" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/projects/.htaccess" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/js/pure javascript (Alpha)/javascript.fullPage.css" bytes read 4015 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|0|4015|0|0|0|2f5f656e2f6a732f70757265206a6176617363726970742028416c706861292f6a6176617363726970742e66756c6c506167652e637373|]
+Nov 10 12:32:10 10.71.56.0 u98665127 close "/_en/projects/.htaccess" bytes read 91 written 0
+Nov 10 12:32:10 10.71.56.0 u98665127 [10.71.56.0|get|0|91|0|0|0|2f5f656e2f70726f6a656374732f2e6874616363657373|]
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/projects/healthdrink.html" flags READ mode 0666
+Nov 10 12:32:10 10.71.56.0 u98665127 open "/_en/projects/Premium-React-Native.pdf" flags READ mode 0666
+Nov 10 12:32:11 10.71.56.0 u98665127 close "/_en/projects/healthdrink.html" bytes read 4664 written 0
+Nov 10 12:32:11 10.71.56.0 u98665127 [10.71.56.0|get|1|4664|0|0|0|2f5f656e2f70726f6a656374732f6865616c74686472696e6b2e68746d6c|]
+Nov 10 12:32:11 10.71.56.0 u98665127 open "/_en/projects/nissan-mobile.html" flags READ mode 0666
+Nov 10 12:32:11 10.71.56.0 u98665127 close "/_en/projects/Premium-React-Native.pdf" bytes read 5803686 written 0
+Nov 10 12:32:11 10.71.56.0 u98665127 [10.71.56.0|get|1|5803686|0|0|0|2f5f656e2f70726f6a656374732f5072656d69756d2d52656163742d4e61746976652e706466|]
+Nov 10 12:32:11 10.71.56.0 u98665127 close "/_en/projects/nissan-mobile.html" bytes read 5290 written 0
+Nov 10 12:32:11 10.71.56.0 u98665127 [10.71.56.0|get|0|5290|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d6d6f62696c652e68746d6c|]
+Nov 10 12:32:11 10.71.56.0 u98665127 open "/_en/projects/kordam.html" flags READ mode 0666
+Nov 10 12:32:11 10.71.56.0 u98665127 open "/_en/projects/more.html" flags READ mode 0666
+Nov 10 12:32:11 10.71.56.0 u98665127 close "/_en/projects/kordam.html" bytes read 6554 written 0
+Nov 10 12:32:11 10.71.56.0 u98665127 [10.71.56.0|get|0|6554|0|0|0|2f5f656e2f70726f6a656374732f6b6f7264616d2e68746d6c|]
+Nov 10 12:32:11 10.71.56.0 u98665127 close "/_en/projects/more.html" bytes read 4994 written 0
+Nov 10 12:32:11 10.71.56.0 u98665127 [10.71.56.0|get|0|4994|0|0|0|2f5f656e2f70726f6a656374732f6d6f72652e68746d6c|]
+Nov 10 12:32:11 10.71.56.0 u98665127 open "/_en/projects/miroir.html" flags READ mode 0666
+Nov 10 12:32:11 10.71.56.0 u98665127 open "/_en/projects/redaction.html" flags READ mode 0666
+Nov 10 12:32:11 10.71.56.0 u98665127 close "/_en/projects/miroir.html" bytes read 5230 written 0
+Nov 10 12:32:11 10.71.56.0 u98665127 [10.71.56.0|get|0|5230|0|0|0|2f5f656e2f70726f6a656374732f6d69726f69722e68746d6c|]
+Nov 10 12:32:11 10.71.56.0 u98665127 close "/_en/projects/redaction.html" bytes read 5654 written 0
+Nov 10 12:32:11 10.71.56.0 u98665127 [10.71.56.0|get|0|5654|0|0|0|2f5f656e2f70726f6a656374732f726564616374696f6e2e68746d6c|]
+Nov 10 12:32:11 10.71.56.0 u98665127 open "/_en/projects/moving-letters.js" flags READ mode 0666
+Nov 10 12:32:11 10.71.56.0 u98665127 open "/_en/projects/img1.jpg" flags READ mode 0666
+Nov 10 12:32:11 10.71.56.0 u98665127 close "/_en/projects/moving-letters.js" bytes read 7019 written 0
+Nov 10 12:32:11 10.71.56.0 u98665127 [10.71.56.0|get|0|7019|0|0|0|2f5f656e2f70726f6a656374732f6d6f76696e672d6c6574746572732e6a73|]
+Nov 10 12:32:11 10.71.56.0 u98665127 close "/_en/projects/img1.jpg" bytes read 19594 written 0
+Nov 10 12:32:11 10.71.56.0 u98665127 [10.71.56.0|get|0|19594|0|0|0|2f5f656e2f70726f6a656374732f696d67312e6a7067|]
+Nov 10 12:32:11 10.71.56.0 u98665127 open "/_en/projects/logo-amine.svg" flags READ mode 0666
+Nov 10 12:32:11 10.71.56.0 u98665127 open "/_en/projects/DailyUI 008 - Error 404.gif" flags READ mode 0666
+Nov 10 12:32:11 10.71.56.0 u98665127 close "/_en/projects/logo-amine.svg" bytes read 1659 written 0
+Nov 10 12:32:11 10.71.56.0 u98665127 [10.71.56.0|get|0|1659|0|0|0|2f5f656e2f70726f6a656374732f6c6f676f2d616d696e652e737667|]
+Nov 10 12:32:11 10.71.56.0 u98665127 open "/_en/projects/arociel-web.pptx" flags READ mode 0666
+Nov 10 12:32:12 10.71.56.0 u98665127 close "/_en/projects/arociel-web.pptx" bytes read 22829293 written 0
+Nov 10 12:32:12 10.71.56.0 u98665127 [10.71.56.0|get|1|22829293|0|0|0|2f5f656e2f70726f6a656374732f61726f6369656c2d7765622e70707478|]
+Nov 10 12:32:12 10.71.56.0 u98665127 open "/_en/projects/img2.jpg" flags READ mode 0666
+Nov 10 12:32:12 10.71.56.0 u98665127 close "/_en/projects/img2.jpg" bytes read 20565 written 0
+Nov 10 12:32:12 10.71.56.0 u98665127 [10.71.56.0|get|0|20565|0|0|0|2f5f656e2f70726f6a656374732f696d67322e6a7067|]
+Nov 10 12:32:12 10.71.56.0 u98665127 open "/_en/projects/img3.jpg" flags READ mode 0666
+Nov 10 12:32:12 10.71.56.0 u98665127 close "/_en/projects/img3.jpg" bytes read 18847 written 0
+Nov 10 12:32:12 10.71.56.0 u98665127 [10.71.56.0|get|0|18847|0|0|0|2f5f656e2f70726f6a656374732f696d67332e6a7067|]
+Nov 10 12:32:12 10.71.56.0 u98665127 open "/_en/projects/UX-book.pdf" flags READ mode 0666
+Nov 10 12:32:12 10.71.56.0 u98665127 close "/_en/projects/UX-book.pdf" bytes read 6262784 written 0
+Nov 10 12:32:12 10.71.56.0 u98665127 [10.71.56.0|get|0|6262784|0|0|0|2f5f656e2f70726f6a656374732f55582d626f6f6b2e706466|]
+Nov 10 12:32:12 10.71.56.0 u98665127 close "/_en/projects/DailyUI 008 - Error 404.gif" bytes read 41050329 written 0
+Nov 10 12:32:12 10.71.56.0 u98665127 [10.71.56.0|get|1|41050329|0|0|0|2f5f656e2f70726f6a656374732f4461696c79554920303038202d204572726f72203430342e676966|]
+Nov 10 12:32:12 10.71.56.0 u98665127 open "/_en/projects/img4.jpg" flags READ mode 0666
+Nov 10 12:32:12 10.71.56.0 u98665127 open "/_en/projects/klap.jpg" flags READ mode 0666
+Nov 10 12:32:12 10.71.56.0 u98665127 close "/_en/projects/img4.jpg" bytes read 18190 written 0
+Nov 10 12:32:12 10.71.56.0 u98665127 [10.71.56.0|get|0|18190|0|0|0|2f5f656e2f70726f6a656374732f696d67342e6a7067|]
+Nov 10 12:32:13 10.71.56.0 u98665127 close "/_en/projects/klap.jpg" bytes read 366250 written 0
+Nov 10 12:32:13 10.71.56.0 u98665127 [10.71.56.0|get|1|366250|0|0|0|2f5f656e2f70726f6a656374732f6b6c61702e6a7067|]
+Nov 10 12:32:13 10.71.56.0 u98665127 open "/_en/projects/folio.html" flags READ mode 0666
+Nov 10 12:32:13 10.71.56.0 u98665127 open "/_en/projects/config.png" flags READ mode 0666
+Nov 10 12:32:13 10.71.56.0 u98665127 close "/_en/projects/folio.html" bytes read 7606 written 0
+Nov 10 12:32:13 10.71.56.0 u98665127 [10.71.56.0|get|0|7606|0|0|0|2f5f656e2f70726f6a656374732f666f6c696f2e68746d6c|]
+Nov 10 12:32:13 10.71.56.0 u98665127 open "/_en/projects/movement-folio.css" flags READ mode 0666
+Nov 10 12:32:13 10.71.56.0 u98665127 close "/_en/projects/config.png" bytes read 292135 written 0
+Nov 10 12:32:13 10.71.56.0 u98665127 [10.71.56.0|get|0|292135|0|0|0|2f5f656e2f70726f6a656374732f636f6e6669672e706e67|]
+Nov 10 12:32:13 10.71.56.0 u98665127 close "/_en/projects/movement-folio.css" bytes read 4973 written 0
+Nov 10 12:32:13 10.71.56.0 u98665127 [10.71.56.0|get|0|4973|0|0|0|2f5f656e2f70726f6a656374732f6d6f76656d656e742d666f6c696f2e637373|]
+Nov 10 12:32:13 10.71.56.0 u98665127 open "/_en/projects/La_methode_agile_BAM.pdf" flags READ mode 0666
+Nov 10 12:32:13 10.71.56.0 u98665127 open "/_en/projects/nissan-vms.html" flags READ mode 0666
+Nov 10 12:32:13 10.71.56.0 u98665127 close "/_en/projects/nissan-vms.html" bytes read 7177 written 0
+Nov 10 12:32:13 10.71.56.0 u98665127 [10.71.56.0|get|0|7177|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732e68746d6c|]
+Nov 10 12:32:13 10.71.56.0 u98665127 open "/_en/projects/bug-ex.png" flags READ mode 0666
+Nov 10 12:32:13 10.71.56.0 u98665127 close "/_en/projects/bug-ex.png" bytes read 32342 written 0
+Nov 10 12:32:13 10.71.56.0 u98665127 [10.71.56.0|get|0|32342|0|0|0|2f5f656e2f70726f6a656374732f6275672d65782e706e67|]
+Nov 10 12:32:13 10.71.56.0 u98665127 open "/_en/projects/ScrollReveal.js" flags READ mode 0666
+Nov 10 12:32:13 10.71.56.0 u98665127 close "/_en/projects/ScrollReveal.js" bytes read 27084 written 0
+Nov 10 12:32:13 10.71.56.0 u98665127 [10.71.56.0|get|0|27084|0|0|0|2f5f656e2f70726f6a656374732f5363726f6c6c52657665616c2e6a73|]
+Nov 10 12:32:13 10.71.56.0 u98665127 open "/_en/projects/benech-ronan-cv.pdf" flags READ mode 0666
+Nov 10 12:32:14 10.71.56.0 u98665127 close "/_en/projects/benech-ronan-cv.pdf" bytes read 160309 written 0
+Nov 10 12:32:14 10.71.56.0 u98665127 [10.71.56.0|get|1|160309|0|0|0|2f5f656e2f70726f6a656374732f62656e6563682d726f6e616e2d63762e706466|]
+Nov 10 12:32:14 10.71.56.0 u98665127 open "/_en/projects/design.css" flags READ mode 0666
+Nov 10 12:32:14 10.71.56.0 u98665127 close "/_en/projects/design.css" bytes read 18195 written 0
+Nov 10 12:32:14 10.71.56.0 u98665127 [10.71.56.0|get|0|18195|0|0|0|2f5f656e2f70726f6a656374732f64657369676e2e637373|]
+Nov 10 12:32:14 10.71.56.0 u98665127 close "/_en/projects/La_methode_agile_BAM.pdf" bytes read 26086986 written 0
+Nov 10 12:32:14 10.71.56.0 u98665127 [10.71.56.0|get|1|26086986|0|0|0|2f5f656e2f70726f6a656374732f4c615f6d6574686f64655f6167696c655f42414d2e706466|]
+Nov 10 12:32:14 10.71.56.0 u98665127 open "/_en/projects/wehelp.html" flags READ mode 0666
+Nov 10 12:32:14 10.71.56.0 u98665127 open "/_en/projects/img1bis.jpg" flags READ mode 0666
+Nov 10 12:32:14 10.71.56.0 u98665127 close "/_en/projects/img1bis.jpg" bytes read 17159 written 0
+Nov 10 12:32:14 10.71.56.0 u98665127 [10.71.56.0|get|0|17159|0|0|0|2f5f656e2f70726f6a656374732f696d67316269732e6a7067|]
+Nov 10 12:32:14 10.71.56.0 u98665127 close "/_en/projects/wehelp.html" bytes read 5398 written 0
+Nov 10 12:32:14 10.71.56.0 u98665127 [10.71.56.0|get|0|5398|0|0|0|2f5f656e2f70726f6a656374732f776568656c702e68746d6c|]
+Nov 10 12:32:14 10.71.56.0 u98665127 open "/_en/projects/saveurs.html" flags READ mode 0666
+Nov 10 12:32:14 10.71.56.0 u98665127 open "/_en/projects/about.html" flags READ mode 0666
+Nov 10 12:32:14 10.71.56.0 u98665127 close "/_en/projects/saveurs.html" bytes read 5164 written 0
+Nov 10 12:32:14 10.71.56.0 u98665127 [10.71.56.0|get|0|5164|0|0|0|2f5f656e2f70726f6a656374732f736176657572732e68746d6c|]
+Nov 10 12:32:14 10.71.56.0 u98665127 close "/_en/projects/about.html" bytes read 3390 written 0
+Nov 10 12:32:14 10.71.56.0 u98665127 [10.71.56.0|get|0|3390|0|0|0|2f5f656e2f70726f6a656374732f61626f75742e68746d6c|]
+Nov 10 12:32:14 10.71.56.0 u98665127 open "/_en/projects/hpe.html" flags READ mode 0666
+Nov 10 12:32:14 10.71.56.0 u98665127 open "/_en/projects/grosbug.png" flags READ mode 0666
+Nov 10 12:32:14 10.71.56.0 u98665127 close "/_en/projects/hpe.html" bytes read 4179 written 0
+Nov 10 12:32:14 10.71.56.0 u98665127 [10.71.56.0|get|0|4179|0|0|0|2f5f656e2f70726f6a656374732f6870652e68746d6c|]
+Nov 10 12:32:14 10.71.56.0 u98665127 close "/_en/projects/grosbug.png" bytes read 140123 written 0
+Nov 10 12:32:14 10.71.56.0 u98665127 [10.71.56.0|get|0|140123|0|0|0|2f5f656e2f70726f6a656374732f67726f736275672e706e67|]
+Nov 10 12:32:14 10.71.56.0 u98665127 open "/_en/projects/klap.html" flags READ mode 0666
+Nov 10 12:32:14 10.71.56.0 u98665127 open "/_en/projects/page-project.html" flags READ mode 0666
+Nov 10 12:32:14 10.71.56.0 u98665127 close "/_en/projects/klap.html" bytes read 5405 written 0
+Nov 10 12:32:14 10.71.56.0 u98665127 [10.71.56.0|get|0|5405|0|0|0|2f5f656e2f70726f6a656374732f6b6c61702e68746d6c|]
+Nov 10 12:32:14 10.71.56.0 u98665127 close "/_en/projects/page-project.html" bytes read 5362 written 0
+Nov 10 12:32:14 10.71.56.0 u98665127 [10.71.56.0|get|0|5362|0|0|0|2f5f656e2f70726f6a656374732f706167652d70726f6a6563742e68746d6c|]
+Nov 10 12:32:14 10.71.56.0 u98665127 open "/_en/projects/Ebook-app-mobile-virale.pdf" flags READ mode 0666
+Nov 10 12:32:14 10.71.56.0 u98665127 open "/_en/projects/covervid.js" flags READ mode 0666
+Nov 10 12:32:15 10.71.56.0 u98665127 close "/_en/projects/covervid.js" bytes read 1760 written 0
+Nov 10 12:32:15 10.71.56.0 u98665127 [10.71.56.0|get|1|1760|0|0|0|2f5f656e2f70726f6a656374732f636f7665727669642e6a73|]
+Nov 10 12:32:15 10.71.56.0 u98665127 open "/_en/projects/.DS_Store" flags READ mode 0666
+Nov 10 12:32:15 10.71.56.0 u98665127 close "/_en/projects/.DS_Store" bytes read 18436 written 0
+Nov 10 12:32:15 10.71.56.0 u98665127 [10.71.56.0|get|0|18436|0|0|0|2f5f656e2f70726f6a656374732f2e44535f53746f7265|]
+Nov 10 12:32:15 10.71.56.0 u98665127 open "/_en/projects/index.html" flags READ mode 0666
+Nov 10 12:32:15 10.71.56.0 u98665127 close "/_en/projects/Ebook-app-mobile-virale.pdf" bytes read 22464135 written 0
+Nov 10 12:32:15 10.71.56.0 u98665127 [10.71.56.0|get|1|22464135|0|0|0|2f5f656e2f70726f6a656374732f45626f6f6b2d6170702d6d6f62696c652d766972616c652e706466|]
+Nov 10 12:32:15 10.71.56.0 u98665127 open "/_en/projects/index2.html" flags READ mode 0666
+Nov 10 12:32:15 10.71.56.0 u98665127 close "/_en/projects/index.html" bytes read 4336 written 0
+Nov 10 12:32:15 10.71.56.0 u98665127 [10.71.56.0|get|0|4336|0|0|0|2f5f656e2f70726f6a656374732f696e6465782e68746d6c|]
+Nov 10 12:32:15 10.71.56.0 u98665127 close "/_en/projects/index2.html" bytes read 10224 written 0
+Nov 10 12:32:15 10.71.56.0 u98665127 [10.71.56.0|get|0|10224|0|0|0|2f5f656e2f70726f6a656374732f696e646578322e68746d6c|]
+Nov 10 12:32:15 10.71.56.0 u98665127 open "/_en/projects/DailyUI-008---Error-404.gif" flags READ mode 0666
+Nov 10 12:32:15 10.71.56.0 u98665127 open "/_en/projects/mmenu.js" flags READ mode 0666
+Nov 10 12:32:15 10.71.56.0 u98665127 close "/_en/projects/mmenu.js" bytes read 35260 written 0
+Nov 10 12:32:15 10.71.56.0 u98665127 [10.71.56.0|get|0|35260|0|0|0|2f5f656e2f70726f6a656374732f6d6d656e752e6a73|]
+Nov 10 12:32:15 10.71.56.0 u98665127 open "/_en/projects/home2.mp4" flags READ mode 0666
+Nov 10 12:32:16 10.71.56.0 u98665127 close "/_en/projects/home2.mp4" bytes read 2397973 written 0
+Nov 10 12:32:16 10.71.56.0 u98665127 [10.71.56.0|get|1|2397973|0|0|0|2f5f656e2f70726f6a656374732f686f6d65322e6d7034|]
+Nov 10 12:32:16 10.71.56.0 u98665127 open "/_en/projects/_page-project.html" flags READ mode 0666
+Nov 10 12:32:16 10.71.56.0 u98665127 close "/_en/projects/_page-project.html" bytes read 3480 written 0
+Nov 10 12:32:16 10.71.56.0 u98665127 [10.71.56.0|get|0|3480|0|0|0|2f5f656e2f70726f6a656374732f5f706167652d70726f6a6563742e68746d6c|]
+Nov 10 12:32:16 10.71.56.0 u98665127 open "/_en/projects/logo-hanasan.png" flags READ mode 0666
+Nov 10 12:32:16 10.71.56.0 u98665127 close "/_en/projects/logo-hanasan.png" bytes read 33858 written 0
+Nov 10 12:32:16 10.71.56.0 u98665127 [10.71.56.0|get|0|33858|0|0|0|2f5f656e2f70726f6a656374732f6c6f676f2d68616e6173616e2e706e67|]
+Nov 10 12:32:16 10.71.56.0 u98665127 open "/_en/projects/selfdeploy.html" flags READ mode 0666
+Nov 10 12:32:16 10.71.56.0 u98665127 close "/_en/projects/DailyUI-008---Error-404.gif" bytes read 49850972 written 0
+Nov 10 12:32:16 10.71.56.0 u98665127 [10.71.56.0|get|1|49850972|0|0|0|2f5f656e2f70726f6a656374732f4461696c7955492d3030382d2d2d4572726f722d3430342e676966|]
+Nov 10 12:32:16 10.71.56.0 u98665127 open "/_en/projects/moving-letters.css" flags READ mode 0666
+Nov 10 12:32:16 10.71.56.0 u98665127 close "/_en/projects/selfdeploy.html" bytes read 4214 written 0
+Nov 10 12:32:16 10.71.56.0 u98665127 [10.71.56.0|get|0|4214|0|0|0|2f5f656e2f70726f6a656374732f73656c666465706c6f792e68746d6c|]
+Nov 10 12:32:16 10.71.56.0 u98665127 close "/_en/projects/moving-letters.css" bytes read 29115 written 0
+Nov 10 12:32:16 10.71.56.0 u98665127 [10.71.56.0|get|0|29115|0|0|0|2f5f656e2f70726f6a656374732f6d6f76696e672d6c6574746572732e637373|]
+Nov 10 12:32:16 10.71.56.0 u98665127 open "/_en/projects/nissan-finance.html" flags READ mode 0666
+Nov 10 12:32:16 10.71.56.0 u98665127 open "/_en/projects/isotope.pkgd.min.js" flags READ mode 0666
+Nov 10 12:32:16 10.71.56.0 u98665127 close "/_en/projects/nissan-finance.html" bytes read 5717 written 0
+Nov 10 12:32:16 10.71.56.0 u98665127 [10.71.56.0|get|0|5717|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d66696e616e63652e68746d6c|]
+Nov 10 12:32:16 10.71.56.0 u98665127 close "/_en/projects/isotope.pkgd.min.js" bytes read 35446 written 0
+Nov 10 12:32:16 10.71.56.0 u98665127 [10.71.56.0|get|0|35446|0|0|0|2f5f656e2f70726f6a656374732f69736f746f70652e706b67642e6d696e2e6a73|]
+Nov 10 12:32:16 10.71.56.0 u98665127 open "/_en/projects/003.jpg" flags READ mode 0666
+Nov 10 12:32:16 10.71.56.0 u98665127 open "/_en/projects/objetco/healtdrink.jpg" flags READ mode 0666
+Nov 10 12:32:16 10.71.56.0 u98665127 close "/_en/projects/003.jpg" bytes read 351010 written 0
+Nov 10 12:32:16 10.71.56.0 u98665127 [10.71.56.0|get|0|351010|0|0|0|2f5f656e2f70726f6a656374732f3030332e6a7067|]
+Nov 10 12:32:17 10.71.56.0 u98665127 close "/_en/projects/objetco/healtdrink.jpg" bytes read 561633 written 0
+Nov 10 12:32:17 10.71.56.0 u98665127 [10.71.56.0|get|1|561633|0|0|0|2f5f656e2f70726f6a656374732f6f626a6574636f2f6865616c746472696e6b2e6a7067|]
+Nov 10 12:32:17 10.71.56.0 u98665127 open "/_en/projects/klap/logo2.jpg" flags READ mode 0666
+Nov 10 12:32:17 10.71.56.0 u98665127 open "/_en/projects/klap/logo1.jpg" flags READ mode 0666
+Nov 10 12:32:17 10.71.56.0 u98665127 close "/_en/projects/klap/logo2.jpg" bytes read 355839 written 0
+Nov 10 12:32:17 10.71.56.0 u98665127 [10.71.56.0|get|0|355839|0|0|0|2f5f656e2f70726f6a656374732f6b6c61702f6c6f676f322e6a7067|]
+Nov 10 12:32:17 10.71.56.0 u98665127 open "/_en/projects/klap/klap.jpg" flags READ mode 0666
+Nov 10 12:32:17 10.71.56.0 u98665127 close "/_en/projects/klap/logo1.jpg" bytes read 188857 written 0
+Nov 10 12:32:17 10.71.56.0 u98665127 [10.71.56.0|get|0|188857|0|0|0|2f5f656e2f70726f6a656374732f6b6c61702f6c6f676f312e6a7067|]
+Nov 10 12:32:17 10.71.56.0 u98665127 open "/_en/projects/klap/UJ1.png" flags READ mode 0666
+Nov 10 12:32:17 10.71.56.0 u98665127 close "/_en/projects/klap/klap.jpg" bytes read 366250 written 0
+Nov 10 12:32:17 10.71.56.0 u98665127 [10.71.56.0|get|0|366250|0|0|0|2f5f656e2f70726f6a656374732f6b6c61702f6b6c61702e6a7067|]
+Nov 10 12:32:17 10.71.56.0 u98665127 open "/_en/projects/klap/UJ2.png" flags READ mode 0666
+Nov 10 12:32:17 10.71.56.0 u98665127 close "/_en/projects/klap/UJ1.png" bytes read 200551 written 0
+Nov 10 12:32:17 10.71.56.0 u98665127 [10.71.56.0|get|0|200551|0|0|0|2f5f656e2f70726f6a656374732f6b6c61702f554a312e706e67|]
+Nov 10 12:32:17 10.71.56.0 u98665127 close "/_en/projects/klap/UJ2.png" bytes read 321531 written 0
+Nov 10 12:32:17 10.71.56.0 u98665127 [10.71.56.0|get|0|321531|0|0|0|2f5f656e2f70726f6a656374732f6b6c61702f554a322e706e67|]
+Nov 10 12:32:17 10.71.56.0 u98665127 open "/_en/projects/klap/mockup-UJ.jpg" flags READ mode 0666
+Nov 10 12:32:17 10.71.56.0 u98665127 close "/_en/projects/klap/mockup-UJ.jpg" bytes read 213881 written 0
+Nov 10 12:32:17 10.71.56.0 u98665127 [10.71.56.0|get|0|213881|0|0|0|2f5f656e2f70726f6a656374732f6b6c61702f6d6f636b75702d554a2e6a7067|]
+Nov 10 12:32:17 10.71.56.0 u98665127 open "/_en/projects/wehelp/img13.jpg" flags READ mode 0666
+Nov 10 12:32:17 10.71.56.0 u98665127 open "/_en/projects/wehelp/img12.jpg" flags READ mode 0666
+Nov 10 12:32:17 10.71.56.0 u98665127 close "/_en/projects/wehelp/img13.jpg" bytes read 322501 written 0
+Nov 10 12:32:17 10.71.56.0 u98665127 [10.71.56.0|get|0|322501|0|0|0|2f5f656e2f70726f6a656374732f776568656c702f696d6731332e6a7067|]
+Nov 10 12:32:17 10.71.56.0 u98665127 open "/_en/projects/wehelp/img15.jpg" flags READ mode 0666
+Nov 10 12:32:17 10.71.56.0 u98665127 close "/_en/projects/wehelp/img12.jpg" bytes read 277002 written 0
+Nov 10 12:32:17 10.71.56.0 u98665127 [10.71.56.0|get|0|277002|0|0|0|2f5f656e2f70726f6a656374732f776568656c702f696d6731322e6a7067|]
+Nov 10 12:32:17 10.71.56.0 u98665127 open "/_en/projects/wehelp/img14.jpg" flags READ mode 0666
+Nov 10 12:32:17 10.71.56.0 u98665127 close "/_en/projects/wehelp/img15.jpg" bytes read 416558 written 0
+Nov 10 12:32:17 10.71.56.0 u98665127 [10.71.56.0|get|0|416558|0|0|0|2f5f656e2f70726f6a656374732f776568656c702f696d6731352e6a7067|]
+Nov 10 12:32:17 10.71.56.0 u98665127 open "/_en/projects/wehelp/img16.jpg" flags READ mode 0666
+Nov 10 12:32:17 10.71.56.0 u98665127 close "/_en/projects/wehelp/img14.jpg" bytes read 333937 written 0
+Nov 10 12:32:17 10.71.56.0 u98665127 [10.71.56.0|get|0|333937|0|0|0|2f5f656e2f70726f6a656374732f776568656c702f696d6731342e6a7067|]
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/wehelp/img17.jpg" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/wehelp/img16.jpg" bytes read 327004 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|1|327004|0|0|0|2f5f656e2f70726f6a656374732f776568656c702f696d6731362e6a7067|]
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/wehelp/img18.jpg" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/wehelp/img17.jpg" bytes read 303101 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|0|303101|0|0|0|2f5f656e2f70726f6a656374732f776568656c702f696d6731372e6a7067|]
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/wehelp/img18.jpg" bytes read 423653 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|0|423653|0|0|0|2f5f656e2f70726f6a656374732f776568656c702f696d6731382e6a7067|]
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/nissan-finance/photo3.jpg" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/nissan-finance/photo3.jpg" bytes read 204269 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|0|204269|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d66696e616e63652f70686f746f332e6a7067|]
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/nissan-finance/flux.jpg" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/nissan-finance/photo2.jpg" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/nissan-finance/flux.jpg" bytes read 129514 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|0|129514|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d66696e616e63652f666c75782e6a7067|]
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/nissan-finance/photo2.jpg" bytes read 559813 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|0|559813|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d66696e616e63652f70686f746f322e6a7067|]
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/nissan-finance/photo4.jpg" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/nissan-finance/.DS_Store" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/nissan-finance/.DS_Store" bytes read 6148 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|0|6148|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d66696e616e63652f2e44535f53746f7265|]
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/nissan-finance/photo4.jpg" bytes read 229176 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|0|229176|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d66696e616e63652f70686f746f342e6a7067|]
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/nissan-finance/finance-part.png" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/nissan-mobile/AEM.jpg" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/nissan-finance/finance-part.png" bytes read 112271 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|0|112271|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d66696e616e63652f66696e616e63652d706172742e706e67|]
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/nissan-mobile/AEM.jpg" bytes read 179946 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|0|179946|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d6d6f62696c652f41454d2e6a7067|]
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/nissan-mobile/categories.jpg" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/nissan-mobile/alternative.jpg" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/nissan-mobile/categories.jpg" bytes read 134371 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|0|134371|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d6d6f62696c652f63617465676f726965732e6a7067|]
+Nov 10 12:32:18 10.71.56.0 u98665127 close "/_en/projects/nissan-mobile/alternative.jpg" bytes read 190992 written 0
+Nov 10 12:32:18 10.71.56.0 u98665127 [10.71.56.0|get|0|190992|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d6d6f62696c652f616c7465726e61746976652e6a7067|]
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/nissan-mobile/design-system.jpg" flags READ mode 0666
+Nov 10 12:32:18 10.71.56.0 u98665127 open "/_en/projects/nissan-mobile/list.png" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/nissan-mobile/design-system.jpg" bytes read 67942 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|1|67942|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d6d6f62696c652f64657369676e2d73797374656d2e6a7067|]
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/nissan-mobile/list.png" bytes read 427378 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|1|427378|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d6d6f62696c652f6c6973742e706e67|]
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/nissan-mobile/restricted.jpg" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/nissan-mobile/optimised.jpg" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/nissan-mobile/restricted.jpg" bytes read 134241 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|0|134241|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d6d6f62696c652f726573747269637465642e6a7067|]
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/nissan-mobile/.DS_Store" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/nissan-mobile/optimised.jpg" bytes read 183514 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|0|183514|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d6d6f62696c652f6f7074696d697365642e6a7067|]
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/nissan-mobile/.DS_Store" bytes read 6148 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|0|6148|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d6d6f62696c652f2e44535f53746f7265|]
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/saveurs-maud/logo-morgane.jpg" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/saveurs-maud/mockupcartedevisite.jpg" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/saveurs-maud/mockupcartedevisite.jpg" bytes read 169726 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|0|169726|0|0|0|2f5f656e2f70726f6a656374732f736176657572732d6d6175642f6d6f636b7570636172746564657669736974652e6a7067|]
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/saveurs-maud/mockuplogo.jpg" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/saveurs-maud/logo-morgane.jpg" bytes read 1543355 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|0|1543355|0|0|0|2f5f656e2f70726f6a656374732f736176657572732d6d6175642f6c6f676f2d6d6f7267616e652e6a7067|]
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/saveurs-maud/mockuplogo.jpg" bytes read 217800 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|0|217800|0|0|0|2f5f656e2f70726f6a656374732f736176657572732d6d6175642f6d6f636b75706c6f676f2e6a7067|]
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/orthographiq/Dashboard-after-few-days-other-category.png" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/orthographiq/Dashboard-after-few-days-other-category.png" bytes read 137515 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|0|137515|0|0|0|2f5f656e2f70726f6a656374732f6f7274686f677261706869712f44617368626f6172642d61667465722d6665772d646179732d6f746865722d63617465676f72792e706e67|]
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/orthographiq/B1-2.png" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/orthographiq/B1-4.png" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/orthographiq/B1-2.png" bytes read 53290 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|0|53290|0|0|0|2f5f656e2f70726f6a656374732f6f7274686f677261706869712f42312d322e706e67|]
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/orthographiq/B1-4.png" bytes read 107082 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|0|107082|0|0|0|2f5f656e2f70726f6a656374732f6f7274686f677261706869712f42312d342e706e67|]
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/orthographiq/A1-error.png" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/orthographiq/Dashboard-after-few-days-exercise-done.png" flags READ mode 0666
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/orthographiq/A1-error.png" bytes read 54088 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|0|54088|0|0|0|2f5f656e2f70726f6a656374732f6f7274686f677261706869712f41312d6572726f722e706e67|]
+Nov 10 12:32:19 10.71.56.0 u98665127 close "/_en/projects/orthographiq/Dashboard-after-few-days-exercise-done.png" bytes read 139927 written 0
+Nov 10 12:32:19 10.71.56.0 u98665127 [10.71.56.0|get|0|139927|0|0|0|2f5f656e2f70726f6a656374732f6f7274686f677261706869712f44617368626f6172642d61667465722d6665772d646179732d65786572636973652d646f6e652e706e67|]
+Nov 10 12:32:19 10.71.56.0 u98665127 open "/_en/projects/orthographiq/A1-success.png" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 open "/_en/projects/orthographiq/board-parcours-user.png" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/orthographiq/A1-success.png" bytes read 66199 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|1|66199|0|0|0|2f5f656e2f70726f6a656374732f6f7274686f677261706869712f41312d737563636573732e706e67|]
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/orthographiq/board-parcours-user.png" bytes read 225884 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|0|225884|0|0|0|2f5f656e2f70726f6a656374732f6f7274686f677261706869712f626f6172642d706172636f7572732d757365722e706e67|]
+Nov 10 12:32:20 10.71.56.0 u98665127 open "/_en/projects/orthographiq/Dashboard-after-few-days-exercisedone-hover-lock.png" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 open "/_en/projects/orthographiq/Dashboard-afterfewdays-exercise-done-hover-unlock.png" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/orthographiq/Dashboard-after-few-days-exercisedone-hover-lock.png" bytes read 151560 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|0|151560|0|0|0|2f5f656e2f70726f6a656374732f6f7274686f677261706869712f44617368626f6172642d61667465722d6665772d646179732d6578657263697365646f6e652d686f7665722d6c6f636b2e706e67|]
+Nov 10 12:32:20 10.71.56.0 u98665127 open "/_en/projects/orthographiq/ortographiq-folio.jpg" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/orthographiq/Dashboard-afterfewdays-exercise-done-hover-unlock.png" bytes read 163815 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|0|163815|0|0|0|2f5f656e2f70726f6a656374732f6f7274686f677261706869712f44617368626f6172642d6166746572666577646179732d65786572636973652d646f6e652d686f7665722d756e6c6f636b2e706e67|]
+Nov 10 12:32:20 10.71.56.0 u98665127 open "/_en/projects/orthographiq/Dashboard-1st-day.png" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/orthographiq/ortographiq-folio.jpg" bytes read 2120483 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|0|2120483|0|0|0|2f5f656e2f70726f6a656374732f6f7274686f677261706869712f6f72746f677261706869712d666f6c696f2e6a7067|]
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/orthographiq/Dashboard-1st-day.png" bytes read 134833 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|0|134833|0|0|0|2f5f656e2f70726f6a656374732f6f7274686f677261706869712f44617368626f6172642d3173742d6461792e706e67|]
+Nov 10 12:32:20 10.71.56.0 u98665127 open "/_en/projects/hpe/home.jpg" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 open "/_en/projects/hpe/screen.jpg" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/hpe/home.jpg" bytes read 427388 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|0|427388|0|0|0|2f5f656e2f70726f6a656374732f6870652f686f6d652e6a7067|]
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/hpe/screen.jpg" bytes read 228305 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|0|228305|0|0|0|2f5f656e2f70726f6a656374732f6870652f73637265656e2e6a7067|]
+Nov 10 12:32:20 10.71.56.0 u98665127 open "/_en/projects/more/bann.jpg" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 open "/_en/projects/more/cvmanon.jpg" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/more/bann.jpg" bytes read 269149 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|0|269149|0|0|0|2f5f656e2f70726f6a656374732f6d6f72652f62616e6e2e6a7067|]
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/more/cvmanon.jpg" bytes read 274691 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|0|274691|0|0|0|2f5f656e2f70726f6a656374732f6d6f72652f63766d616e6f6e2e6a7067|]
+Nov 10 12:32:20 10.71.56.0 u98665127 open "/_en/projects/more/cv-morgane.jpg" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 open "/_en/projects/more/flyer-erwan.jpg" flags READ mode 0666
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/more/flyer-erwan.jpg" bytes read 699056 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|0|699056|0|0|0|2f5f656e2f70726f6a656374732f6d6f72652f666c7965722d657277616e2e6a7067|]
+Nov 10 12:32:20 10.71.56.0 u98665127 close "/_en/projects/more/cv-morgane.jpg" bytes read 824819 written 0
+Nov 10 12:32:20 10.71.56.0 u98665127 [10.71.56.0|get|0|824819|0|0|0|2f5f656e2f70726f6a656374732f6d6f72652f63762d6d6f7267616e652e6a7067|]
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/nissan-vms/arbo-apres.png" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/nissan-vms/folder.png" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/nissan-vms/arbo-apres.png" bytes read 31030 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|31030|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732f6172626f2d61707265732e706e67|]
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/nissan-vms/folder.png" bytes read 182422 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|182422|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732f666f6c6465722e706e67|]
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/nissan-vms/user.jpg" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/nissan-vms/user.png" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/nissan-vms/user.jpg" bytes read 58269 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|58269|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732f757365722e6a7067|]
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/nissan-vms/user.png" bytes read 67592 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|67592|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732f757365722e706e67|]
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/nissan-vms/logs.png" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/nissan-vms/discount.png" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/nissan-vms/logs.png" bytes read 337008 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|337008|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732f6c6f67732e706e67|]
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/nissan-vms/discount2.png" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/nissan-vms/discount.png" bytes read 792550 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|792550|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732f646973636f756e742e706e67|]
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/nissan-vms/Group.jpg" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/nissan-vms/discount2.png" bytes read 380128 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|380128|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732f646973636f756e74322e706e67|]
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/nissan-vms/Group.jpg" bytes read 63352 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|63352|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732f47726f75702e6a7067|]
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/nissan-vms/dashboard.png" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/nissan-vms/addons.png" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/nissan-vms/dashboard.png" bytes read 487951 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|487951|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732f64617368626f6172642e706e67|]
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/nissan-vms/arbo-avant.png" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/nissan-vms/addons.png" bytes read 506915 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|506915|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732f6164646f6e732e706e67|]
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/nissan-vms/arbo-avant.png" bytes read 29685 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|29685|0|0|0|2f5f656e2f70726f6a656374732f6e697373616e2d766d732f6172626f2d6176616e742e706e67|]
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/miroir/7.jpg" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 open "/_en/projects/miroir/10.jpg" flags READ mode 0666
+Nov 10 12:32:21 10.71.56.0 u98665127 close "/_en/projects/miroir/7.jpg" bytes read 212149 written 0
+Nov 10 12:32:21 10.71.56.0 u98665127 [10.71.56.0|get|0|212149|0|0|0|2f5f656e2f70726f6a656374732f6d69726f69722f372e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/miroir/10.jpg" bytes read 261956 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|1|261956|0|0|0|2f5f656e2f70726f6a656374732f6d69726f69722f31302e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/miroir/13.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/miroir/12.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/miroir/13.jpg" bytes read 255252 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|255252|0|0|0|2f5f656e2f70726f6a656374732f6d69726f69722f31332e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/miroir/12.jpg" bytes read 211481 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|211481|0|0|0|2f5f656e2f70726f6a656374732f6d69726f69722f31322e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/miroir/16.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/miroir/16.jpg" bytes read 186850 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|186850|0|0|0|2f5f656e2f70726f6a656374732f6d69726f69722f31362e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/redaction/visu4b.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/redaction/visu4b.jpg" bytes read 239504 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|239504|0|0|0|2f5f656e2f70726f6a656374732f726564616374696f6e2f7669737534622e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/redaction/visu0.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/redaction/visu3.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/redaction/visu0.jpg" bytes read 162412 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|162412|0|0|0|2f5f656e2f70726f6a656374732f726564616374696f6e2f76697375302e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/redaction/visu3.jpg" bytes read 259223 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|259223|0|0|0|2f5f656e2f70726f6a656374732f726564616374696f6e2f76697375332e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/redaction/visu2.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/redaction/visu6.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/redaction/visu2.jpg" bytes read 82666 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|82666|0|0|0|2f5f656e2f70726f6a656374732f726564616374696f6e2f76697375322e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/redaction/visu6.jpg" bytes read 91516 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|91516|0|0|0|2f5f656e2f70726f6a656374732f726564616374696f6e2f76697375362e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/redaction/visu4.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/redaction/visu5.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/redaction/visu4.jpg" bytes read 353847 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|353847|0|0|0|2f5f656e2f70726f6a656374732f726564616374696f6e2f76697375342e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/redaction/visu5.jpg" bytes read 581185 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|581185|0|0|0|2f5f656e2f70726f6a656374732f726564616374696f6e2f76697375352e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/self-deploy/logo-mockup.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/self-deploy/homepage.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/self-deploy/logo-mockup.jpg" bytes read 171854 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|171854|0|0|0|2f5f656e2f70726f6a656374732f73656c662d6465706c6f792f6c6f676f2d6d6f636b75702e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 close "/_en/projects/self-deploy/homepage.jpg" bytes read 279472 written 0
+Nov 10 12:32:22 10.71.56.0 u98665127 [10.71.56.0|get|0|279472|0|0|0|2f5f656e2f70726f6a656374732f73656c662d6465706c6f792f686f6d65706167652e6a7067|]
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/self-deploy/essais.jpg" flags READ mode 0666
+Nov 10 12:32:22 10.71.56.0 u98665127 open "/_en/projects/self-deploy/suite-home.jpg" flags READ mode 0666
+Nov 10 12:32:23 10.71.56.0 u98665127 close "/_en/projects/self-deploy/essais.jpg" bytes read 80285 written 0
+Nov 10 12:32:23 10.71.56.0 u98665127 [10.71.56.0|get|1|80285|0|0|0|2f5f656e2f70726f6a656374732f73656c662d6465706c6f792f6573736169732e6a7067|]
+Nov 10 12:32:23 10.71.56.0 u98665127 close "/_en/projects/self-deploy/suite-home.jpg" bytes read 148178 written 0
+Nov 10 12:32:23 10.71.56.0 u98665127 [10.71.56.0|get|1|148178|0|0|0|2f5f656e2f70726f6a656374732f73656c662d6465706c6f792f73756974652d686f6d652e6a7067|]
+Nov 10 12:32:23 10.71.56.0 u98665127 open "/_en/projects/self-deploy/logo-finale.jpg" flags READ mode 0666
+Nov 10 12:32:23 10.71.56.0 u98665127 open "/_en/img/.htaccess" flags READ mode 0666
+Nov 10 12:32:23 10.71.56.0 u98665127 close "/_en/projects/self-deploy/logo-finale.jpg" bytes read 40213 written 0
+Nov 10 12:32:23 10.71.56.0 u98665127 [10.71.56.0|get|0|40213|0|0|0|2f5f656e2f70726f6a656374732f73656c662d6465706c6f792f6c6f676f2d66696e616c652e6a7067|]
+Nov 10 12:32:23 10.71.56.0 u98665127 close "/_en/img/.htaccess" bytes read 91 written 0
+Nov 10 12:32:23 10.71.56.0 u98665127 [10.71.56.0|get|0|91|0|0|0|2f5f656e2f696d672f2e6874616363657373|]
+Nov 10 12:32:23 10.71.56.0 u98665127 open "/_en/img/yellow-left.png" flags READ mode 0666
+Nov 10 12:32:23 10.71.56.0 u98665127 open "/_en/img/folio.png" flags READ mode 0666
+Nov 10 12:32:23 10.71.56.0 u98665127 close "/_en/img/yellow-left.png" bytes read 18861 written 0
+Nov 10 12:32:23 10.71.56.0 u98665127 [10.71.56.0|get|0|18861|0|0|0|2f5f656e2f696d672f79656c6c6f772d6c6566742e706e67|]
+Nov 10 12:32:23 10.71.56.0 u98665127 close "/_en/img/folio.png" bytes read 20665 written 0
+Nov 10 12:32:23 10.71.56.0 u98665127 [10.71.56.0|get|0|20665|0|0|0|2f5f656e2f696d672f666f6c696f2e706e67|]
+Nov 10 12:32:23 10.71.56.0 u98665127 open "/_en/img/redaction.jpg" flags READ mode 0666
+Nov 10 12:32:23 10.71.56.0 u98665127 open "/_en/img/other.jpg" flags READ mode 0666
+Nov 10 12:32:23 10.71.56.0 u98665127 close "/_en/img/redaction.jpg" bytes read 64501 written 0
+Nov 10 12:32:23 10.71.56.0 u98665127 [10.71.56.0|get|0|64501|0|0|0|2f5f656e2f696d672f726564616374696f6e2e6a7067|]
+Nov 10 12:32:23 10.71.56.0 u98665127 close "/_en/img/other.jpg" bytes read 709833 written 0
+Nov 10 12:32:23 10.71.56.0 u98665127 [10.71.56.0|get|0|709833|0|0|0|2f5f656e2f696d672f6f746865722e6a7067|]
+Nov 10 12:32:23 10.71.56.0 u98665127 open "/_en/img/fond-folio.jpg" flags READ mode 0666
+Nov 10 12:32:23 10.71.56.0 u98665127 open "/_en/img/yellow-right.png" flags READ mode 0666
+Nov 10 12:32:23 10.71.56.0 u98665127 close "/_en/img/fond-folio.jpg" bytes read 311725 written 0
+Nov 10 12:32:23 10.71.56.0 u98665127 [10.71.56.0|get|0|311725|0|0|0|2f5f656e2f696d672f666f6e642d666f6c696f2e6a7067|]
+Nov 10 12:32:23 10.71.56.0 u98665127 close "/_en/img/yellow-right.png" bytes read 18939 written 0
+Nov 10 12:32:23 10.71.56.0 u98665127 [10.71.56.0|get|0|18939|0|0|0|2f5f656e2f696d672f79656c6c6f772d72696768742e706e67|]
+Nov 10 12:32:23 10.71.56.0 u98665127 open "/_en/img/bg-about.jpg" flags READ mode 0666
+Nov 10 12:32:23 10.71.56.0 u98665127 open "/_en/img/arrow-right.png" flags READ mode 0666
+Nov 10 12:32:23 10.71.56.0 u98665127 close "/_en/img/arrow-right.png" bytes read 289 written 0
+Nov 10 12:32:23 10.71.56.0 u98665127 [10.71.56.0|get|0|289|0|0|0|2f5f656e2f696d672f6172726f772d72696768742e706e67|]
+Nov 10 12:32:23 10.71.56.0 u98665127 open "/_en/img/.DS_Store" flags READ mode 0666
+Nov 10 12:32:24 10.71.56.0 u98665127 close "/_en/img/.DS_Store" bytes read 8196 written 0
+Nov 10 12:32:24 10.71.56.0 u98665127 [10.71.56.0|get|1|8196|0|0|0|2f5f656e2f696d672f2e44535f53746f7265|]
+Nov 10 12:32:24 10.71.56.0 u98665127 open "/_en/img/miniature-reseaux.jpg" flags READ mode 0666
+Nov 10 12:32:24 10.71.56.0 u98665127 close "/_en/img/miniature-reseaux.jpg" bytes read 2092337 written 0
+Nov 10 12:32:24 10.71.56.0 u98665127 [10.71.56.0|get|0|2092337|0|0|0|2f5f656e2f696d672f6d696e6961747572652d726573656175782e6a7067|]
+Nov 10 12:32:24 10.71.56.0 u98665127 close "/_en/img/bg-about.jpg" bytes read 108718 written 0
+Nov 10 12:32:24 10.71.56.0 u98665127 [10.71.56.0|get|1|108718|0|0|0|2f5f656e2f696d672f62672d61626f75742e6a7067|]
+Nov 10 12:32:24 10.71.56.0 u98665127 open "/_en/img/img/redaction.jpg" flags READ mode 0666
+Nov 10 12:32:24 10.71.56.0 u98665127 open "/_en/img/img/other.jpg" flags READ mode 0666
+Nov 10 12:32:24 10.71.56.0 u98665127 close "/_en/img/img/redaction.jpg" bytes read 64501 written 0
+Nov 10 12:32:24 10.71.56.0 u98665127 [10.71.56.0|get|0|64501|0|0|0|2f5f656e2f696d672f696d672f726564616374696f6e2e6a7067|]
+Nov 10 12:32:24 10.71.56.0 u98665127 close "/_en/img/img/other.jpg" bytes read 709833 written 0
+Nov 10 12:32:24 10.71.56.0 u98665127 [10.71.56.0|get|0|709833|0|0|0|2f5f656e2f696d672f696d672f6f746865722e6a7067|]
+Nov 10 12:32:24 10.71.56.0 u98665127 open "/_en/img/img/fond-folio.jpg" flags READ mode 0666
+Nov 10 12:32:24 10.71.56.0 u98665127 open "/_en/img/img/bg-about.jpg" flags READ mode 0666
+Nov 10 12:32:24 10.71.56.0 u98665127 close "/_en/img/img/fond-folio.jpg" bytes read 311725 written 0
+Nov 10 12:32:24 10.71.56.0 u98665127 [10.71.56.0|get|0|311725|0|0|0|2f5f656e2f696d672f696d672f666f6e642d666f6c696f2e6a7067|]
+Nov 10 12:32:24 10.71.56.0 u98665127 open "/_en/img/img/arrow-right.png" flags READ mode 0666
+Nov 10 12:32:24 10.71.56.0 u98665127 close "/_en/img/img/bg-about.jpg" bytes read 108718 written 0
+Nov 10 12:32:24 10.71.56.0 u98665127 [10.71.56.0|get|0|108718|0|0|0|2f5f656e2f696d672f696d672f62672d61626f75742e6a7067|]
+Nov 10 12:32:24 10.71.56.0 u98665127 close "/_en/img/img/arrow-right.png" bytes read 289 written 0
+Nov 10 12:32:24 10.71.56.0 u98665127 [10.71.56.0|get|0|289|0|0|0|2f5f656e2f696d672f696d672f6172726f772d72696768742e706e67|]
+Nov 10 12:32:24 10.71.56.0 u98665127 open "/_en/img/img/miniature-reseaux.jpg" flags READ mode 0666
+Nov 10 12:32:24 10.71.56.0 u98665127 open "/_en/img/img/.DS_Store" flags READ mode 0666
+Nov 10 12:32:24 10.71.56.0 u98665127 close "/_en/img/img/.DS_Store" bytes read 6146 written 0
+Nov 10 12:32:24 10.71.56.0 u98665127 [10.71.56.0|get|0|6146|0|0|0|2f5f656e2f696d672f696d672f2e44535f53746f7265|]
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/img/miniature-reseaux.jpg" bytes read 2092337 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|1|2092337|0|0|0|2f5f656e2f696d672f696d672f6d696e6961747572652d726573656175782e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/img/folio/kordam.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/img/folio/miroir.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/img/folio/kordam.jpg" bytes read 140965 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|140965|0|0|0|2f5f656e2f696d672f696d672f666f6c696f2f6b6f7264616d2e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/img/folio/miroir.jpg" bytes read 227984 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|227984|0|0|0|2f5f656e2f696d672f696d672f666f6c696f2f6d69726f69722e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/img/folio/self-deploy.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/img/folio/more.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/img/folio/self-deploy.jpg" bytes read 171854 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|171854|0|0|0|2f5f656e2f696d672f696d672f666f6c696f2f73656c662d6465706c6f792e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/img/folio/saveurs-maud.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/img/folio/more.jpg" bytes read 1120235 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|1120235|0|0|0|2f5f656e2f696d672f696d672f666f6c696f2f6d6f72652e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/img/folio/redaction.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/img/folio/saveurs-maud.jpg" bytes read 568984 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|568984|0|0|0|2f5f656e2f696d672f696d672f666f6c696f2f736176657572732d6d6175642e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/img/folio/redaction.jpg" bytes read 64501 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|64501|0|0|0|2f5f656e2f696d672f696d672f666f6c696f2f726564616374696f6e2e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/img/folio/hpe.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/img/folio/wehelp.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/img/folio/hpe.jpg" bytes read 412846 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|412846|0|0|0|2f5f656e2f696d672f696d672f666f6c696f2f6870652e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/img/folio/wehelp.jpg" bytes read 68589 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|68589|0|0|0|2f5f656e2f696d672f696d672f666f6c696f2f776568656c702e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/img/folio/obj-co.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/img/folio/obj-co.jpg" bytes read 368492 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|368492|0|0|0|2f5f656e2f696d672f696d672f666f6c696f2f6f626a2d636f2e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/folio/kordam.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/folio/kordam.jpg" bytes read 140965 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|140965|0|0|0|2f5f656e2f696d672f666f6c696f2f6b6f7264616d2e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/folio/miroir.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 open "/_en/img/folio/self-deploy.jpg" flags READ mode 0666
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/folio/miroir.jpg" bytes read 227984 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|227984|0|0|0|2f5f656e2f696d672f666f6c696f2f6d69726f69722e6a7067|]
+Nov 10 12:32:25 10.71.56.0 u98665127 close "/_en/img/folio/self-deploy.jpg" bytes read 171854 written 0
+Nov 10 12:32:25 10.71.56.0 u98665127 [10.71.56.0|get|0|171854|0|0|0|2f5f656e2f696d672f666f6c696f2f73656c662d6465706c6f792e6a7067|]
+Nov 10 12:32:26 10.71.56.0 u98665127 open "/_en/img/folio/nissan-vms.jpg" flags READ mode 0666
+Nov 10 12:32:26 10.71.56.0 u98665127 open "/_en/img/folio/orthographiq.jpg" flags READ mode 0666
+Nov 10 12:32:26 10.71.56.0 u98665127 close "/_en/img/folio/nissan-vms.jpg" bytes read 268806 written 0
+Nov 10 12:32:26 10.71.56.0 u98665127 [10.71.56.0|get|0|268806|0|0|0|2f5f656e2f696d672f666f6c696f2f6e697373616e2d766d732e6a7067|]
+Nov 10 12:32:26 10.71.56.0 u98665127 close "/_en/img/folio/orthographiq.jpg" bytes read 123245 written 0
+Nov 10 12:32:26 10.71.56.0 u98665127 [10.71.56.0|get|0|123245|0|0|0|2f5f656e2f696d672f666f6c696f2f6f7274686f677261706869712e6a7067|]
+Nov 10 12:32:26 10.71.56.0 u98665127 open "/_en/img/folio/saveurs-maud.jpg" flags READ mode 0666
+Nov 10 12:32:26 10.71.56.0 u98665127 open "/_en/img/folio/dribbble.png" flags READ mode 0666
+Nov 10 12:32:26 10.71.56.0 u98665127 close "/_en/img/folio/dribbble.png" bytes read 883479 written 0
+Nov 10 12:32:26 10.71.56.0 u98665127 [10.71.56.0|get|0|883479|0|0|0|2f5f656e2f696d672f666f6c696f2f6472696262626c652e706e67|]
+Nov 10 12:32:26 10.71.56.0 u98665127 close "/_en/img/folio/saveurs-maud.jpg" bytes read 568984 written 0
+Nov 10 12:32:26 10.71.56.0 u98665127 [10.71.56.0|get|0|568984|0|0|0|2f5f656e2f696d672f666f6c696f2f736176657572732d6d6175642e6a7067|]
+Nov 10 12:32:26 10.71.56.0 u98665127 open "/_en/img/folio/redaction.jpg" flags READ mode 0666
+Nov 10 12:32:26 10.71.56.0 u98665127 open "/_en/img/folio/hpe.jpg" flags READ mode 0666
+Nov 10 12:32:26 10.71.56.0 u98665127 close "/_en/img/folio/redaction.jpg" bytes read 83865 written 0
+Nov 10 12:32:26 10.71.56.0 u98665127 [10.71.56.0|get|0|83865|0|0|0|2f5f656e2f696d672f666f6c696f2f726564616374696f6e2e6a7067|]
+Nov 10 12:32:26 10.71.56.0 u98665127 close "/_en/img/folio/hpe.jpg" bytes read 412846 written 0
+Nov 10 12:32:26 10.71.56.0 u98665127 [10.71.56.0|get|0|412846|0|0|0|2f5f656e2f696d672f666f6c696f2f6870652e6a7067|]
+Nov 10 12:32:26 10.71.56.0 u98665127 open "/_en/img/folio/wehelp.jpg" flags READ mode 0666
+Nov 10 12:32:26 10.71.56.0 u98665127 open "/_en/img/folio/nissan-finance.jpg" flags READ mode 0666
+Nov 10 12:32:26 10.71.56.0 u98665127 close "/_en/img/folio/nissan-finance.jpg" bytes read 183724 written 0
+Nov 10 12:32:26 10.71.56.0 u98665127 [10.71.56.0|get|0|183724|0|0|0|2f5f656e2f696d672f666f6c696f2f6e697373616e2d66696e616e63652e6a7067|]
+Nov 10 12:32:26 10.71.56.0 u98665127 open "/_en/img/folio/klap.jpg" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/img/folio/klap.jpg" bytes read 371302 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|1|371302|0|0|0|2f5f656e2f696d672f666f6c696f2f6b6c61702e6a7067|]
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/img/folio/wehelp.jpg" bytes read 68589 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|1|68589|0|0|0|2f5f656e2f696d672f666f6c696f2f776568656c702e6a7067|]
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/img/folio/obj-co.jpg" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/img/folio/.DS_Store" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/img/folio/obj-co.jpg" bytes read 368492 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|368492|0|0|0|2f5f656e2f696d672f666f6c696f2f6f626a2d636f2e6a7067|]
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/img/folio/.DS_Store" bytes read 6148 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|6148|0|0|0|2f5f656e2f696d672f666f6c696f2f2e44535f53746f7265|]
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/img/folio/nissan-mobile.jpg" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/logs/.htaccess" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/img/folio/nissan-mobile.jpg" bytes read 194824 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|194824|0|0|0|2f5f656e2f696d672f666f6c696f2f6e697373616e2d6d6f62696c652e6a7067|]
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/logs/.htaccess" bytes read 267 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|267|0|0|0|2f5f656e2f6c6f67732f2e6874616363657373|]
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/logs/access.log.04.3.gz" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/logs/access.log.04.7.gz" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/logs/access.log.04.3.gz" bytes read 1682 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|1682|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30342e332e677a|]
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/logs/access.log.04.7.gz" bytes read 2569 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|2569|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30342e372e677a|]
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/logs/info.py" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/logs/info.pl" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/logs/info.py" bytes read 6384 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|6384|0|0|0|2f5f656e2f6c6f67732f696e666f2e7079|]
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/logs/info.pl" bytes read 4176 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|4176|0|0|0|2f5f656e2f6c6f67732f696e666f2e706c|]
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/logs/access.log.04.2.gz" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/logs/info.php5" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/logs/info.php5" bytes read 21 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|21|0|0|0|2f5f656e2f6c6f67732f696e666f2e70687035|]
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/logs/access.log.04.2.gz" bytes read 2128 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|2128|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30342e322e677a|]
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/logs/access.log.04.6.gz" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/logs/dav.log.01.gz" flags READ mode 0666
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/logs/dav.log.01.gz" bytes read 180 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|180|0|0|0|2f5f656e2f6c6f67732f6461762e6c6f672e30312e677a|]
+Nov 10 12:32:27 10.71.56.0 u98665127 close "/_en/logs/access.log.04.6.gz" bytes read 1187 written 0
+Nov 10 12:32:27 10.71.56.0 u98665127 [10.71.56.0|get|0|1187|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30342e362e677a|]
+Nov 10 12:32:27 10.71.56.0 u98665127 open "/_en/logs/sftp.log.49.gz" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/access.log.51.gz" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/sftp.log.49.gz" bytes read 420 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|1|420|0|0|0|2f5f656e2f6c6f67732f736674702e6c6f672e34392e677a|]
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/access.log.51.gz" bytes read 6134 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|0|6134|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e35312e677a|]
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/access.log.01.gz" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/access.log.50.gz" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/access.log.01.gz" bytes read 8377 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|0|8377|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30312e677a|]
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/access.log.50.gz" bytes read 9289 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|0|9289|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e35302e677a|]
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/sftp.log" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/access.log.02.gz" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/access.log.02.gz" bytes read 6244 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|0|6244|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30322e677a|]
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/sftp.log" bytes read 95024 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|0|95024|0|0|0|2f5f656e2f6c6f67732f736674702e6c6f67|]
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/access.log.05.2" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/access.log.52.gz" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/access.log.05.2" bytes read 20226 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|0|20226|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30352e32|]
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/access.log.52.gz" bytes read 8830 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|0|8830|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e35322e677a|]
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/access.log.03.gz" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/last_traffic" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/last_traffic" bytes read 0 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|0|0|0|0|0|2f5f656e2f6c6f67732f6c6173745f74726166666963|]
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/access.log.03.gz" bytes read 13114 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|0|13114|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30332e677a|]
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/access.log.current" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/access.log.49.gz" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/access.log.current" bytes read 20226 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|0|20226|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Nov 10 12:32:28 10.71.56.0 u98665127 close "/_en/logs/access.log.49.gz" bytes read 5981 written 0
+Nov 10 12:32:28 10.71.56.0 u98665127 [10.71.56.0|get|0|5981|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e34392e677a|]
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/access.log.04.1.gz" flags READ mode 0666
+Nov 10 12:32:28 10.71.56.0 u98665127 open "/_en/logs/sftp.log.04.gz" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/sftp.log.04.gz" bytes read 2793 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|1|2793|0|0|0|2f5f656e2f6c6f67732f736674702e6c6f672e30342e677a|]
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/access.log.04.1.gz" bytes read 3072 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|1|3072|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30342e312e677a|]
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/access.log.04.5.gz" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/access.log.04.4.gz" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/access.log.04.5.gz" bytes read 1247 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|1247|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30342e352e677a|]
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/access.log.04.4.gz" bytes read 1432 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|1432|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30342e342e677a|]
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/access.log.05.1.gz" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/traffic.db" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/access.log.05.1.gz" bytes read 2025 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|2025|0|0|0|2f5f656e2f6c6f67732f6163636573732e6c6f672e30352e312e677a|]
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/traffic.db" bytes read 12288 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|12288|0|0|0|2f5f656e2f6c6f67732f747261666669632e6462|]
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/sftp.log.01.gz" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/sftp.log.01.gz" bytes read 409 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|409|0|0|0|2f5f656e2f6c6f67732f736674702e6c6f672e30312e677a|]
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/traffic.html/.htaccess" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/traffic.html/.htaccess" bytes read 23 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|23|0|0|0|2f5f656e2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/traffic.html/01.html" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/traffic.html/11.html" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/traffic.html/01.html" bytes read 10347 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|10347|0|0|0|2f5f656e2f6c6f67732f747261666669632e68746d6c2f30312e68746d6c|]
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/traffic.html/11.html" bytes read 11312 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|11312|0|0|0|2f5f656e2f6c6f67732f747261666669632e68746d6c2f31312e68746d6c|]
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/traffic.html/10.html" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/traffic.html/12.html" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/traffic.html/10.html" bytes read 11731 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|11731|0|0|0|2f5f656e2f6c6f67732f747261666669632e68746d6c2f31302e68746d6c|]
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/traffic.html/12.html" bytes read 11683 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|11683|0|0|0|2f5f656e2f6c6f67732f747261666669632e68746d6c2f31322e68746d6c|]
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/traffic.html/index.html" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/logs/traffic.html/09.html" flags READ mode 0666
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/traffic.html/index.html" bytes read 4543 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|4543|0|0|0|2f5f656e2f6c6f67732f747261666669632e68746d6c2f696e6465782e68746d6c|]
+Nov 10 12:32:29 10.71.56.0 u98665127 close "/_en/logs/traffic.html/09.html" bytes read 3435 written 0
+Nov 10 12:32:29 10.71.56.0 u98665127 [10.71.56.0|get|0|3435|0|0|0|2f5f656e2f6c6f67732f747261666669632e68746d6c2f30392e68746d6c|]
+Nov 10 12:32:29 10.71.56.0 u98665127 open "/_en/me/facture003-hanasan.pdf" flags READ mode 0666
+Nov 10 12:32:30 10.71.56.0 u98665127 open "/_en/me/PHOTO_20180805_123505.jpg" flags READ mode 0666
+Nov 10 12:32:30 10.71.56.0 u98665127 close "/_en/me/facture003-hanasan.pdf" bytes read 103921 written 0
+Nov 10 12:32:30 10.71.56.0 u98665127 [10.71.56.0|get|1|103921|0|0|0|2f5f656e2f6d652f666163747572653030332d68616e6173616e2e706466|]
+Nov 10 12:32:30 10.71.56.0 u98665127 open "/_en/me/P1040889.JPG" flags READ mode 0666
+Nov 10 12:32:30 10.71.56.0 u98665127 close "/_en/me/PHOTO_20180805_123505.jpg" bytes read 2175448 written 0
+Nov 10 12:32:30 10.71.56.0 u98665127 [10.71.56.0|get|0|2175448|0|0|0|2f5f656e2f6d652f50484f544f5f32303138303830355f3132333530352e6a7067|]
+Nov 10 12:32:30 10.71.56.0 u98665127 open "/_en/me/P1040905.JPG" flags READ mode 0666
+Nov 10 12:32:30 10.71.56.0 u98665127 close "/_en/me/P1040889.JPG" bytes read 6727680 written 0
+Nov 10 12:32:30 10.71.56.0 u98665127 [10.71.56.0|get|0|6727680|0|0|0|2f5f656e2f6d652f50313034303838392e4a5047|]
+Nov 10 12:32:30 10.71.56.0 u98665127 open "/_en/me/20180805_123853.jpg" flags READ mode 0666
+Nov 10 12:32:30 10.71.56.0 u98665127 close "/_en/me/20180805_123853.jpg" bytes read 1546425 written 0
+Nov 10 12:32:30 10.71.56.0 u98665127 [10.71.56.0|get|0|1546425|0|0|0|2f5f656e2f6d652f32303138303830355f3132333835332e6a7067|]
+Nov 10 12:32:30 10.71.56.0 u98665127 close "/_en/me/P1040905.JPG" bytes read 6592512 written 0
+Nov 10 12:32:30 10.71.56.0 u98665127 [10.71.56.0|get|0|6592512|0|0|0|2f5f656e2f6d652f50313034303930352e4a5047|]
+Nov 10 12:32:30 10.71.56.0 u98665127 open "/_en/fonts/2-questa_grande_regular_31-webfont.woff" flags READ mode 0666
+Nov 10 12:32:30 10.71.56.0 u98665127 open "/_en/fonts/2-questa_grande_regular_31-webfont.woff2" flags READ mode 0666
+Nov 10 12:32:30 10.71.56.0 u98665127 close "/_en/fonts/2-questa_grande_regular_31-webfont.woff" bytes read 33356 written 0
+Nov 10 12:32:30 10.71.56.0 u98665127 [10.71.56.0|get|0|33356|0|0|0|2f5f656e2f666f6e74732f322d7175657374615f6772616e64655f726567756c61725f33312d776562666f6e742e776f6666|]
+Nov 10 12:32:30 10.71.56.0 u98665127 close "/_en/fonts/2-questa_grande_regular_31-webfont.woff2" bytes read 26720 written 0
+Nov 10 12:32:30 10.71.56.0 u98665127 [10.71.56.0|get|0|26720|0|0|0|2f5f656e2f666f6e74732f322d7175657374615f6772616e64655f726567756c61725f33312d776562666f6e742e776f666632|]
+Nov 10 12:32:30 10.71.56.0 u98665127 open "/_en/fonts/2-questa_grande_regular_31.otf" flags READ mode 0666
+Nov 10 12:32:30 10.71.56.0 u98665127 close "/_en/fonts/2-questa_grande_regular_31.otf" bytes read 76140 written 0
+Nov 10 12:32:30 10.71.56.0 u98665127 [10.71.56.0|get|0|76140|0|0|0|2f5f656e2f666f6e74732f322d7175657374615f6772616e64655f726567756c61725f33312e6f7466|]
+Nov 10 12:32:30 10.71.56.0 u98665127 open "/css/isotope-docs.css" flags READ mode 0666
+Nov 10 12:32:30 10.71.56.0 u98665127 close "/css/isotope-docs.css" bytes read 45612 written 0
+Nov 10 12:32:30 10.71.56.0 u98665127 [10.71.56.0|get|0|45612|0|0|0|2f6373732f69736f746f70652d646f63732e637373|]
+Nov 10 12:32:30 10.71.56.0 u98665127 open "/dossier-location/index.html" flags READ mode 0666
+Nov 10 12:32:30 10.71.56.0 u98665127 close "/dossier-location/index.html" bytes read 2947 written 0
+Nov 10 12:32:30 10.71.56.0 u98665127 [10.71.56.0|get|0|2947|0|0|0|2f646f73736965722d6c6f636174696f6e2f696e6465782e68746d6c|]
+Nov 10 12:32:30 10.71.56.0 u98665127 open "/dossier-location/design.css" flags READ mode 0666
+Nov 10 12:32:31 10.71.56.0 u98665127 open "/dossier-location/.DS_Store" flags READ mode 0666
+Nov 10 12:32:31 10.71.56.0 u98665127 close "/dossier-location/.DS_Store" bytes read 6148 written 0
+Nov 10 12:32:31 10.71.56.0 u98665127 [10.71.56.0|get|0|6148|0|0|0|2f646f73736965722d6c6f636174696f6e2f2e44535f53746f7265|]
+Nov 10 12:32:31 10.71.56.0 u98665127 close "/dossier-location/design.css" bytes read 662 written 0
+Nov 10 12:32:31 10.71.56.0 u98665127 [10.71.56.0|get|1|662|0|0|0|2f646f73736965722d6c6f636174696f6e2f64657369676e2e637373|]
+Nov 10 12:32:31 10.71.56.0 u98665127 open "/dossier-location/docs/Ronan-Benech-12-2020.pdf" flags READ mode 0666
+Nov 10 12:32:31 10.71.56.0 u98665127 open "/dossier-location/docs/dossier-location-pischedda-benech.zip" flags READ mode 0666
+Nov 10 12:32:31 10.71.56.0 u98665127 close "/dossier-location/docs/Ronan-Benech-12-2020.pdf" bytes read 232506 written 0
+Nov 10 12:32:31 10.71.56.0 u98665127 [10.71.56.0|get|0|232506|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f526f6e616e2d42656e6563682d31322d323032302e706466|]
+Nov 10 12:32:31 10.71.56.0 u98665127 open "/dossier-location/docs/Ronan-Benech-impots-2019.pdf" flags READ mode 0666
+Nov 10 12:32:31 10.71.56.0 u98665127 close "/dossier-location/docs/Ronan-Benech-impots-2019.pdf" bytes read 98448 written 0
+Nov 10 12:32:31 10.71.56.0 u98665127 [10.71.56.0|get|0|98448|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f526f6e616e2d42656e6563682d696d706f74732d323031392e706466|]
+Nov 10 12:32:31 10.71.56.0 u98665127 close "/dossier-location/docs/dossier-location-pischedda-benech.zip" bytes read 10735942 written 0
+Nov 10 12:32:31 10.71.56.0 u98665127 [10.71.56.0|get|0|10735942|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f646f73736965722d6c6f636174696f6e2d7069736368656464612d62656e6563682e7a6970|]
+Nov 10 12:32:31 10.71.56.0 u98665127 open "/dossier-location/docs/Ronan-Benech-02-2021.pdf" flags READ mode 0666
+Nov 10 12:32:31 10.71.56.0 u98665127 open "/dossier-location/docs/Ronan-Benech-impots-2020.pdf" flags READ mode 0666
+Nov 10 12:32:31 10.71.56.0 u98665127 close "/dossier-location/docs/Ronan-Benech-02-2021.pdf" bytes read 229710 written 0
+Nov 10 12:32:31 10.71.56.0 u98665127 [10.71.56.0|get|0|229710|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f526f6e616e2d42656e6563682d30322d323032312e706466|]
+Nov 10 12:32:31 10.71.56.0 u98665127 close "/dossier-location/docs/Ronan-Benech-impots-2020.pdf" bytes read 146680 written 0
+Nov 10 12:32:31 10.71.56.0 u98665127 [10.71.56.0|get|0|146680|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f526f6e616e2d42656e6563682d696d706f74732d323032302e706466|]
+Nov 10 12:32:31 10.71.56.0 u98665127 open "/dossier-location/docs/Ronan-Benech-contrat-travail.pdf" flags READ mode 0666
+Nov 10 12:32:31 10.71.56.0 u98665127 open "/dossier-location/docs/Ronan-Benech-12-2020.png" flags READ mode 0666
+Nov 10 12:32:31 10.71.56.0 u98665127 close "/dossier-location/docs/Ronan-Benech-contrat-travail.pdf" bytes read 370138 written 0
+Nov 10 12:32:31 10.71.56.0 u98665127 [10.71.56.0|get|0|370138|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f526f6e616e2d42656e6563682d636f6e747261742d7472617661696c2e706466|]
+Nov 10 12:32:31 10.71.56.0 u98665127 close "/dossier-location/docs/Ronan-Benech-12-2020.png" bytes read 313697 written 0
+Nov 10 12:32:31 10.71.56.0 u98665127 [10.71.56.0|get|0|313697|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f526f6e616e2d42656e6563682d31322d323032302e706e67|]
+Nov 10 12:32:31 10.71.56.0 u98665127 open "/dossier-location/docs/Bruno-Pischedda-contrat-part2.pdf" flags READ mode 0666
+Nov 10 12:32:31 10.71.56.0 u98665127 open "/dossier-location/docs/Bruno-Pischedda-contrat-part1.pdf" flags READ mode 0666
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/dossier-location/docs/Bruno-Pischedda-contrat-part2.pdf" bytes read 2927126 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/dossier-location/docs/Bruno-Pischedda-contrat-part1.pdf" bytes read 780512 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|1|780512|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f4272756e6f2d5069736368656464612d636f6e747261742d70617274312e706466|]
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|1|2927126|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f4272756e6f2d5069736368656464612d636f6e747261742d70617274322e706466|]
+Nov 10 12:32:32 10.71.56.0 u98665127 open "/dossier-location/docs/Ronan-Benech-CNI.pdf" flags READ mode 0666
+Nov 10 12:32:32 10.71.56.0 u98665127 open "/dossier-location/docs/Ronan-Benech-01-2021.pdf" flags READ mode 0666
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/dossier-location/docs/Ronan-Benech-01-2021.pdf" bytes read 224953 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|0|224953|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f526f6e616e2d42656e6563682d30312d323032312e706466|]
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/dossier-location/docs/Ronan-Benech-CNI.pdf" bytes read 653420 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|0|653420|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f526f6e616e2d42656e6563682d434e492e706466|]
+Nov 10 12:32:32 10.71.56.0 u98665127 open "/dossier-location/docs/Bruno-Pischedda-Salaires+impots.pdf" flags READ mode 0666
+Nov 10 12:32:32 10.71.56.0 u98665127 open "/dossier-location/docs/Quittance-de-loyer.pdf" flags READ mode 0666
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/dossier-location/docs/Bruno-Pischedda-Salaires+impots.pdf" bytes read 2967144 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|0|2967144|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f4272756e6f2d5069736368656464612d53616c61697265732b696d706f74732e706466|]
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/dossier-location/docs/Quittance-de-loyer.pdf" bytes read 106429 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|0|106429|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f5175697474616e63652d64652d6c6f7965722e706466|]
+Nov 10 12:32:32 10.71.56.0 u98665127 open "/dossier-location/docs/Bruno-Pischedda-cni-2.jpg" flags READ mode 0666
+Nov 10 12:32:32 10.71.56.0 u98665127 open "/dossier-location/docs/Bruno-Pischedda-cni-1.jpg" flags READ mode 0666
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/dossier-location/docs/Bruno-Pischedda-cni-2.jpg" bytes read 1296331 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|0|1296331|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f4272756e6f2d5069736368656464612d636e692d322e6a7067|]
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/dossier-location/docs/Bruno-Pischedda-cni-1.jpg" bytes read 955117 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|0|955117|0|0|0|2f646f73736965722d6c6f636174696f6e2f646f63732f4272756e6f2d5069736368656464612d636e692d312e6a7067|]
+Nov 10 12:32:32 10.71.56.0 u98665127 open "/fonts/2-questa_grande_regular_31-webfont.woff2" flags READ mode 0666
+Nov 10 12:32:32 10.71.56.0 u98665127 open "/fonts/2-questa_grande_regular_31-webfont.woff" flags READ mode 0666
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/fonts/2-questa_grande_regular_31-webfont.woff" bytes read 33356 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|0|33356|0|0|0|2f666f6e74732f322d7175657374615f6772616e64655f726567756c61725f33312d776562666f6e742e776f6666|]
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/fonts/2-questa_grande_regular_31-webfont.woff2" bytes read 26720 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|0|26720|0|0|0|2f666f6e74732f322d7175657374615f6772616e64655f726567756c61725f33312d776562666f6e742e776f666632|]
+Nov 10 12:32:32 10.71.56.0 u98665127 open "/fonts/2-questa_grande_regular_31.otf" flags READ mode 0666
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/fonts/2-questa_grande_regular_31.otf" bytes read 76140 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|0|76140|0|0|0|2f666f6e74732f322d7175657374615f6772616e64655f726567756c61725f33312e6f7466|]
+Nov 10 12:32:32 10.71.56.0 u98665127 open "/img/.htaccess" flags READ mode 0666
+Nov 10 12:32:32 10.71.56.0 u98665127 close "/img/.htaccess" bytes read 91 written 0
+Nov 10 12:32:32 10.71.56.0 u98665127 [10.71.56.0|get|0|91|0|0|0|2f696d672f2e6874616363657373|]
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/yellow-left.png" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/folio.png" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/yellow-left.png" bytes read 18861 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|18861|0|0|0|2f696d672f79656c6c6f772d6c6566742e706e67|]
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/folio.png" bytes read 20665 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|20665|0|0|0|2f696d672f666f6c696f2e706e67|]
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/redaction.jpg" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/other.jpg" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/redaction.jpg" bytes read 64501 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|64501|0|0|0|2f696d672f726564616374696f6e2e6a7067|]
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/other.jpg" bytes read 709833 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|709833|0|0|0|2f696d672f6f746865722e6a7067|]
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/fond-folio.jpg" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/yellow-right.png" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/fond-folio.jpg" bytes read 311725 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|311725|0|0|0|2f696d672f666f6e642d666f6c696f2e6a7067|]
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/yellow-right.png" bytes read 18939 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|18939|0|0|0|2f696d672f79656c6c6f772d72696768742e706e67|]
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/bg-about.jpg" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/arrow-right.png" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/bg-about.jpg" bytes read 108718 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|108718|0|0|0|2f696d672f62672d61626f75742e6a7067|]
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/arrow-right.png" bytes read 289 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|289|0|0|0|2f696d672f6172726f772d72696768742e706e67|]
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/.DS_Store" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/miniature-reseaux.jpg" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/.DS_Store" bytes read 8196 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|8196|0|0|0|2f696d672f2e44535f53746f7265|]
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/miniature-reseaux.jpg" bytes read 2092337 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|2092337|0|0|0|2f696d672f6d696e6961747572652d726573656175782e6a7067|]
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/img/redaction.jpg" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/img/other.jpg" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/img/redaction.jpg" bytes read 64501 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|64501|0|0|0|2f696d672f696d672f726564616374696f6e2e6a7067|]
+Nov 10 12:32:33 10.71.56.0 u98665127 open "/img/img/fond-folio.jpg" flags READ mode 0666
+Nov 10 12:32:33 10.71.56.0 u98665127 close "/img/img/other.jpg" bytes read 709833 written 0
+Nov 10 12:32:33 10.71.56.0 u98665127 [10.71.56.0|get|0|709833|0|0|0|2f696d672f696d672f6f746865722e6a7067|]
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/bg-about.jpg" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/fond-folio.jpg" bytes read 311725 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|1|311725|0|0|0|2f696d672f696d672f666f6e642d666f6c696f2e6a7067|]
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/arrow-right.png" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/bg-about.jpg" bytes read 108718 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|0|108718|0|0|0|2f696d672f696d672f62672d61626f75742e6a7067|]
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/arrow-right.png" bytes read 289 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|0|289|0|0|0|2f696d672f696d672f6172726f772d72696768742e706e67|]
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/.DS_Store" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/miniature-reseaux.jpg" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/.DS_Store" bytes read 6146 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|0|6146|0|0|0|2f696d672f696d672f2e44535f53746f7265|]
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/miniature-reseaux.jpg" bytes read 2092337 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|0|2092337|0|0|0|2f696d672f696d672f6d696e6961747572652d726573656175782e6a7067|]
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/folio/kordam.jpg" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/folio/kordam.jpg" bytes read 140965 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|0|140965|0|0|0|2f696d672f696d672f666f6c696f2f6b6f7264616d2e6a7067|]
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/folio/miroir.jpg" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/folio/self-deploy.jpg" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/folio/miroir.jpg" bytes read 227984 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|0|227984|0|0|0|2f696d672f696d672f666f6c696f2f6d69726f69722e6a7067|]
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/folio/more.jpg" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/folio/self-deploy.jpg" bytes read 171854 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|0|171854|0|0|0|2f696d672f696d672f666f6c696f2f73656c662d6465706c6f792e6a7067|]
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/folio/saveurs-maud.jpg" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/folio/more.jpg" bytes read 1120235 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|0|1120235|0|0|0|2f696d672f696d672f666f6c696f2f6d6f72652e6a7067|]
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/folio/saveurs-maud.jpg" bytes read 568984 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|0|568984|0|0|0|2f696d672f696d672f666f6c696f2f736176657572732d6d6175642e6a7067|]
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/folio/redaction.jpg" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/folio/hpe.jpg" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/folio/redaction.jpg" bytes read 64501 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|0|64501|0|0|0|2f696d672f696d672f666f6c696f2f726564616374696f6e2e6a7067|]
+Nov 10 12:32:34 10.71.56.0 u98665127 open "/img/img/folio/obj-co.jpg" flags READ mode 0666
+Nov 10 12:32:34 10.71.56.0 u98665127 close "/img/img/folio/hpe.jpg" bytes read 412846 written 0
+Nov 10 12:32:34 10.71.56.0 u98665127 [10.71.56.0|get|0|412846|0|0|0|2f696d672f696d672f666f6c696f2f6870652e6a7067|]
+Nov 10 12:32:35 10.71.56.0 u98665127 open "/img/img/folio/wehelp.jpg" flags READ mode 0666
+Nov 10 12:32:35 10.71.56.0 u98665127 close "/img/img/folio/obj-co.jpg" bytes read 368492 written 0
+Nov 10 12:32:35 10.71.56.0 u98665127 [10.71.56.0|get|1|368492|0|0|0|2f696d672f696d672f666f6c696f2f6f626a2d636f2e6a7067|]
+Nov 10 12:32:35 10.71.56.0 u98665127 close "/img/img/folio/wehelp.jpg" bytes read 68589 written 0
+Nov 10 12:32:35 10.71.56.0 u98665127 [10.71.56.0|get|0|68589|0|0|0|2f696d672f696d672f666f6c696f2f776568656c702e6a7067|]
+Nov 10 12:32:35 10.71.56.0 u98665127 open "/img/folio/orthographiq.jpg" flags READ mode 0666
+Nov 10 12:32:35 10.71.56.0 u98665127 open "/img/folio/dribbble.png" flags READ mode 0666
+Nov 10 12:32:35 10.71.56.0 u98665127 close "/img/folio/orthographiq.jpg" bytes read 123245 written 0
+Nov 10 12:32:35 10.71.56.0 u98665127 [10.71.56.0|get|0|123245|0|0|0|2f696d672f666f6c696f2f6f7274686f677261706869712e6a7067|]
+Nov 10 12:32:35 10.71.56.0 u98665127 open "/img/folio/nissan-mobile.jpg" flags READ mode 0666
+Nov 10 12:32:35 10.71.56.0 u98665127 close "/img/folio/dribbble.png" bytes read 883479 written 0
+Nov 10 12:32:35 10.71.56.0 u98665127 [10.71.56.0|get|0|883479|0|0|0|2f696d672f666f6c696f2f6472696262626c652e706e67|]
+Nov 10 12:32:35 10.71.56.0 u98665127 close "/img/folio/nissan-mobile.jpg" bytes read 194824 written 0
+Nov 10 12:32:35 10.71.56.0 u98665127 [10.71.56.0|get|0|194824|0|0|0|2f696d672f666f6c696f2f6e697373616e2d6d6f62696c652e6a7067|]
+Nov 10 12:32:35 10.71.56.0 u98665127 open "/img/folio/.DS_Store" flags READ mode 0666
+Nov 10 12:32:35 10.71.56.0 u98665127 open "/img/folio/kordam.jpg" flags READ mode 0666
+Nov 10 12:32:35 10.71.56.0 u98665127 close "/img/folio/.DS_Store" bytes read 6148 written 0
+Nov 10 12:32:35 10.71.56.0 u98665127 [10.71.56.0|get|0|6148|0|0|0|2f696d672f666f6c696f2f2e44535f53746f7265|]
+Nov 10 12:32:35 10.71.56.0 u98665127 close "/img/folio/kordam.jpg" bytes read 140965 written 0
+Nov 10 12:32:35 10.71.56.0 u98665127 [10.71.56.0|get|0|140965|0|0|0|2f696d672f666f6c696f2f6b6f7264616d2e6a7067|]
+Nov 10 12:32:35 10.71.56.0 u98665127 open "/img/folio/miroir.jpg" flags READ mode 0666
+Nov 10 12:32:35 10.71.56.0 u98665127 open "/img/folio/self-deploy.jpg" flags READ mode 0666
+Nov 10 12:32:35 10.71.56.0 u98665127 close "/img/folio/miroir.jpg" bytes read 227984 written 0
+Nov 10 12:32:35 10.71.56.0 u98665127 [10.71.56.0|get|0|227984|0|0|0|2f696d672f666f6c696f2f6d69726f69722e6a7067|]
+Nov 10 12:32:35 10.71.56.0 u98665127 close "/img/folio/self-deploy.jpg" bytes read 171854 written 0
+Nov 10 12:32:35 10.71.56.0 u98665127 [10.71.56.0|get|0|171854|0|0|0|2f696d672f666f6c696f2f73656c662d6465706c6f792e6a7067|]
+Nov 10 12:32:35 10.71.56.0 u98665127 open "/img/folio/nissan-vms.jpg" flags READ mode 0666
+Nov 10 12:32:35 10.71.56.0 u98665127 open "/img/folio/nissan-vms.png" flags READ mode 0666
+Nov 10 12:32:35 10.71.56.0 u98665127 close "/img/folio/nissan-vms.jpg" bytes read 268806 written 0
+Nov 10 12:32:35 10.71.56.0 u98665127 [10.71.56.0|get|0|268806|0|0|0|2f696d672f666f6c696f2f6e697373616e2d766d732e6a7067|]
+Nov 10 12:32:35 10.71.56.0 u98665127 open "/img/folio/more.jpg" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/img/folio/more.jpg" bytes read 1120235 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|1|1120235|0|0|0|2f696d672f666f6c696f2f6d6f72652e6a7067|]
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/img/folio/nissan-vms.png" bytes read 5986958 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|1|5986958|0|0|0|2f696d672f666f6c696f2f6e697373616e2d766d732e706e67|]
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/img/folio/saveurs-maud.jpg" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/img/folio/redaction.jpg" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/img/folio/redaction.jpg" bytes read 83865 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|83865|0|0|0|2f696d672f666f6c696f2f726564616374696f6e2e6a7067|]
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/img/folio/saveurs-maud.jpg" bytes read 568984 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|568984|0|0|0|2f696d672f666f6c696f2f736176657572732d6d6175642e6a7067|]
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/img/folio/hpe.jpg" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/img/folio/wehelp.jpg" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/img/folio/hpe.jpg" bytes read 412846 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|412846|0|0|0|2f696d672f666f6c696f2f6870652e6a7067|]
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/img/folio/wehelp.jpg" bytes read 68589 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|68589|0|0|0|2f696d672f666f6c696f2f776568656c702e6a7067|]
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/img/folio/nissan-finance.jpg" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/img/folio/klap.jpg" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/img/folio/nissan-finance.jpg" bytes read 183724 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|183724|0|0|0|2f696d672f666f6c696f2f6e697373616e2d66696e616e63652e6a7067|]
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/img/folio/klap.jpg" bytes read 371302 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|371302|0|0|0|2f696d672f666f6c696f2f6b6c61702e6a7067|]
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/img/folio/obj-co.jpg" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/img/folio/nissan-mobile.png" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/img/folio/obj-co.jpg" bytes read 368492 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|368492|0|0|0|2f696d672f666f6c696f2f6f626a2d636f2e6a7067|]
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/img/folio/nissan-mobile.png" bytes read 2006768 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|2006768|0|0|0|2f696d672f666f6c696f2f6e697373616e2d6d6f62696c652e706e67|]
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/js/jquery.fullPage.js" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/js/jquery.fullPage.css" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/js/jquery.fullPage.css" bytes read 4994 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|4994|0|0|0|2f6a732f6a71756572792e66756c6c506167652e637373|]
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/js/jquery.fullPage.js" bytes read 117497 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|117497|0|0|0|2f6a732f6a71756572792e66756c6c506167652e6a73|]
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/js/gulpfile.js" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/js/.gitattributes" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/js/gulpfile.js" bytes read 1411 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|1411|0|0|0|2f6a732f67756c7066696c652e6a73|]
+Nov 10 12:32:36 10.71.56.0 u98665127 close "/js/.gitattributes" bytes read 28 written 0
+Nov 10 12:32:36 10.71.56.0 u98665127 [10.71.56.0|get|0|28|0|0|0|2f6a732f2e67697461747472696275746573|]
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/js/package.json" flags READ mode 0666
+Nov 10 12:32:36 10.71.56.0 u98665127 open "/js/.gitignore" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/package.json" bytes read 1114 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|1|1114|0|0|0|2f6a732f7061636b6167652e6a736f6e|]
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/.gitignore" bytes read 48 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|1|48|0|0|0|2f6a732f2e67697469676e6f7265|]
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/jquery.min.js" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/README.md" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/jquery.min.js" bytes read 86927 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|86927|0|0|0|2f6a732f6a71756572792e6d696e2e6a73|]
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/README.md" bytes read 53191 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|53191|0|0|0|2f6a732f524541444d452e6d64|]
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/bower.json" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/jquery.fullPage.min.js" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/bower.json" bytes read 585 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|585|0|0|0|2f6a732f626f7765722e6a736f6e|]
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/jquery.fullPage.min.js" bytes read 30274 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|30274|0|0|0|2f6a732f6a71756572792e66756c6c506167652e6d696e2e6a73|]
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/README_SPANISH.md" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/isotope-docs.min.js" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/README_SPANISH.md" bytes read 60261 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|60261|0|0|0|2f6a732f524541444d455f5350414e4953482e6d64|]
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/isotope-docs.min.js" bytes read 83848 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|83848|0|0|0|2f6a732f69736f746f70652d646f63732e6d696e2e6a73|]
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/LICENSE" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/LICENSE" bytes read 1080 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|1080|0|0|0|2f6a732f4c4943454e5345|]
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/vendors/scrolloverflow.min.js" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/vendors/scrolloverflow.min.js" bytes read 33124 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|33124|0|0|0|2f6a732f76656e646f72732f7363726f6c6c6f766572666c6f772e6d696e2e6a73|]
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/vendors/scrolloverflow.js" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/vendors/jquery.easings.min.js" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/vendors/scrolloverflow.js" bytes read 66995 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|66995|0|0|0|2f6a732f76656e646f72732f7363726f6c6c6f766572666c6f772e6a73|]
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/vendors/jquery.easings.min.js" bytes read 12927 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|12927|0|0|0|2f6a732f76656e646f72732f6a71756572792e656173696e67732e6d696e2e6a73|]
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/dist/jquery.fullpage.js" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/dist/jquery.fullpage.css" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/dist/jquery.fullpage.css" bytes read 4990 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|4990|0|0|0|2f6a732f646973742f6a71756572792e66756c6c706167652e637373|]
+Nov 10 12:32:37 10.71.56.0 u98665127 close "/js/dist/jquery.fullpage.js" bytes read 117497 written 0
+Nov 10 12:32:37 10.71.56.0 u98665127 [10.71.56.0|get|0|117497|0|0|0|2f6a732f646973742f6a71756572792e66756c6c706167652e6a73|]
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/dist/jquery.fullpage.min.css" flags READ mode 0666
+Nov 10 12:32:37 10.71.56.0 u98665127 open "/js/dist/jquery.fullpage.min.js" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/dist/jquery.fullpage.min.css" bytes read 3770 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|1|3770|0|0|0|2f6a732f646973742f6a71756572792e66756c6c706167652e6d696e2e637373|]
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/dist/jquery.fullpage.min.js" bytes read 30274 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|1|30274|0|0|0|2f6a732f646973742f6a71756572792e66756c6c706167652e6d696e2e6a73|]
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/dist/jquery.fullpage.min.css.map" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/dist/jquery.fullpage.extensions.min.js" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/dist/jquery.fullpage.min.css.map" bytes read 7711 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|0|7711|0|0|0|2f6a732f646973742f6a71756572792e66756c6c706167652e6d696e2e6373732e6d6170|]
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/dist/jquery.fullpage.extensions.min.js" bytes read 35497 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|0|35497|0|0|0|2f6a732f646973742f6a71756572792e66756c6c706167652e657874656e73696f6e732e6d696e2e6a73|]
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/dist/jquery.fullpage.min.js.map" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/tests/functions.js" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/dist/jquery.fullpage.min.js.map" bytes read 169886 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|0|169886|0|0|0|2f6a732f646973742f6a71756572792e66756c6c706167652e6d696e2e6a732e6d6170|]
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/tests/functions.js" bytes read 11857 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|0|11857|0|0|0|2f6a732f74657374732f66756e6374696f6e732e6a73|]
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/tests/functions2.js" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/tests/functions2.html" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/tests/functions2.js" bytes read 5610 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|0|5610|0|0|0|2f6a732f74657374732f66756e6374696f6e73322e6a73|]
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/tests/functions2.html" bytes read 1090 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|0|1090|0|0|0|2f6a732f74657374732f66756e6374696f6e73322e68746d6c|]
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/tests/functions.html" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/tests/functions.html" bytes read 1090 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|0|1090|0|0|0|2f6a732f74657374732f66756e6374696f6e732e68746d6c|]
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/examples/activeSlide.html" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/examples/examples.js" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/examples/activeSlide.html" bytes read 4840 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|0|4840|0|0|0|2f6a732f6578616d706c65732f616374697665536c6964652e68746d6c|]
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/examples/examples.js" bytes read 154 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|0|154|0|0|0|2f6a732f6578616d706c65732f6578616d706c65732e6a73|]
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/examples/autoHeight.html" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/examples/scrollBar.html" flags READ mode 0666
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/examples/autoHeight.html" bytes read 4601 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|0|4601|0|0|0|2f6a732f6578616d706c65732f6175746f4865696768742e68746d6c|]
+Nov 10 12:32:38 10.71.56.0 u98665127 close "/js/examples/scrollBar.html" bytes read 4655 written 0
+Nov 10 12:32:38 10.71.56.0 u98665127 [10.71.56.0|get|0|4655|0|0|0|2f6a732f6578616d706c65732f7363726f6c6c4261722e68746d6c|]
+Nov 10 12:32:38 10.71.56.0 u98665127 open "/js/examples/simple.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/apple.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/simple.html" bytes read 1624 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|1|1624|0|0|0|2f6a732f6578616d706c65732f73696d706c652e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/apple.html" bytes read 11357 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|11357|0|0|0|2f6a732f6578616d706c65732f6170706c652e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/backgroundsFixed.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/dragAndMove.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/backgroundsFixed.html" bytes read 5617 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|5617|0|0|0|2f6a732f6578616d706c65732f6261636b67726f756e647346697865642e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/dragAndMove.html" bytes read 631 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|631|0|0|0|2f6a732f6578616d706c65732f64726167416e644d6f76652e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/normalScroll.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/autoplayVideoAndAudio.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/autoplayVideoAndAudio.html" bytes read 5062 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|5062|0|0|0|2f6a732f6578616d706c65732f6175746f706c6179566964656f416e64417564696f2e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/normalScroll.html" bytes read 5451 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|5451|0|0|0|2f6a732f6578616d706c65732f6e6f726d616c5363726f6c6c2e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/fixedHeaders.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/backgrounds.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/backgrounds.html" bytes read 5320 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|5320|0|0|0|2f6a732f6578616d706c65732f6261636b67726f756e64732e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/fixedHeaders.html" bytes read 5195 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|5195|0|0|0|2f6a732f6578616d706c65732f6669786564486561646572732e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/parallax.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/scrollOverflowReset.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/parallax.html" bytes read 620 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|620|0|0|0|2f6a732f6578616d706c65732f706172616c6c61782e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/scrollOverflowReset.html" bytes read 647 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|647|0|0|0|2f6a732f6578616d706c65732f7363726f6c6c4f766572666c6f7752657365742e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/easing.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/interlockedSlides.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/easing.html" bytes read 4683 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|4683|0|0|0|2f6a732f6578616d706c65732f656173696e672e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/interlockedSlides.html" bytes read 642 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|642|0|0|0|2f6a732f6578616d706c65732f696e7465726c6f636b6564536c696465732e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/demoPage.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/resetSliders.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/demoPage.html" bytes read 6216 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|6216|0|0|0|2f6a732f6578616d706c65732f64656d6f506167652e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/css3.html" flags READ mode 0666
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/resetSliders.html" bytes read 632 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|632|0|0|0|2f6a732f6578616d706c65732f7265736574536c69646572732e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 close "/js/examples/css3.html" bytes read 4160 written 0
+Nov 10 12:32:39 10.71.56.0 u98665127 [10.71.56.0|get|0|4160|0|0|0|2f6a732f6578616d706c65732f637373332e68746d6c|]
+Nov 10 12:32:39 10.71.56.0 u98665127 open "/js/examples/noAnchor.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/navigationV.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/noAnchor.html" bytes read 4010 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|1|4010|0|0|0|2f6a732f6578616d706c65732f6e6f416e63686f722e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/navigationV.html" bytes read 4953 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|4953|0|0|0|2f6a732f6578616d706c65732f6e617669676174696f6e562e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/methods.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/lazyLoad.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/methods.html" bytes read 9816 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|9816|0|0|0|2f6a732f6578616d706c65732f6d6574686f64732e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/lazyLoad.html" bytes read 6157 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|6157|0|0|0|2f6a732f6578616d706c65732f6c617a794c6f61642e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/responsiveHeight.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/responsiveAutoHeight.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/responsiveHeight.html" bytes read 4702 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|4702|0|0|0|2f6a732f6578616d706c65732f726573706f6e736976654865696768742e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/responsiveAutoHeight.html" bytes read 5830 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/gradientBackgrounds.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|5830|0|0|0|2f6a732f6578616d706c65732f726573706f6e736976654175746f4865696768742e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/gradientBackgrounds.html" bytes read 5405 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|5405|0|0|0|2f6a732f6578616d706c65732f6772616469656e744261636b67726f756e64732e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/scrollHorizontally.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/responsiveSlides.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/scrollHorizontally.html" bytes read 644 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|644|0|0|0|2f6a732f6578616d706c65732f7363726f6c6c486f72697a6f6e74616c6c792e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/responsiveSlides.html" bytes read 640 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|640|0|0|0|2f6a732f6578616d706c65732f726573706f6e73697665536c696465732e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/examples.css" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/looping.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/examples.css" bytes read 4739 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|4739|0|0|0|2f6a732f6578616d706c65732f6578616d706c65732e637373|]
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/looping.html" bytes read 4389 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|4389|0|0|0|2f6a732f6578616d706c65732f6c6f6f70696e672e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/backgroundVideo.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/scrollOverflow.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/backgroundVideo.html" bytes read 5781 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|5781|0|0|0|2f6a732f6578616d706c65732f6261636b67726f756e64566964656f2e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/scrollOverflow.html" bytes read 9581 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|9581|0|0|0|2f6a732f6578616d706c65732f7363726f6c6c4f766572666c6f772e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/continuousHorizontal.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/offsetSections.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/continuousHorizontal.html" bytes read 640 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|640|0|0|0|2f6a732f6578616d706c65732f636f6e74696e756f7573486f72697a6f6e74616c2e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/offsetSections.html" bytes read 636 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|636|0|0|0|2f6a732f6578616d706c65732f6f666673657453656374696f6e732e68746d6c|]
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/fadingEffect.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 open "/js/examples/navigationH.html" flags READ mode 0666
+Nov 10 12:32:40 10.71.56.0 u98665127 close "/js/examples/fadingEffect.html" bytes read 632 written 0
+Nov 10 12:32:40 10.71.56.0 u98665127 [10.71.56.0|get|0|632|0|0|0|2f6a732f6578616d706c65732f666164696e674566666563742e68746d6c|]
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/continuousVertical.html" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/navigationH.html" bytes read 5223 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|1|5223|0|0|0|2f6a732f6578616d706c65732f6e617669676174696f6e482e68746d6c|]
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/continuousVertical.html" bytes read 4465 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|4465|0|0|0|2f6a732f6578616d706c65732f636f6e74696e756f7573566572746963616c2e68746d6c|]
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/scrollingSpeed.html" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/scrollingSpeed.html" bytes read 4664 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|4664|0|0|0|2f6a732f6578616d706c65732f7363726f6c6c696e6753706565642e68746d6c|]
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/callbacks.html" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/normalScrollElements.html" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/callbacks.html" bytes read 6432 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|6432|0|0|0|2f6a732f6578616d706c65732f63616c6c6261636b732e68746d6c|]
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/normalScrollElements.html" bytes read 4768 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|4768|0|0|0|2f6a732f6578616d706c65732f6e6f726d616c5363726f6c6c456c656d656e74732e68746d6c|]
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/callbacks2.html" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/callbacks2.html" bytes read 5275 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|5275|0|0|0|2f6a732f6578616d706c65732f63616c6c6261636b73322e68746d6c|]
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/oneSection.html" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/responsiveWidth.html" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/oneSection.html" bytes read 14443 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|14443|0|0|0|2f6a732f6578616d706c65732f6f6e6553656374696f6e2e68746d6c|]
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/responsiveWidth.html" bytes read 4833 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|4833|0|0|0|2f6a732f6578616d706c65732f726573706f6e7369766557696474682e68746d6c|]
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/imgs/example.png" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/imgs/iphone2.png" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/imgs/example.png" bytes read 15627 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|15627|0|0|0|2f6a732f6578616d706c65732f696d67732f6578616d706c652e706e67|]
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/imgs/1.png" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/imgs/iphone2.png" bytes read 217910 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|217910|0|0|0|2f6a732f6578616d706c65732f696d67732f6970686f6e65322e706e67|]
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/imgs/1.png" bytes read 5237 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|5237|0|0|0|2f6a732f6578616d706c65732f696d67732f312e706e67|]
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/imgs/iphone3.png" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/imgs/iphone1.jpg" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/imgs/iphone3.png" bytes read 70775 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|70775|0|0|0|2f6a732f6578616d706c65732f696d67732f6970686f6e65332e706e67|]
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/imgs/iphone1.jpg" bytes read 210074 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|210074|0|0|0|2f6a732f6578616d706c65732f696d67732f6970686f6e65312e6a7067|]
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/imgs/3.png" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/imgs/flowers.mp4" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/imgs/3.png" bytes read 6507 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|6507|0|0|0|2f6a732f6578616d706c65732f696d67732f332e706e67|]
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/imgs/2.png" flags READ mode 0666
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/imgs/flowers.mp4" bytes read 1317562 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|1317562|0|0|0|2f6a732f6578616d706c65732f696d67732f666c6f776572732e6d7034|]
+Nov 10 12:32:41 10.71.56.0 u98665127 close "/js/examples/imgs/2.png" bytes read 6137 written 0
+Nov 10 12:32:41 10.71.56.0 u98665127 [10.71.56.0|get|0|6137|0|0|0|2f6a732f6578616d706c65732f696d67732f322e706e67|]
+Nov 10 12:32:41 10.71.56.0 u98665127 open "/js/examples/imgs/iphone4.png" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/iphone-green.png" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/iphone4.png" bytes read 17059 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|1|17059|0|0|0|2f6a732f6578616d706c65732f696d67732f6970686f6e65342e706e67|]
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/iphone-green.png" bytes read 181874 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|181874|0|0|0|2f6a732f6578616d706c65732f696d67732f6970686f6e652d677265656e2e706e67|]
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/es-language.png" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/horse.mp3" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/es-language.png" bytes read 609 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|609|0|0|0|2f6a732f6578616d706c65732f696d67732f65732d6c616e67756167652e706e67|]
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/iphone-blue.png" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/horse.mp3" bytes read 28915 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|28915|0|0|0|2f6a732f6578616d706c65732f696d67732f686f7273652e6d7033|]
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/bg2.jpg" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/iphone-blue.png" bytes read 185858 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|185858|0|0|0|2f6a732f6578616d706c65732f696d67732f6970686f6e652d626c75652e706e67|]
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/bg2.jpg" bytes read 361526 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|361526|0|0|0|2f6a732f6578616d706c65732f696d67732f6267322e6a7067|]
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/bg3.jpg" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/compatible.gif" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/bg3.jpg" bytes read 378628 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|378628|0|0|0|2f6a732f6578616d706c65732f696d67732f6267332e6a7067|]
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/compatible.gif" bytes read 3681 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|3681|0|0|0|2f6a732f6578616d706c65732f696d67732f636f6d70617469626c652e676966|]
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/fullPage.png" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/bg1.jpg" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/fullPage.png" bytes read 4648 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|4648|0|0|0|2f6a732f6578616d706c65732f696d67732f66756c6c506167652e706e67|]
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/bg4.jpg" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/bg1.jpg" bytes read 628788 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|628788|0|0|0|2f6a732f6578616d706c65732f696d67732f6267312e6a7067|]
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/bg5.jpg" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/bg4.jpg" bytes read 581728 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|581728|0|0|0|2f6a732f6578616d706c65732f696d67732f6267342e6a7067|]
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/iphone-two.png" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/bg5.jpg" bytes read 255954 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|255954|0|0|0|2f6a732f6578616d706c65732f696d67732f6267352e6a7067|]
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/used-by-fullpage.png" flags READ mode 0666
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/iphone-two.png" bytes read 389484 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|389484|0|0|0|2f6a732f6578616d706c65732f696d67732f6970686f6e652d74776f2e706e67|]
+Nov 10 12:32:42 10.71.56.0 u98665127 close "/js/examples/imgs/used-by-fullpage.png" bytes read 4889 written 0
+Nov 10 12:32:42 10.71.56.0 u98665127 [10.71.56.0|get|0|4889|0|0|0|2f6a732f6578616d706c65732f696d67732f757365642d62792d66756c6c706167652e706e67|]
+Nov 10 12:32:42 10.71.56.0 u98665127 open "/js/examples/imgs/example2.png" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/examples/imgs/intro.png" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/example2.png" bytes read 14320 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|1|14320|0|0|0|2f6a732f6578616d706c65732f696d67732f6578616d706c65322e706e67|]
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/intro.png" bytes read 43773 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|43773|0|0|0|2f6a732f6578616d706c65732f696d67732f696e74726f2e706e67|]
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/examples/imgs/horse.ogg" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/examples/imgs/es-language-inactive.png" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/horse.ogg" bytes read 13889 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|13889|0|0|0|2f6a732f6578616d706c65732f696d67732f686f7273652e6f6767|]
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/es-language-inactive.png" bytes read 3972 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|3972|0|0|0|2f6a732f6578616d706c65732f696d67732f65732d6c616e67756167652d696e6163746976652e706e67|]
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/examples/imgs/flowers.webm" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/examples/imgs/copyright.txt" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/copyright.txt" bytes read 545 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|545|0|0|0|2f6a732f6578616d706c65732f696d67732f636f707972696768742e747874|]
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/flowers.webm" bytes read 3090506 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|3090506|0|0|0|2f6a732f6578616d706c65732f696d67732f666c6f776572732e7765626d|]
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/examples/imgs/en-language.png" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/examples/imgs/iphone-red.png" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/en-language.png" bytes read 3903 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|3903|0|0|0|2f6a732f6578616d706c65732f696d67732f656e2d6c616e67756167652e706e67|]
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/iphone-red.png" bytes read 192643 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|192643|0|0|0|2f6a732f6578616d706c65732f696d67732f6970686f6e652d7265642e706e67|]
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/examples/imgs/en-language-inactive.png" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/examples/imgs/tablets.png" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/en-language-inactive.png" bytes read 536 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|536|0|0|0|2f6a732f6578616d706c65732f696d67732f656e2d6c616e67756167652d696e6163746976652e706e67|]
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/tablets.png" bytes read 45874 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|45874|0|0|0|2f6a732f6578616d706c65732f696d67732f7461626c6574732e706e67|]
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/examples/imgs/iphone-yellow.png" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/examples/imgs/slider.png" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/iphone-yellow.png" bytes read 92586 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|92586|0|0|0|2f6a732f6578616d706c65732f696d67732f6970686f6e652d79656c6c6f772e706e67|]
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/examples/imgs/slider.png" bytes read 3706 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|3706|0|0|0|2f6a732f6578616d706c65732f696d67732f736c696465722e706e67|]
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/.github/PULL_REQUEST_TEMPLATE.md" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 open "/js/.github/ISSUE_TEMPLATE.md" flags READ mode 0666
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/.github/PULL_REQUEST_TEMPLATE.md" bytes read 131 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|131|0|0|0|2f6a732f2e6769746875622f50554c4c5f524551554553545f54454d504c4154452e6d64|]
+Nov 10 12:32:43 10.71.56.0 u98665127 close "/js/.github/ISSUE_TEMPLATE.md" bytes read 379 written 0
+Nov 10 12:32:43 10.71.56.0 u98665127 [10.71.56.0|get|0|379|0|0|0|2f6a732f2e6769746875622f49535355455f54454d504c4154452e6d64|]
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/js/pure javascript (Alpha)/demo.html" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/js/pure javascript (Alpha)/javascript.fullPage.js" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/js/pure javascript (Alpha)/demo.html" bytes read 3342 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|3342|0|0|0|2f6a732f70757265206a6176617363726970742028416c706861292f64656d6f2e68746d6c|]
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/js/pure javascript (Alpha)/javascript.fullPage.js" bytes read 70182 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|70182|0|0|0|2f6a732f70757265206a6176617363726970742028416c706861292f6a6176617363726970742e66756c6c506167652e6a73|]
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/js/pure javascript (Alpha)/README.md" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/js/pure javascript (Alpha)/javascript.fullPage.min.js" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/js/pure javascript (Alpha)/README.md" bytes read 3532 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|3532|0|0|0|2f6a732f70757265206a6176617363726970742028416c706861292f524541444d452e6d64|]
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/js/pure javascript (Alpha)/javascript.fullPage.min.js" bytes read 17744 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|17744|0|0|0|2f6a732f70757265206a6176617363726970742028416c706861292f6a6176617363726970742e66756c6c506167652e6d696e2e6a73|]
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/js/pure javascript (Alpha)/javascript.fullPage.css" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/js/pure javascript (Alpha)/javascript.fullPage.css" bytes read 4015 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|4015|0|0|0|2f6a732f70757265206a6176617363726970742028416c706861292f6a6176617363726970742e66756c6c506167652e637373|]
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/logs/access.log.44.7.gz" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/logs/access.log.44.7.gz" bytes read 3107 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|3107|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e372e677a|]
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/logs/access.log.44.6.gz" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/logs/access.log.44.5.gz" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/logs/access.log.44.6.gz" bytes read 3808 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|3808|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e362e677a|]
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/logs/access.log.44.5.gz" bytes read 1940 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|1940|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e352e677a|]
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/logs/access.log.44.4.gz" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/logs/access.log.44.3.gz" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/logs/access.log.44.4.gz" bytes read 2512 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|2512|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e342e677a|]
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/logs/access.log.44.3.gz" bytes read 2016 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|2016|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e332e677a|]
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/logs/access.log.44.2.gz" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/logs/access.log.44.1.gz" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/logs/access.log.44.2.gz" bytes read 3015 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|3015|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e322e677a|]
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/logs/access.log.44.1.gz" bytes read 2393 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|2393|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e312e677a|]
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/logs/access.log.39.gz" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/logs/access.log.42.gz" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/logs/access.log.39.gz" bytes read 10282 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|10282|0|0|0|2f6c6f67732f6163636573732e6c6f672e33392e677a|]
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/logs/access.log.42.gz" bytes read 25352 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|25352|0|0|0|2f6c6f67732f6163636573732e6c6f672e34322e677a|]
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/logs/access.log.40.gz" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 open "/logs/access.log.45.3.gz" flags READ mode 0666
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/logs/access.log.40.gz" bytes read 10396 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|10396|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e677a|]
+Nov 10 12:32:44 10.71.56.0 u98665127 close "/logs/access.log.45.3.gz" bytes read 3188 written 0
+Nov 10 12:32:44 10.71.56.0 u98665127 [10.71.56.0|get|0|3188|0|0|0|2f6c6f67732f6163636573732e6c6f672e34352e332e677a|]
+Nov 10 12:32:45 10.71.56.0 u98665127 open "/logs/access.log.45.4" flags READ mode 0666
+Nov 10 12:32:45 10.71.56.0 u98665127 open "/logs/access.log.45.2.gz" flags READ mode 0666
+Nov 10 12:32:45 10.71.56.0 u98665127 close "/logs/access.log.45.4" bytes read 33461 written 0
+Nov 10 12:32:45 10.71.56.0 u98665127 [10.71.56.0|get|0|33461|0|0|0|2f6c6f67732f6163636573732e6c6f672e34352e34|]
+Nov 10 12:32:45 10.71.56.0 u98665127 close "/logs/access.log.45.2.gz" bytes read 3389 written 0
+Nov 10 12:32:45 10.71.56.0 u98665127 [10.71.56.0|get|0|3389|0|0|0|2f6c6f67732f6163636573732e6c6f672e34352e322e677a|]
+Nov 10 12:32:45 10.71.56.0 u98665127 open "/logs/access.log.45.1.gz" flags READ mode 0666
+Nov 10 12:32:45 10.71.56.0 u98665127 open "/logs/access.log.41.gz" flags READ mode 0666
+Nov 10 12:32:45 10.71.56.0 u98665127 close "/logs/access.log.45.1.gz" bytes read 3018 written 0
+Nov 10 12:32:45 10.71.56.0 u98665127 [10.71.56.0|get|0|3018|0|0|0|2f6c6f67732f6163636573732e6c6f672e34352e312e677a|]
+Nov 10 12:32:45 10.71.56.0 u98665127 close "/logs/access.log.41.gz" bytes read 14896 written 0
+Nov 10 12:32:45 10.71.56.0 u98665127 [10.71.56.0|get|0|14896|0|0|0|2f6c6f67732f6163636573732e6c6f672e34312e677a|]
+Nov 10 12:32:45 10.71.56.0 u98665127 open "/logs/access.log.38.gz" flags READ mode 0666
+Nov 10 12:32:45 10.71.56.0 u98665127 open "/logs/access.log.37.gz" flags READ mode 0666
+Nov 10 12:32:45 10.71.56.0 u98665127 close "/logs/access.log.38.gz" bytes read 15650 written 0
+Nov 10 12:32:45 10.71.56.0 u98665127 [10.71.56.0|get|0|15650|0|0|0|2f6c6f67732f6163636573732e6c6f672e33382e677a|]
+Nov 10 12:32:45 10.71.56.0 u98665127 close "/logs/access.log.37.gz" bytes read 12025 written 0
+Nov 10 12:32:45 10.71.56.0 u98665127 [10.71.56.0|get|0|12025|0|0|0|2f6c6f67732f6163636573732e6c6f672e33372e677a|]
+Nov 10 12:32:45 10.71.56.0 u98665127 open "/logs/sftp.log" flags READ mode 0666
+Nov 10 12:32:45 10.71.56.0 u98665127 open "/logs/access.log.43.gz" flags READ mode 0666

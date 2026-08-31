@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Ronan Benec'h - Portfolio</title>
+	<meta name="author" content="Ronan Benec'h" />
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+	<meta property="og:title" content="Home" />
+	    <meta property="og:type" content="website" />
+	    <meta property="og:site_name" content="Ronan Benec'h - UI / UX Designer" />
+	    <meta property="og:url" content="http://ronanbch.one" />
+	    <meta property="og:image" content="http://ronanbch.one/img/miniature-reseaux.jpg" />
+
+		<link rel="stylesheet" type="text/css" href="moving-letters.css">
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://fiddle.jshell.net/css/normalize.css">
+			<link rel="stylesheet" type="text/css" href="http://fiddle.jshell.net/css/result-light.css">
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+			<script type="text/javascript" src="moving-letters.js"></script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Source+Sans+Pro:200,300,400,600,700,900|Source+Serif+Pro:400,600,700" rel="stylesheet">
+	<script>
+		$(document).ready(function(){
+	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+		$(this).toggleClass('open'),
+		$('#content-menu').toggleClass('show');
+	});
+});
+	</script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100493245-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	<script src="isotope.pkgd.min.js"></script>
+	<link rel="stylesheet" href="css/isotope-docs.css?6" media="screen">
+	<link rel="stylesheet" type="text/css" href="design.css">
+
+</head>
+
+<body>
+
+	<!-- menu du site -->
+
+	<div id="buttonNav">
+		<div id="nav-icon3">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</div>
+	</div>
+	<div id="content-menu">
+		<ul id="main-menu">
+			<li><a href="index">Accueil</a></li>
+			<li><a href="folio">Projets</a></li>
+			<li><a href="about">Contact</a></li>
+			<li><a href="folio">-<a></li>
+					<li><a href="klap">KlapLive</a></li>
+					<li><a href="nissan-vms">Nissan VMS (WIP)</a></li>
+					<li><a href="nissan-finance">Nissan Finance (WIP)</a></li>
+					<li><a href="nissan-mobile">Nissan mobile Guidelines (WIP)</a></li>
+				<li><a href="redaction">Re(d)action</a></li>
+				<li><a href="wehelp">WeHelp</a></li>
+				<li><a href="selfdeploy">Self Deploy</a></li>
+				<li><a href="hpe">HPE Ingredients</a></li>
+
+				<li><a href="https://dribbble.com/ronanbch" target="_blank">Autres projets</a></li>
+		</ul>
+	</div>
+
+
+
+
+
+
+	<!-- ici commence le contenu unique du site -->
+
+
+
+		<section class="title-index">
+			<div class="home-content">
+			<p class="hello"><a href="about" class="highlightedb">SALUT, MOI C'EST RONAN</a></h1>
+
+<!-- cd-intro -->
+
+    	<h1 class="cd-headline clip is-full-width hello">
+		Je suis un <span class="highlighted">designer Français</span> qui pratique<br>
+		<span class="cd-words-wrapper">
+			<b class="is-visible">le design d'interface</b>
+			<b>le design d'experience</b>
+			<b>le design de l'interaction</b>
+			<b>l'intégration web</b>
+		</span>
+		</h1>
+			<!--			<a class="hello" href="folio">VOIR LES PROJETS</a>!-->
+
+					</div>
+					<!-- scroll option -->
+					<div class="icon-scroll"></div>
+
+					<!-- fin scroll option -->
+
+</section>
+
+
+
+
+
+
+
+
+
+
+	<section class="content-index"></section>
+
+
+	<!-- Video Markup -->
+	<section class="mzasthead">
+		<video class="masthead-video" autoplay loop muted>
+			<source src="home2.mp4" type="video/mp4">
+			<source src="assets/videos/dreamscapes.webm" type="video/webm">
+		</video>
+
+
+	</section>
+
+
+	<!-- Load Scripts -->
+
+
+	<div id="conteneur-folio">
+		<div id="inside-conteneur-folio">
+
+			<div class="big-demo" data-js="hero-demo">
+	<div id="list">
+			  <div class="ui-group">
+
+			    <div class="filters button-group js-radio-button-group">
+			      <button class="button is-checked" data-filter="*">show all</button>
+			      <button class="button" data-filter=".metal">metal</button>
+			      <button class="button" data-filter=".transition">transition</button>
+			      <button class="button" data-filter="ium">&#x2013;ium</button>
+			    </div>
+			  </div>
+
+	</div>
+			<!--<pre class="code-display"><code>$grid.isotope({
+			  itemSelector: <span class="string">&apos;.element-item&apos;</span>,
+			  layoutMode: <span class="string">&apos;fitRows&apos;</span>,
+			  ...
+			})</code></pre>-->
+
+			  <div class="grid">
+			      <div class="element-item transition metal " data-category="transition">
+			        <h5 class="name">Mercury</h5>
+			        <p class="symbol">Hg</p>
+			        <p class="number">80</p>
+			        <p class="weight">200.59</p>
+			      </div>
+			      <div class="element-item metalloid " data-category="metalloid">
+			        <h5 class="name">Tellurium</h5>
+			        <p class="symbol">Te</p>
+			        <p class="number">52</p>
+			        <p class="weight">127.6</p>
+			      </div>
+			      <div class="element-item post-transition metal " data-category="post-transition">
+			        <h5 class="name">Bismuth</h5>
+			        <p class="symbol">Bi</p>
+			        <p class="number">83</p>
+			        <p class="weight">208.980</p>
+			      </div>
+			      <div class="element-item post-transition metal " data-category="post-transition">
+			        <h5 class="name">Lead</h5>
+			        <p class="symbol">Pb</p>
+			        <p class="number">82</p>
+			        <p class="weight">207.2</p>
+			      </div>
+			      <div class="element-item transition metal " data-category="transition">
+			        <h5 class="name">Gold</h5>
+			        <p class="symbol">Au</p>
+			        <p class="number">79</p>
+			        <p class="weight">196.967</p>
+			      </div>
+			      <div class="element-item alkali metal " data-category="alkali">
+			        <h5 class="name">Potassium</h5>
+			        <p class="symbol">K</p>
+			        <p class="number">19</p>
+			        <p class="weight">39.0983</p>
+			      </div>
+			      <div class="element-item alkali metal " data-category="alkali">
+			        <h5 class="name">Sodium</h5>
+			        <p class="symbol">Na</p>
+			        <p class="number">11</p>
+			        <p class="weight">22.99</p>
+			      </div>
+			      <div class="element-item transition metal " data-category="transition">
+			        <h5 class="name">Cadmium</h5>
+			        <p class="symbol">Cd</p>
+			        <p class="number">48</p>
+			        <p class="weight">112.411</p>
+			      </div>
+			      <div class="element-item alkaline-earth metal " data-category="alkaline-earth">
+			        <h5 class="name">Calcium</h5>
+			        <p class="symbol">Ca</p>
+			        <p class="number">20</p>
+			        <p class="weight">40.078</p>
+			      </div>
+			      <div class="element-item transition metal " data-category="transition">
+			        <h5 class="name">Rhenium</h5>
+			        <p class="symbol">Re</p>
+			        <p class="number">75</p>
+			        <p class="weight">186.207</p>
+			      </div>
+			      <div class="element-item post-transition metal " data-category="post-transition">
+			        <h5 class="name">Thallium</h5>
+			        <p class="symbol">Tl</p>
+			        <p class="number">81</p>
+			        <p class="weight">204.383</p>
+			      </div>
+			      <div class="element-item metalloid " data-category="metalloid">
+			        <h5 class="name">Antimony</h5>
+			        <p class="symbol">Sb</p>
+			        <p class="number">51</p>
+			        <p class="weight">121.76</p>
+			      </div>
+			      <div class="element-item transition metal " data-category="transition">
+			        <h5 class="name">Cobalt</h5>
+			        <p class="symbol">Co</p>
+			        <p class="number">27</p>
+			        <p class="weight">58.933</p>
+			      </div>
+			      <div class="element-item lanthanoid metal inner-transition " data-category="lanthanoid">
+			        <h5 class="name">Ytterbium</h5>
+			        <p class="symbol">Yb</p>
+			        <p class="number">70</p>
+			        <p class="weight">173.054</p>
+			      </div>
+			      <div class="element-item noble-gas nonmetal " data-category="noble-gas">
+			        <h5 class="name">Argon</h5>
+			        <p class="symbol">Ar</p>
+			        <p class="number">18</p>
+			        <p class="weight">39.948</p>
+			      </div>
+			      <div class="element-item diatomic nonmetal " data-category="diatomic">
+			        <h5 class="name">Nitrogen</h5>
+			        <p class="symbol">N</p>
+			        <p class="number">7</p>
+			        <p class="weight">14.007</p>
+			      </div>
+			      <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+			        <h5 class="name">Uranium</h5>
+			        <p class="symbol">U</p>
+			        <p class="number">92</p>
+			        <p class="weight">238.029</p>
+			      </div>
+			      <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+			        <h5 class="name">Plutonium</h5>
+			        <p class="symbol">Pu</p>
+			        <p class="number">94</p>
+			        <p class="weight">(244)</p>
+			      </div>
+			  </div>
+
+
+			</div>
+
+			  </div>
+
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+
+		<script src="js/isotope-docs.min.js?6"></script>
+
+	<script src="covervid.js"></script>
+	<script src="assets/scripts/scripts.js"></script>
+
+	<!-- Call CoverVid -->
+	<script type="text/javascript">
+		// If using jQuery
+			// $('.masthead-video').coverVid(1920, 1080);
+		// If not using jQuery (Native Javascript)
+			coverVid(document.querySelector('.masthead-video'), 1920, 1080);
+	</script>
+
+</body>
+</html>

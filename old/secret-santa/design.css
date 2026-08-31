@@ -1,0 +1,181 @@
+@font-face {
+	font-family: 'Aquatic';
+	font-weight: normal;
+	src: url('fonts/Aquatic.otf') format('opentype')
+}
+@font-face {
+	font-family: 'ChopinScript';
+	src: url('fonts/ChopinScript.ttf') format('truetype')
+}
+@font-face {
+	font-family: 'NeonFuture';
+	src: url('fonts/NeonFuture.ttf') format('truetype')
+}
+@font-face {
+	font-family: 'Nature';
+	src: url('fonts/Nature.ttf') format('truetype')
+}
+
+#jeux h3{font-family: Aquatic}
+#apero h3{font-family: ChopinScript}
+#plantes h3{font-family: Nature}
+#deco h3{font-family: NeonFuture}
+
+
+*{
+	margin:0;
+	padding:0;
+	font-size:20px;
+}
+
+html, body{
+	width:100%;
+	height:100%;
+color:#fff;
+	/*text-shadow:0 2px 6px rgba(0, 0, 0, 0.1)*/
+	font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.intro{
+height:50%;
+width:85%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex: 1 0 0;
+align-self: stretch;
+padding:0 7.5%;
+text-align:center;
+background: url(img/intro.png) no-repeat center center;
+margin:0;	
+background-size:cover;
+
+}
+
+.intro p{width:50%}
+
+.intro h3{font-size:60px; font-family:ChopinScript}
+
+.themes{
+	height:70%;
+	width:100%;
+	display: flex;
+	align-items: center;
+}
+
+.themes h3{font-size: 60px; text-align: center;}
+.themes p{font-size:20px; text-align:center;}
+
+
+
+.text-content{
+height:100%;
+width:50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex: 1 0 0;
+align-self: stretch;
+padding:0 7.5%;
+}
+
+.img-content{
+	height:100%;
+	width:50%;
+  	margin:0;
+	padding:0;
+	background-size:cover;
+}
+
+
+
+#jeux .text-content{
+background-color:#223133;
+}
+#jeux .text-content h3{color:#C1C2BD;}
+
+
+#plantes .text-content{
+background-color:#576F50;
+}
+
+#plantes .text-content h3{color:#99B350; line-height:1em}
+
+#apero .text-content{
+background-color:#4A1D24;
+
+}
+
+#apero .text-content h3{color:#BE2E26;}
+
+#deco .text-content{
+background-color:#593620;
+
+}
+
+#deco .text-content h3{
+	color:#E9AF75;
+}
+
+
+
+#deco .img-content{
+ 	background: url(img/deco.png) no-repeat center center;
+ 	margin:0;	
+ 	padding:0;
+	background-size:cover;
+}
+
+#jeux .img-content{
+ 	background: url(img/jeux.png) no-repeat center center;
+ 	margin:0;	
+ 	padding:0;
+	background-size:cover;
+}
+
+#plantes .img-content{
+ 	background: url(img/plantes.png) no-repeat center center;
+ 	margin:0;	
+ 	padding:0;
+	background-size:cover;
+}
+
+#apero .img-content{
+ 	background: url(img/apero.png) no-repeat center center;
+ 	margin:0;	
+ 	padding:0;
+	background-size:cover;
+}
+
+
+@media screen and (max-width: 800px) {
+  .themes{
+  display:flow;
+  width:100%; height:100%;
+  }
+  .text-content, .img-content
+  {height:50%;}
+  .text-content{padding:0 10%; width:80%}
+  .img-content{width:100%;}
+
+}
+
+@media screen and (max-width: 650px){
+		.intro {align-self: auto; padding-top: 75px; padding-bottom:75px; !important; height:auto;}
+		.intro p {width:75%!important}
+		.themes{height:auto}
+		.img-content{height:500px;}
+
+		.text-content{
+			align-self: auto; 
+			padding-top: 75px; 
+			padding-bottom:75px;
+		}
+}
+

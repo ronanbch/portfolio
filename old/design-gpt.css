@@ -1,0 +1,127 @@
+/* ================= ROOT ================= */
+
+:root {
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-bg: #080F2D;
+  --color-surface: #0f1a3a;
+  --color-surface-hover: #16225a;
+
+  --color-text: #f5f7ff;
+  --color-text-muted: #a9b0d6;
+
+  --color-accent: #efa30b;
+
+  --text-base: 16px;
+  --text-lg: 20px;
+  --text-xl: 28px;
+  --text-2xl: 40px;
+  --text-3xl: 56px;
+
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+
+  --radius: 10px;
+}
+
+/* ================= BASE ================= */
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* ================= HEADER ================= */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-md) var(--space-lg);
+}
+
+.header a {
+  color: var(--color-text-muted);
+  margin-left: 20px;
+}
+
+.header a:hover {
+  color: var(--color-accent);
+}
+
+/* ================= HERO ================= */
+
+.hero {
+  padding: var(--space-xl);
+}
+
+.hero-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-3xl);
+}
+
+.hero-subtitle {
+  font-size: var(--text-lg);
+  color: var(--color-text-muted);
+}
+
+/* ================= PROJECTS ================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+}
+
+.card {
+  background: var(--color-surface);
+  padding: var(--space-lg);
+  border-radius: var(--radius);
+}
+
+.card:hover {
+  background: var(--color-surface-hover);
+}
+
+/* ================= SECTIONS ================= */
+
+.section {
+  padding: var(--space-xl);
+}
+
+/* ================= CLIENTS ================= */
+
+.client-logos {
+  display: flex;
+  gap: 40px;
+  opacity: 0.7;
+}
+
+/* ================= ABOUT ================= */
+
+.about p {
+  max-width: 600px;
+  color: var(--color-text-muted);
+}
+
+/* ================= CTA ================= */
+
+.cta {
+  text-align: center;
+}
+
+/* ================= BACK TO TOP ================= */
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--color-accent);
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
