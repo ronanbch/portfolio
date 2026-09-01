@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Addict helper - Ronan Benec'h</title>
-	<meta name="description" content="Addict helper, projet personnel de Ronan Benec'h, actuellement en cours de conception">
+	<meta name="description" content="Addict helper, application d'aide au suivi et à la réduction d'une consommation, projet personnel de Ronan Benec'h en cours de conception">
 	<meta name="keywords" content="portfolio, design, UX, product, book, designer, addict helper">
 	<meta name="author" content="Ronan Benec'h">
 	<link rel="stylesheet" href="design.css">
@@ -32,15 +32,53 @@
 
 	<main id="contenu" tabindex="-1" class="full-content">
 
-  	<section class="hero">
+  	<section class="hero-project">
   		<h1>Addict helper</h1>
-  		<div class="group-tag"><div class="tag date">WIP</div></div>
+					<img src="projects/addict-helper/overview.webp" alt="Le tableau de bord d'Addict Helper : compteur d'abstinence en temps réel (mois, jours, heures, minutes, secondes), boutons pour ajouter une consommation ou partager son suivi, et liste des aidants autorisés." width="1398" height="846" loading="lazy" decoding="async">
     </section>
 
 
   <section class="content-of-project">
-    <p>La présentation détaillée de ce projet arrive bientôt : le projet lui-même est encore en plein développement !</p>
-    <p>En attendant, vous pouvez <a href="https://addict-helper.ronanbch.com" target="_blank" rel="noopener noreferrer">découvrir le site en ligne<span class="sr-only"> (nouvel onglet)</span></a> ou <a href="index.html">revenir à l'accueil</a>.</p>
+
+	<p><span class="highlight-secondary">Contexte :</span> Un projet personnel, à la fois utile et formateur : aider des personnes à mieux comprendre et réduire une consommation problématique, et à se connecter à des aidants ou professionnels quand elles en ont besoin. C'est aussi l'occasion de prolonger ma pratique de designer jusqu'au code, en apprenant le développement produit de bout en bout via le vibe coding.</p>
+
+	<a href="https://addict-helper.ronanbch.com" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-secondary button-link">Accéder au site<span class="sr-only"> (nouvel onglet)</span></div></a>
+
+	<h2>Les utilisateurs et leurs besoins</h2>
+	<p>Deux profils bien distincts à concevoir en parallèle :</p>
+	<ul>
+	<li><span class="highlight-secondary">&#8226; La personne qui suit sa consommation :</span> choisir une addiction et une date d'arrêt, visualiser un compteur d'abstinence en temps réel, consulter un calendrier mensuel de son historique, gérer plusieurs addictions en même temps.</li>
+	<li><span class="highlight-secondary">&#8226; L'aidant (proche, soignant, professionnel médical) :</span> recevoir un accès dédié une fois autorisé, avec son propre tableau de bord pour suivre et soutenir la personne accompagnée.</li>
+	</ul>
+
+	<h2>Fonctionnalités clés</h2>
+	<ul>
+	<li><span class="highlight-secondary">&#8226;</span> Compteur d'abstinence en temps réel et calendrier mensuel de suivi</li>
+	<li><span class="highlight-secondary">&#8226;</span> Gestion de plusieurs addictions en parallèle, avec des presets de consommation personnalisables</li>
+	<li><span class="highlight-secondary">&#8226;</span> Partage d'un lien de calendrier en lecture seule, protégé par mot de passe</li>
+	<li><span class="highlight-secondary">&#8226;</span> Système d'invitation et d'autorisation des aidants, avec des permissions sélectives (lecture seule, choix des addictions visibles)</li>
+	<li><span class="highlight-secondary">&#8226;</span> Messagerie intégrée (site, email, SMS) entre l'utilisateur et un aidant accepté</li>
+	<li><span class="highlight-secondary">&#8226;</span> Chatbot de soutien basé sur l'IA, disponible à tout moment</li>
+	</ul>
+
+	<h2>Choix UX à retenir</h2>
+	<p>Deux décisions qui comptent plus qu'il n'y paraît :</p>
+	<ul>
+	<li><span class="highlight-secondary">&#8226;</span> Un écart de consommation peut être noté sans réinitialiser le compteur d'abstinence, pour ne pas décourager après un faux pas.</li>
+	<li><span class="highlight-secondary">&#8226;</span> L'utilisateur garde la main sur ce qu'il partage et avec qui : chaque aidant n'a accès qu'aux addictions et informations explicitement autorisées.</li>
+	</ul>
+
+	<h2>Mon rôle et ma démarche</h2>
+	<p>Je conçois et développe ce projet seul, via le vibe coding : cadrage du besoin, UX/UI, modélisation des données, logique produit. La partie interface (React 19, TanStack Start) est générée et gérée par Lovable, que je pilote et affine avec Claude Code plutôt que d'écrire ce code moi-même à la main. Je mets en revanche davantage les mains dans Supabase : structure des tables, migrations, logique métier via des fonctions RPC. Une manière concrète de prolonger mon métier de designer jusqu'à la mise en production, sans pour autant me présenter comme développeur front.</p>
+
+	<h2>Statut actuel</h2>
+	<p>Le projet est encore en cours de conception : les fonctionnalités principales (suivi, compteur, calendrier, partage, rôle aidant, messagerie, chatbot) sont en place, mais l'application n'a pas encore d'utilisateurs réels et continue d'évoluer.</p>
+
+	<div class="buttons-inline">
+		<a href="https://app.notion.com/p/3ad5090026f3806fba75c548b1221cc5?v=3ad5090026f380a3bf67000cd3504bf8&source=copy_link" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-tertiary button-link">Voir la roadmap<span class="sr-only"> (nouvel onglet)</span></div></a>
+		<a href="https://addict-helper.ronanbch.com" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-secondary button-link">Accéder au site<span class="sr-only"> (nouvel onglet)</span></div></a>
+	</div>
+
 </section>
 
 	<section class="conversion">
