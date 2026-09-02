@@ -112,8 +112,8 @@ header .about-header{
 	display:none;
 	align-items:center;
 	justify-content:center;
-	width:32px;
-	height:32px;
+	width:36px;
+	height:36px;
 	box-sizing:border-box;
 	border-radius:8px;
 	border:1.5px solid #00CFC8;
@@ -125,8 +125,8 @@ header .about-header{
    toute sa surface. On reduit la boite ET l'icone pour un poids visuel
    equivalent. */
 header .about-header svg{
-	width:16px;
-	height:16px;
+	width:18px;
+	height:18px;
 }
 h1, h2{
 color:#d9d9d9;
@@ -587,6 +587,12 @@ section.hero-project{border:none;}
 	.intro{
 		display: flex;
 		width:100%;
+	}
+
+	/* p.intro (specificite element+classe) l'emportait sur .intro seul
+	   ci-dessus, qui n'a pas assez de poids pour re-forcer la taille :
+	   il fallait matcher "p.intro" pour que la correction s'applique. */
+	p.intro{
 		font-size:16px;
 		line-height:1.75;
 	}
