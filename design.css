@@ -114,7 +114,7 @@ header .about-header{
 	justify-content:center;
 	width:40px;
 	height:40px;
-	border-radius:50%;
+	border-radius:8px;
 	border:1.5px solid #00CFC8;
 	color:#00CFC8;
 	flex-shrink:0;
@@ -795,4 +795,32 @@ img {
    width:100% les rend independantes de l'etat de chargement. */
 .content-of-project figure {
 	width: 100%;
+}
+
+/********************** Corrections mobile — boutons et typo projet **********************/
+
+/* Un bouton seul, enfant direct de section.content-of-project (ex : le
+   lien "Acceder au site" juste apres "Contexte" sur addict-helper.html),
+   n'est enveloppe dans aucun conteneur flex dedie. Il herite alors du
+   align-items:center du selecteur generique "section" (ligne 51) et
+   reste centre/retreci au lieu de s'etirer sur toute la largeur, contrairement
+   aux boutons places dans .buttons-inline ou .group-button-project. */
+@media screen and (max-width: 28rem) {
+	section.content-of-project > a.button-link {
+		align-self: stretch;
+		width: 100%;
+	}
+}
+
+/* Le corps de texte des pages projet (.content-of-project) est en rem et
+   suit donc la reduction de html a 10px sous 28rem (ligne 537), ce qui le
+   fait tomber a ~11,5px. Le texte equivalent sur la home (.desc-project)
+   n'a jamais de font-size en rem : il reste cale sur les 16px explicites
+   de html,body (ligne 8), constants quel que soit l'ecran. On aligne donc
+   la taille mobile des pages projet sur cette meme valeur de 16px. */
+@media screen and (max-width: 28rem) {
+	.content-of-project {
+		font-size: 16px;
+		line-height: 1.75;
+	}
 }
