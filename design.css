@@ -108,8 +108,17 @@ footer p{
 
 
 header .ln-header{display:none}
-header .about-header{display:none}
-header .about-header img{border-radius:50%; object-fit:cover; width:40px; height:40px;}
+header .about-header{
+	display:none;
+	align-items:center;
+	justify-content:center;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	border:1.5px solid #00CFC8;
+	color:#00CFC8;
+	flex-shrink:0;
+}
 h1, h2{
 color:#d9d9d9;
 text-align:center;
@@ -574,7 +583,7 @@ section.hero-project{border:none;}
 	header .button-linkedIn{display:none;}
 	header .ln-header{display:block}
 	header .about-button{display:none;}
-	header .about-header{display:block}
+	header .about-header{display:flex}
 
 
 
@@ -624,6 +633,7 @@ width:100%
 
 	.group-button-project{
 		flex-direction:column;
+		align-items:stretch;
 		width:100%;
 	}
 
