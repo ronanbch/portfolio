@@ -112,12 +112,21 @@ header .about-header{
 	display:none;
 	align-items:center;
 	justify-content:center;
-	width:40px;
-	height:40px;
+	width:32px;
+	height:32px;
+	box-sizing:border-box;
 	border-radius:8px;
 	border:1.5px solid #00CFC8;
 	color:#00CFC8;
 	flex-shrink:0;
+}
+/* Icone plus petite que le SVG source (20x20) : elle etait perçue comme
+   plus imposante que le logo LinkedIn (40x40) a cause du cadre visible sur
+   toute sa surface. On reduit la boite ET l'icone pour un poids visuel
+   equivalent. */
+header .about-header svg{
+	width:16px;
+	height:16px;
 }
 h1, h2{
 color:#d9d9d9;
@@ -578,6 +587,8 @@ section.hero-project{border:none;}
 	.intro{
 		display: flex;
 		width:100%;
+		font-size:16px;
+		line-height:1.75;
 	}
 
 	header .button-linkedIn{display:none;}
