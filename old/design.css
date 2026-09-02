@@ -742,8 +742,15 @@ background-size:cover; z-index:1;
 }
 
 
-.project14, .project13{
+.project14{
   background: url(img/folio/nissan-finance.jpg) no-repeat center center;
+  margin:0;
+padding:0;
+background-size:cover; z-index:1;
+}
+
+.project13{
+  background: url(projects/orthographiq/Dashboard-1st-day.png) no-repeat center center;
   margin:0;
 padding:0;
 background-size:cover; z-index:1;
