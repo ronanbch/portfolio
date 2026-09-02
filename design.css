@@ -108,6 +108,8 @@ footer p{
 
 
 header .ln-header{display:none}
+header .about-header{display:none}
+header .about-header img{border-radius:50%; object-fit:cover; width:40px; height:40px;}
 h1, h2{
 color:#d9d9d9;
 text-align:center;
@@ -571,6 +573,8 @@ section.hero-project{border:none;}
 
 	header .button-linkedIn{display:none;}
 	header .ln-header{display:block}
+	header .about-button{display:none;}
+	header .about-header{display:block}
 
 
 
