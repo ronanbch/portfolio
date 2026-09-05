@@ -112,8 +112,8 @@ header .about-header{
 	display:none;
 	align-items:center;
 	justify-content:center;
-	width:40px;
-	height:40px;
+	width:36px;
+	height:36px;
 	box-sizing:border-box;
 	border-radius:8px;
 	border:none;
@@ -121,14 +121,15 @@ header .about-header{
 	color:#080F2D;
 	flex-shrink:0;
 }
-/* box-sizing:border-box place la bordure (quand il y en a) a l'interieur
-   de la boite : width/height=40px restent la taille totale visible.
-   Bouton passe en plein (fond cyan, trait du picto dans la couleur de
-   fond de page) pour matcher visuellement le bouton LinkedIn a cote,
-   lui aussi en plein plutot qu'en contour. */
+/* Le logo LinkedIn (ln-logo.webp) remplit deja 95% de son canevas 40x40 :
+   les deux badges sont donc physiquement comparables en plein. L'ecart
+   percu vient plutot du cyan tres lumineux sur fond sombre, qui "deborde"
+   optiquement (irradiation) bien plus que le bleu fonce de LinkedIn a
+   taille egale. On compense en reduisant legerement la boite plutot qu'en
+   changeant la couleur d'accent du site. */
 header .about-header svg{
-	width:20px;
-	height:20px;
+	width:18px;
+	height:18px;
 }
 h1, h2{
 color:#d9d9d9;
