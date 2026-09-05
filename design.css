@@ -122,7 +122,7 @@ header .ln-header{
    avec le radius du bouton voisin. */
 header .ln-header img{
 	display:block;
-	border-radius:8px;
+	border-radius:4px;
 }
 header .about-header{
 	display:none;
@@ -131,7 +131,7 @@ header .about-header{
 	width:36px;
 	height:36px;
 	box-sizing:border-box;
-	border-radius:8px;
+	border-radius:4px;
 	border:none;
 	background-color:#00CFC8;
 	color:#080F2D;
