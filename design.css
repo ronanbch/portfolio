@@ -107,7 +107,23 @@ footer p{
 
 
 
-header .ln-header{display:none}
+header .ln-header{
+	display:none;
+	align-items:center;
+	flex-shrink:0;
+}
+/* L'image (img/ln-logo.webp) etait en display inline par defaut : le
+   navigateur lui reservait quelques px d'espace sous l'image (place
+   reservee pour un descendeur de texte), ce qui la decalait legerement
+   par rapport au carre profil juste a cote — d'ou l'impression de
+   "position" differente. display:block sur l'img supprime cet espace.
+   border-radius aligne son arrondi sur celui du carre profil (8px) :
+   sans ca, le coin de l'image (integre a plat dans le fichier) tranchait
+   avec le radius du bouton voisin. */
+header .ln-header img{
+	display:block;
+	border-radius:8px;
+}
 header .about-header{
 	display:none;
 	align-items:center;
