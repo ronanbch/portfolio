@@ -112,21 +112,23 @@ header .about-header{
 	display:none;
 	align-items:center;
 	justify-content:center;
-	width:36px;
-	height:36px;
+	width:40px;
+	height:40px;
 	box-sizing:border-box;
 	border-radius:8px;
-	border:1.5px solid #00CFC8;
-	color:#00CFC8;
+	border:none;
+	background-color:#00CFC8;
+	color:#080F2D;
 	flex-shrink:0;
 }
-/* Icone plus petite que le SVG source (20x20) : elle etait perçue comme
-   plus imposante que le logo LinkedIn (40x40) a cause du cadre visible sur
-   toute sa surface. On reduit la boite ET l'icone pour un poids visuel
-   equivalent. */
+/* box-sizing:border-box place la bordure (quand il y en a) a l'interieur
+   de la boite : width/height=40px restent la taille totale visible.
+   Bouton passe en plein (fond cyan, trait du picto dans la couleur de
+   fond de page) pour matcher visuellement le bouton LinkedIn a cote,
+   lui aussi en plein plutot qu'en contour. */
 header .about-header svg{
-	width:18px;
-	height:18px;
+	width:20px;
+	height:20px;
 }
 h1, h2{
 color:#d9d9d9;
