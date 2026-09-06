@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Addict helper - Ronan Benec'h</title>
+	<meta name="description" content="Addict helper, an app to help track and reduce substance use, a personal project by Ronan Benec'h currently in development">
+	<meta name="keywords" content="portfolio, design, UX, product, book, designer, addict helper">
+	<meta name="author" content="Ronan Benec'h">
+	<link rel="stylesheet" href="../design.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+	<script src="../clarity-consent.js" defer></script>
+
+</head>
+
+<body>
+
+	<a class="skip-link" href="#contenu">Skip to main content</a>
+
+	<header>
+		<div class="content-header">
+		<a href="index.html"><div class="name">Ronan Benec'h</div><span class="sr-only"> — back to home</span></a>
+			<nav class="group-button" aria-label="Main navigation">
+				<a href="../addict-helper.html" class="button-link"><div class="button button-tertiary">FR</div></a>
+				<a href="about-me.html" class="button-link"><div class="button button-secondary about-button">About me</div></a>
+				<a href="https://www.linkedin.com/in/ronanbenech/" class="button-link" target="_blank" rel="noopener noreferrer">	<div class="button button-linkedIn">View my LinkedIn<span class="sr-only"> (new tab)</span></div></a>
+			<a class="about-header" href="about-me.html" aria-label="About me">	<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 20c0-4.4 3.6-7 8-7s8 2.6 8 7"></path></svg></a>
+			<a class="ln-header" href="https://www.linkedin.com/in/ronanbenech/" target="_blank" rel="noopener noreferrer" aria-label="My LinkedIn profile, new tab">	<img src="../img/ln-logo.webp" alt="" width="40" height="40"></a>
+			</nav>
+		</div>
+	</header>
+
+	<main id="contenu" tabindex="-1" class="full-content">
+
+  	<section class="hero-project">
+  		<h1>Addict helper</h1>
+					<img src="../projects/addict-helper/overview.webp" alt="The Addict Helper dashboard: a real-time abstinence counter (months, days, hours, minutes, seconds), buttons to log a use or share tracking, and a list of authorized supporters." width="1398" height="846" loading="lazy" decoding="async">
+    </section>
+
+
+  <section class="content-of-project">
+
+	<p><span class="highlight-secondary">Context: </span> A personal project that's both useful and a learning experience: helping people better understand and reduce problematic substance use, and connect with supporters or professionals when they need to. It's also a chance to extend my design practice into code, learning end-to-end product development through vibe coding.</p>
+
+	<a href="https://addict-helper.ronanbch.com" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-secondary button-link">Visit the site<span class="sr-only"> (new tab)</span></div></a>
+
+	<h2>Users and their needs</h2>
+	<p>Two very distinct profiles to design for in parallel:</p>
+	<ul>
+	<li><span class="highlight-secondary">&#8226; The person tracking their use:</span> choose an addiction and a quit date, view a real-time abstinence counter, browse a monthly calendar of their history, and manage several addictions at once.</li>
+	<li><span class="highlight-secondary">&#8226; The supporter (loved one, caregiver, healthcare professional):</span> gets dedicated access once authorized, with their own dashboard to follow and support the person they're helping.</li>
+	</ul>
+
+	<h2>Key features</h2>
+	<ul>
+	<li><span class="highlight-secondary">&#8226;</span> Real-time abstinence counter and monthly tracking calendar</li>
+	<li><span class="highlight-secondary">&#8226;</span> Managing multiple addictions in parallel, with customizable use presets</li>
+	<li><span class="highlight-secondary">&#8226;</span> Sharing a password-protected, read-only calendar link</li>
+	<li><span class="highlight-secondary">&#8226;</span> Supporter invitation and authorization system, with selective permissions (read-only, choice of visible addictions)</li>
+	<li><span class="highlight-secondary">&#8226;</span> Built-in messaging (site, email, SMS) between the user and an approved supporter</li>
+	<li><span class="highlight-secondary">&#8226;</span> AI-based support chatbot, available at any time</li>
+	</ul>
+
+	<h2>Key UX choices</h2>
+	<p>Two decisions that matter more than they seem:</p>
+	<ul>
+	<li><span class="highlight-secondary">&#8226;</span> A slip can be logged without resetting the abstinence counter, so a setback doesn't feel discouraging.</li>
+	<li><span class="highlight-secondary">&#8226;</span> The user stays in control of what they share and with whom: each supporter only sees the addictions and information explicitly authorized.</li>
+	</ul>
+
+	<h2>My role and approach</h2>
+	<p>I design and build this project on my own, through vibe coding: scoping the need, UX/UI, data modeling, product logic. The interface layer (React 19, TanStack Start) is generated and managed by Lovable, which I steer and refine with Claude Code rather than writing that code by hand myself. I get much more hands-on with Supabase, though: table structure, migrations, business logic through RPC functions. A concrete way to extend my design practice all the way to production, without presenting myself as a front-end developer.</p>
+
+	<h2>Current status</h2>
+	<p>The project is still under development: the core features (tracking, counter, calendar, sharing, supporter role, messaging, chatbot) are in place, but the app doesn't yet have real users and keeps evolving.</p>
+
+	<div class="buttons-inline">
+		<a href="https://app.notion.com/p/3ad5090026f3806fba75c548b1221cc5?v=3ad5090026f380a3bf67000cd3504bf8&source=copy_link" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-tertiary button-link">View the roadmap<span class="sr-only"> (new tab)</span></div></a>
+		<a href="https://addict-helper.ronanbch.com" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-secondary button-link">Visit the site<span class="sr-only"> (new tab)</span></div></a>
+	</div>
+
+</section>
+
+	<section class="conversion">
+		<h2>A project? A need?<br> Let's talk.</h2>
+	<p>If you're interested in my profile or would like to connect, I'd be happy to hear from you — via <a href="https://www.linkedin.com/in/ronanbenech/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (new tab)</span></a>, or directly by email at <a href="mailto:benech.r@gmail.com">benech.r(@)gmail.com</a>. Looking forward to it!</p>
+<p>To go back home, <a href="index.html">click here!</a></p>
+</p>
+
+		</section>
+		<div class="divider"></div>
+
+	</main>
+
+		<footer>
+			<div class="content-footer">
+<p>© Copyright 2026 ronanbch.com</p>
+	<a href="https://ronanbch.com/old/index.html" class="button-link">	<div class="button button-tertiary ">View my old portfolio</div></a>
+</div>
+		</footer>
+
+  </body>
+  </html>
