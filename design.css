@@ -874,3 +874,15 @@ img {
 		line-height: 1.75;
 	}
 }
+
+/* Centrage des actions de la page Addict Helper, en français et en anglais. */
+.addict-helper-project > a.button-link {
+    align-self: center;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.addict-helper-project .buttons-inline {
+    justify-content: center;
+    text-align: center;
+}
