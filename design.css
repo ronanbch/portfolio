@@ -232,7 +232,7 @@ text-align: center;
 .button-primary{
   border:1px solid #efa30b;
   color:#efa30b;
-	transition:0.5s;
+	transition:background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 
 .button-primary:hover{
@@ -246,7 +246,7 @@ background:#efa30b;
 .button-secondary{
   border:1px solid #00CFC8;
   color:#00CFC8;
-	transition:0.5s;
+	transition:background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 
 .button-secondary:hover{
@@ -261,7 +261,7 @@ background:#00CFC8;
 .button-tertiary{
   border:1px solid #d9d9d9;
   color:#d9d9d9;
-	transition:0.5s;
+	transition:background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 
 .button-tertiary:hover{
@@ -452,7 +452,10 @@ section.clients{
 
 .list-logos{display:flex;
 flex-direction:row;
-gap:2rem;}
+gap:2rem;
+max-width:100%;
+flex-wrap:wrap;
+}
 
 .list-logos img {
 	width:7.5rem;
@@ -559,6 +562,13 @@ section.hero-project{border:none;}
 
 
 
+
+/* Entre mobile et desktop, les cartes gardent une largeur lisible et passent
+   a la ligne lorsque trois colonnes ne tiennent plus. */
+@media screen and (min-width: 28.001rem) and (max-width: 64rem){
+	.group-projects { flex-wrap:wrap; }
+	.group-projects > .project { flex:1 1 15rem; min-width:0; }
+}
 
 @media screen and (max-width: 28rem){
   html{
@@ -690,6 +700,10 @@ width:100%
 
 	.cookie-banner-buttons{
 		flex-direction:column;
+	}
+
+	.cookie-banner-buttons .button{
+		box-sizing:border-box;
 	}
 
 	section.conversion{

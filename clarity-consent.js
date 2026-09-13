@@ -18,14 +18,18 @@
 	}
 
 	function showBanner() {
+		var english = document.documentElement.lang.toLowerCase().split('-')[0] === 'en';
+		var message = english
+			? 'This site uses anonymized audience measurement cookies (click and scroll maps) to understand how the site is used. No personal tracking data is involved.'
+			: "Ce site utilise des cookies de mesure d'audience anonymisée (cartes de clics/défilement) pour comprendre comment ce site est utilisé. Aucune donnée de suivi personnel n'est concernée.";
 		var banner = document.createElement("div");
 		banner.className = "cookie-banner";
 		banner.innerHTML =
 			'<div class="cookie-banner-content">' +
-			"<p>Ce site utilise des cookies de mesure d'audience anonymisée (cartes de clics/défilement) pour comprendre comment ce site est utilisé. Aucune donnée de suivi personnel n'est concernée.</p>" +
+			'<p>' + message + '</p>' +
 			'<div class="cookie-banner-buttons">' +
-			'<div class="button button-tertiary" id="cookie-decline" role="button" tabindex="0">Refuser</div>' +
-			'<div class="button button-primary" id="cookie-accept" role="button" tabindex="0">Accepter</div>' +
+			'<div class="button button-tertiary" id="cookie-decline" role="button" tabindex="0">' + (english ? 'Decline' : 'Refuser') + '</div>' +
+			'<div class="button button-primary" id="cookie-accept" role="button" tabindex="0">' + (english ? 'Accept' : 'Accepter') + '</div>' +
 			"</div>" +
 			"</div>";
 		document.body.appendChild(banner);

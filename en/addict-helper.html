@@ -74,11 +74,31 @@
 	<h2>My role and approach</h2>
 	<p>I design and build this project on my own, through vibe coding: scoping the need, UX/UI, data modeling, product logic. The interface layer (React 19, TanStack Start) is generated and managed by Lovable, which I steer and refine with Claude Code rather than writing that code by hand myself. I get much more hands-on with Supabase, though: table structure, migrations, business logic through RPC functions. A concrete way to extend my design practice all the way to production, without presenting myself as a front-end developer.</p>
 
-	<h2>Current status</h2>
-	<p>The project is still under development: the core features (tracking, counter, calendar, sharing, supporter role, messaging, chatbot) are in place, but the app doesn't yet have real users and keeps evolving.</p>
+
+	<h2>Mapping the product to make better decisions</h2>
+	<p>As the product grows, the challenge is to keep personal tracking and support relationships coherent. I reviewed the existing journeys to distinguish four mechanisms: a contact, a help request, tracking permission and a sharing link. They do not grant the same capabilities.</p>
+	<p>The mapping brings together the perspectives of the person tracking their use, the supporter and the healthcare professional, while preserving differences between technical roles, including the loved-one role. It helps identify ambiguity before adding features.</p>
+	<h3>01 — Workflows: understanding current behaviour</h3>
+	<p>Actions and decisions run from left to right, making it easier to follow the connections between tracking, sharing and support.</p>
+	<p><a href="https://whimsical.com/Ds4TUcqxZo2ui1Xk5Fc9qV" target="_blank" rel="noopener noreferrer">Explore the workflows (in French)<span class="sr-only"> (new tab)</span></a></p>
+	<h3>02 — User journeys: shifting perspective</h3>
+	<p>From discovery to ending support, three perspectives bring together existing behaviour, assumed needs and improvement ideas. Proposed needs and emotions remain hypotheses to check with people.</p>
+	<p><a href="https://whimsical.com/Kbv4K5zio1E9SRgzAhcFP5" target="_blank" rel="noopener noreferrer">Explore the user journeys (in French)<span class="sr-only"> (new tab)</span></a></p>
+	<h3>03 — The UX backlog: preparing validation</h3>
+	<p>15 hypotheses and 3 proposed test scenarios connect each idea to a role, context and validation criterion. This AI-assisted analysis is kept separate from feedback from real people.</p>
+	<p><a href="https://app.notion.com/p/3da5090026f3805484cdeebfc36ce071?v=3da5090026f380bb8b82000c13d66cfb" target="_blank" rel="noopener noreferrer">View the UX hypotheses (in French)<span class="sr-only"> (new tab)</span></a></p>
+	<h2>What I want to test next</h2>
+	<ul>
+		<li>Does someone understand what their healthcare professional can see after adding a contact or accepting help?</li>
+		<li>Can each supporter identify the journey for their role and its limits?</li>
+		<li>Can someone log consumption and then stop sharing without surprises about the counter or their data?</li>
+	</ul>
+	<p>The next step is to choose a scenario, observe how people understand it and adjust the journey. These tests are proposed, not yet conducted as part of this work. The backlog supports decisions rather than promising to build every idea.</p>
+<h2>Current status</h2>
+	<p>The project is still under development: the core features (tracking, counter, calendar, sharing, supporter role, messaging, chatbot) are in place, and the app continues to evolve. Feedback from real people and design hypotheses are tracked in two separate backlogs.</p>
 
 	<div class="buttons-inline">
-		<a href="https://app.notion.com/p/3ad5090026f3806fba75c548b1221cc5?v=3ad5090026f380a3bf67000cd3504bf8&source=copy_link" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-tertiary button-link">View the roadmap<span class="sr-only"> (new tab)</span></div></a>
+		<a href="https://app.notion.com/p/3ad5090026f3806fba75c548b1221cc5?v=3ad5090026f380a3bf67000cd3504bf8&source=copy_link" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-tertiary button-link">View feedback<span class="sr-only"> (new tab)</span></div></a>
 		<a href="https://addict-helper.ronanbch.com" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-secondary button-link">Visit the site<span class="sr-only"> (new tab)</span></div></a>
 	</div>
 
