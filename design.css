@@ -305,6 +305,11 @@ width:fit-content;
 	border:1px solid #d9d9d9;
 color:#d9d9d9;}
 
+.tag.primary{
+	border:1px solid #efa30b;
+	color:#efa30b;
+}
+
 .group-button-project{
 	display:flex;
 	flex-direction:column;
