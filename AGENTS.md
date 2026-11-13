@@ -1,7 +1,7 @@
 # Portfolio — consignes Codex
 
 ## Projet
-Site statique HTML/CSS/JavaScript dans `D:\_Mes sites\portfolio`, avec pages françaises, dossier `en`, images et documents. Lire les fichiers concernés avant de modifier une page. Le README documente le démarrage local via `node ./serve-local.mjs`.
+Site statique HTML/CSS/JavaScript dans `D:\_Projets\Sites web et SaaS\portfolio`, avec pages françaises, dossier `en`, images et documents. Lire les fichiers concernés avant de modifier une page. Le README documente le démarrage local via `node ./serve-local.mjs`.
 
 ## Préservation
 - Inspecter `git status` avant toute modification ; préserver les changements de l'utilisateur.

@@ -46,6 +46,7 @@
 	<p><span class="highlight-secondary">Context: </span> A personal project that's both useful and a learning experience: helping people better understand and reduce problematic substance use, and connect with supporters or professionals when they need to. It's also a chance to extend my design practice into code, learning end-to-end product development through vibe coding.</p>
 
 	<a href="https://addict-helper.ronanbch.com" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-secondary button-link">Visit the site<span class="sr-only"> (new tab)</span></div></a>
+	<a href="https://demo.addict-helper.ronanbch.com/" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-tertiary button-link">Access the demo (WIP)<span class="sr-only"> (new tab)</span></div></a>
 
 	<h2>Users and their needs</h2>
 	<p>Two very distinct profiles to design for in parallel:</p>
@@ -72,7 +73,47 @@
 	</ul>
 
 	<h2>My role and approach</h2>
-	<p>I design and build this project on my own, through vibe coding: scoping the need, UX/UI, data modeling, product logic. The interface layer (React 19, TanStack Start) is generated and managed by Lovable, which I steer and refine with Claude Code rather than writing that code by hand myself. I get much more hands-on with Supabase, though: table structure, migrations, business logic through RPC functions. A concrete way to extend my design practice all the way to production, without presenting myself as a front-end developer.</p>
+	<p>I design this product end to end: framing the need, user journeys, UX/UI, data modeling and product logic. I use AI tools to evolve the code while keeping ownership of design decisions and priorities. Supabase manages the data, accounts and access; GitHub keeps the code and its history. It’s a way to extend my design practice through to production without presenting myself as a front-end developer.</p>
+
+	<div class="service-directory">
+		<h2>The services behind the app</h2>
+		<section class="service-group" aria-labelledby="services-planning">
+			<h3>Planning and design</h3>
+			<ul class="service-grid">
+				<li class="service-card"><h4><a href="https://whimsical.com/Ds4TUcqxZo2ui1Xk5Fc9qV" target="_blank" rel="noopener noreferrer">Whimsical<span class="sr-only"> (new tab)</span></a></h4><p class="service-type">User journeys</p><p>Maps user journeys and how the app works in diagrams.</p></li>
+				<li class="service-card"><h4><a href="https://www.notion.so/3c05090026f3801f8d2ad85506d297cb" target="_blank" rel="noopener noreferrer">Notion<span class="sr-only"> (new tab)</span></a></h4><p class="service-type">Project management</p><p>Brings together the backlog, roadmap and documentation. The administrator can transfer feedback there.</p></li>
+				<li class="service-card"><h4><a href="https://www.figma.com/design/ebfOJztuo5cNo0EwHwFqVv/Addict-helper?node-id=32-2" target="_blank" rel="noopener noreferrer">Figma<span class="sr-only"> (new tab)</span></a></h4><p class="service-type">Design decisions</p><p>Designs and documents the product interfaces and design choices.</p></li>
+			</ul>
+		</section>
+
+		<section class="service-group" aria-labelledby="services-history">
+			<h3>Early no-code tools</h3>
+			<ul class="service-grid">
+				<li class="service-card"><h4><a href="https://lovable.dev" target="_blank" rel="noopener noreferrer">Lovable<span class="sr-only"> (new tab)</span></a></h4><p class="service-type">Historical tool</p><p>Used for the initial build; no longer needed to run the app. A residual Git connection still needs checking.</p></li>
+				<li class="service-card"><h4><a href="https://claude.ai" target="_blank" rel="noopener noreferrer">Claude Code<span class="sr-only"> (new tab)</span></a></h4><p class="service-type">Historical tool · optional</p><p>Former development assistant. No app dependency; configuration and documentation remain.</p></li>
+			</ul>
+		</section>
+
+		<section class="service-group" aria-labelledby="services-development">
+			<h3>Developing and maintaining the project</h3>
+			<ul class="service-grid">
+				<li class="service-card"><h4><a href="https://chatgpt.com/codex" target="_blank" rel="noopener noreferrer">Codex<span class="sr-only"> (new tab)</span></a></h4><p class="service-type">Development assistant</p><p>Helps evolve the code, fix bugs and check changes.</p></li>
+				<li class="service-card"><h4><a href="https://github.com/ronanbch/addict-helper" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (new tab)</span></a></h4><p class="service-type">Code and history</p><p>Stores the source code, branches and change history.</p></li>
+			</ul>
+		</section>
+
+		<section class="service-group" aria-labelledby="services-runtime">
+			<h3>Running the app</h3>
+			<ul class="service-grid">
+				<li class="service-card"><h4><a href="https://supabase.com/dashboard" target="_blank" rel="noopener noreferrer">Supabase<span class="sr-only"> (new tab)</span></a></h4><p class="service-type">Data and accounts</p><p>Stores tracking data and messages; manages sign-in, accounts and access rights.</p></li>
+				<li class="service-card"><h4><a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel<span class="sr-only"> (new tab)</span></a></h4><p class="service-type">Hosting</p><p>Runs the website and deploys production and demo versions.</p></li>
+				<li class="service-card"><h4><a href="https://dash.cloudflare.com" target="_blank" rel="noopener noreferrer">Cloudflare Workers AI<span class="sr-only"> (new tab)</span></a></h4><p class="service-type">Artificial intelligence</p><p>Powers the support chatbot and helps draft release notes.</p></li>
+				<li class="service-card"><h4><a href="https://resend.com" target="_blank" rel="noopener noreferrer">Resend<span class="sr-only"> (new tab)</span></a></h4><p class="service-type">Email</p><p>Sends tracking requests and user feedback to the team.</p></li>
+			</ul>
+		</section>
+
+		<p class="service-directory-notes">Account emails use Supabase Auth; the SMTP provider has not been verified. Microsoft Clarity is disabled. Based on the code and documentation as of September 21, 2026; service availability has not been tested.</p>
+	</div>
 
 	<h2>The code on GitHub</h2>
 	<p>The project is available on GitHub, where you can follow its evolution and explore how it is built.</p>
@@ -104,6 +145,7 @@
 	<div class="buttons-inline">
 		<a href="https://app.notion.com/p/3ad5090026f3806fba75c548b1221cc5?v=3ad5090026f380a3bf67000cd3504bf8&source=copy_link" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-secondary button-link">View user feedback<span class="sr-only"> (new tab)</span></div></a>
 		<a href="https://addict-helper.ronanbch.com" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-secondary button-link">Visit the site<span class="sr-only"> (new tab)</span></div></a>
+		<a href="https://demo.addict-helper.ronanbch.com/" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-tertiary button-link">Access the demo (WIP)<span class="sr-only"> (new tab)</span></div></a>
 	</div>
 
 </section>

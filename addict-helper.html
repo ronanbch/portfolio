@@ -46,6 +46,7 @@
 	<p><span class="highlight-secondary">Contexte :</span> Un projet personnel, à la fois utile et formateur : aider des personnes à mieux comprendre et réduire une consommation problématique, et à se connecter à des aidants ou professionnels quand elles en ont besoin. C'est aussi l'occasion de prolonger ma pratique de designer jusqu'au code, en apprenant le développement produit de bout en bout via le vibe coding.</p>
 
 	<a href="https://addict-helper.ronanbch.com" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-secondary button-link">Accéder au site<span class="sr-only"> (nouvel onglet)</span></div></a>
+	<a href="https://demo.addict-helper.ronanbch.com/" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-tertiary button-link">Accéder à la démo (WIP)<span class="sr-only"> (nouvel onglet)</span></div></a>
 
 	<h2>Les utilisateurs et leurs besoins</h2>
 	<p>Deux profils bien distincts à concevoir en parallèle :</p>
@@ -72,7 +73,47 @@
 	</ul>
 
 	<h2>Mon rôle et ma démarche</h2>
-	<p>Je conçois et développe ce projet seul, via le vibe coding : cadrage du besoin, UX/UI, modélisation des données, logique produit. La partie interface (React 19, TanStack Start) est générée et gérée par Lovable, que je pilote et affine avec Claude Code plutôt que d'écrire ce code moi-même à la main. Je mets en revanche davantage les mains dans Supabase : structure des tables, migrations, logique métier via des fonctions RPC. Une manière concrète de prolonger mon métier de designer jusqu'à la mise en production, sans pour autant me présenter comme développeur front.</p>
+	<p>Je conçois ce produit de bout en bout : cadrage du besoin, parcours, UX/UI, modélisation des données et logique produit. Je m’appuie sur des outils d’IA pour faire évoluer le code, tout en gardant la main sur les choix de conception et les priorités. Supabase gère les données, les comptes et les accès ; GitHub conserve le code et son historique. Je prolonge ainsi mon métier de designer jusqu’à la mise en production, sans me présenter comme développeur front-end.</p>
+
+	<div class="service-directory">
+		<h2>Les services derrière l’app</h2>
+		<section class="service-group" aria-labelledby="services-planning">
+			<h3 id="services-planning">Organiser et visualiser</h3>
+			<ul class="service-grid">
+				<li class="service-card"><h4><a href="https://whimsical.com/Ds4TUcqxZo2ui1Xk5Fc9qV" target="_blank" rel="noopener noreferrer">Whimsical<span class="sr-only"> (nouvel onglet)</span></a></h4><p class="service-type">Parcours utilisateurs</p><p>Représente les parcours et le fonctionnement de l’application sous forme de schémas.</p></li>
+				<li class="service-card"><h4><a href="https://www.notion.so/3c05090026f3801f8d2ad85506d297cb" target="_blank" rel="noopener noreferrer">Notion<span class="sr-only"> (nouvel onglet)</span></a></h4><p class="service-type">Pilotage du projet</p><p>Centralise le backlog, la roadmap et la documentation. Les retours peuvent y être transférés par l’administrateur.</p></li>
+				<li class="service-card"><h4><a href="https://www.figma.com/design/ebfOJztuo5cNo0EwHwFqVv/Addict-helper?node-id=32-2" target="_blank" rel="noopener noreferrer">Figma<span class="sr-only"> (nouvel onglet)</span></a></h4><p class="service-type">Choix de design</p><p>Conçoit et documente les interfaces et les choix de conception du produit.</p></li>
+			</ul>
+		</section>
+
+		<section class="service-group" aria-labelledby="services-history">
+			<h3 id="services-history">Outils des premières étapes du no-code</h3>
+			<ul class="service-grid">
+				<li class="service-card"><h4><a href="https://lovable.dev" target="_blank" rel="noopener noreferrer">Lovable<span class="sr-only"> (nouvel onglet)</span></a></h4><p class="service-type">Outil historique</p><p>Utilisé pour la création initiale, il n’est plus nécessaire au fonctionnement de l’app. Connexion Git résiduelle à vérifier.</p></li>
+				<li class="service-card"><h4><a href="https://claude.ai" target="_blank" rel="noopener noreferrer">Claude Code<span class="sr-only"> (nouvel onglet)</span></a></h4><p class="service-type">Outil historique · facultatif</p><p>Ancien assistant de développement. Aucune dépendance dans l’app ; configuration et documentation conservées.</p></li>
+			</ul>
+		</section>
+
+		<section class="service-group" aria-labelledby="services-development">
+			<h3 id="services-development">Développer et maintenir le projet</h3>
+			<ul class="service-grid">
+				<li class="service-card"><h4><a href="https://chatgpt.com/codex" target="_blank" rel="noopener noreferrer">Codex<span class="sr-only"> (nouvel onglet)</span></a></h4><p class="service-type">Assistant de développement</p><p>Aide à faire évoluer le code, corriger les bugs et vérifier les changements.</p></li>
+				<li class="service-card"><h4><a href="https://github.com/ronanbch/addict-helper" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (nouvel onglet)</span></a></h4><p class="service-type">Code et historique</p><p>Conserve le code source, les branches et l’historique des modifications.</p></li>
+			</ul>
+		</section>
+
+		<section class="service-group" aria-labelledby="services-runtime">
+			<h3 id="services-runtime">Faire fonctionner l’application</h3>
+			<ul class="service-grid">
+				<li class="service-card"><h4><a href="https://supabase.com/dashboard" target="_blank" rel="noopener noreferrer">Supabase<span class="sr-only"> (nouvel onglet)</span></a></h4><p class="service-type">Données et comptes</p><p>Stocke les suivis et les messages ; gère la connexion, les comptes et les droits d’accès.</p></li>
+				<li class="service-card"><h4><a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel<span class="sr-only"> (nouvel onglet)</span></a></h4><p class="service-type">Hébergement</p><p>Met le site en ligne et déploie les versions de production et de démonstration.</p></li>
+				<li class="service-card"><h4><a href="https://dash.cloudflare.com" target="_blank" rel="noopener noreferrer">Cloudflare Workers AI<span class="sr-only"> (nouvel onglet)</span></a></h4><p class="service-type">Intelligence artificielle</p><p>Fait fonctionner le chatbot de soutien et aide à rédiger les notes de version.</p></li>
+				<li class="service-card"><h4><a href="https://resend.com" target="_blank" rel="noopener noreferrer">Resend<span class="sr-only"> (nouvel onglet)</span></a></h4><p class="service-type">Emails</p><p>Envoie les demandes de suivi et les retours utilisateurs destinés à l’équipe.</p></li>
+			</ul>
+		</section>
+
+		<p class="service-directory-notes">Les emails de compte passent par Supabase Auth ; le prestataire SMTP n’est pas vérifié. Microsoft Clarity est désactivé. Repères établis à partir du code et de la documentation au 21 septembre 2026 ; disponibilité des services non testée.</p>
+	</div>
 
 	<h2>Le code sur GitHub</h2>
 	<p>Le projet est disponible sur GitHub pour suivre son évolution et découvrir sa mise en œuvre.</p>
@@ -104,6 +145,7 @@
 	<div class="buttons-inline">
 		<a href="https://app.notion.com/p/3ad5090026f3806fba75c548b1221cc5?v=3ad5090026f380a3bf67000cd3504bf8&source=copy_link" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-secondary button-link">Voir les retours terrain<span class="sr-only"> (nouvel onglet)</span></div></a>
 		<a href="https://addict-helper.ronanbch.com" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-secondary button-link">Accéder au site<span class="sr-only"> (nouvel onglet)</span></div></a>
+		<a href="https://demo.addict-helper.ronanbch.com/" class="button-link" target="_blank" rel="noopener noreferrer"><div class="button button-tertiary button-link">Accéder à la démo (WIP)<span class="sr-only"> (nouvel onglet)</span></div></a>
 	</div>
 
 </section>

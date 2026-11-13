@@ -538,6 +538,77 @@ section.expertises h3{
 	font-size:1.5rem;
 }
 
+.service-directory {
+	margin: 1.5rem 0 2rem;
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+.service-directory > h2 {
+	margin-bottom: .5rem;
+}
+
+.service-group + .service-group {
+	margin-top: 0;
+}
+
+.service-directory .service-group {
+	padding: 0;
+	border-bottom: 0;
+	align-items: stretch;
+	justify-content: flex-start;
+	gap: 1rem;
+}
+
+.service-group > h3 {
+	margin: 2.5rem 0 .35rem;
+	font-size: 1.15rem;
+}
+
+.service-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: .75rem;
+	padding: 0;
+}
+
+.service-card {
+	min-width: 0;
+	padding: 1rem;
+	border: 1px solid rgba(217, 217, 217, .2);
+	border-radius: .75rem;
+	background: rgba(217, 217, 217, .04);
+}
+
+.service-card h4 {
+	margin-bottom: .25rem;
+	font-size: 1.05rem;
+}
+
+.service-card p {
+	margin-top: .35rem;
+}
+
+.service-card .service-type {
+	margin-top: 0;
+	color: #9da9c9;
+	font-size: .75rem;
+	font-weight: 600;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+}
+
+.service-directory-notes {
+	margin-top: .8rem;
+	font-size: .85rem;
+}
+
+@media screen and (max-width: 40rem) {
+	.service-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
 .content-of-project .hero .tag{
 		font-size:1.50rem;
 }
